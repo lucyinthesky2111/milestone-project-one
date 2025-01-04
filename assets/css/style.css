@@ -16,10 +16,17 @@ width: 100px;
 height: 100px;
 }
 
+/*styles the navbar link for the page that user is on e.g. if user is on homepage, only home will appear underlined*/
+.active {
+    text-decoration: underline;
+}
+
+
 /*styles the text for the links in the navbar*/
 .nav-link {
     font-family: 'Quicksand', sans-serif;
     font-weight: 900;
+    color: black;
 }
 
 /*Styles the text for the college name in the navbar*/
