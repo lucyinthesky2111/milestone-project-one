@@ -25,8 +25,20 @@ when there is enough content that thhe user needs to scroll*/
 }
 
 h1, h2 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
+
+}
+
+p {
+    font-family: 'Quicksand' sans-serif;
+    text-align: justify;
+}
+
+/*targets course intro text on home page and ensures the text does not stick to sides of page*/
+#intro-text {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 
@@ -57,8 +69,9 @@ is too small to show all the content*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
-    top: 503px; left: 450px;
+    /*These 3 make the logo appear just under the hero image but it then means text won't go under the logo*/
+    /*position: absolute;
+    top: 503px; left: 450px;*/
 }
 
 /*navbar*/
@@ -79,7 +92,7 @@ is too small to show all the content*/
 
 /*styles the text for the links in the navbar*/
 .nav-link {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-weight: bold;
     /*color: #043670;*/
@@ -88,7 +101,7 @@ is too small to show all the content*/
 
 /*Styles the text for the college name in the navbar*/
 .college-name {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-weight: 900;
     /* color: #043670;*/
