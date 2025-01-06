@@ -29,6 +29,19 @@ main {
 /*makes the main element take up any surplus space and not shrink when the screen
 is too small to show all the content*/
     flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+/*Hero Image*/
+#hero-image {
+    height: 600px;
+    width: 100%;
+    /*links our hero image. We are starting from our style.css file in the CSS folder so the ../
+    means go up a level to assets folder and then into images and then go to the image. The two 
+    centers mean the image is centered vertically and horizontally. Cover means the image 
+    automatically sizes itself to cover entire hero section with no distortion*/
+
+    background: url("../images/hero-image-optimised.jpg") no-repeat center center/cover;
 }
 
 #navbar {
