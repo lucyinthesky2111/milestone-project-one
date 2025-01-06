@@ -27,9 +27,9 @@
 <body>
     <!--Bootstrap nav bar (customised)-->
     <header>
-        <!--to change the colour of the nav bar, had to remove bg-body-tertiary and replace it with class navbar-colour so we 
+        <!--to change the colour of the nav bar, had to remove bg-body-tertiary and replace it with id navbar so we 
         can style this class in css. Created a CSS variable for the colour of the navbar and used that-->
-        <nav class="navbar navbar-expand-lg navbar-colour">
+        <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="light">
             <!--removed fluid-->
             <div class="container">
                 <a class="navbar-brand" href="index.html">
@@ -67,11 +67,10 @@
         </nav>
     </header>
 
-<main>Main Content
-    <h1>Clutch Kings College</h1>
-    <h2>Basic Car Maintenance Course</h2>
-</main>
-
+    <main>Main Content
+        <h1>Clutch Kings College</h1>
+        <h2>Basic Car Maintenance Course</h2>
+    </main>
     <!--footer-->
     <footer>
         <ul>
