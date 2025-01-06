@@ -18,6 +18,7 @@ when there is enough content that thhe user needs to scroll*/
     flex-direction: column;
 }
 
+
 main {
 /*makes the main element take up any surplus space and not shrink when the screen
 is too small to show all the content*/
@@ -72,6 +73,12 @@ is too small to show all the content*/
     color: #ffffff;
 }
 
+/*targets the social media icons*/
 .fa-brands {
     color: #ffffff;
+}
+
+/*targets the social media icons so their colours will change when they are hovered over*/
+i:hover {
+    color: #f36f32;
 }
