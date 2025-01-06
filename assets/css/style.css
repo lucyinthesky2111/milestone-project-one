@@ -61,4 +61,17 @@ is too small to show all the content*/
     background-color: var(--navbar-colour);
 }
 
-/* foooter */
+/* footer */
+#social-links {
+/* Removes bullet points from social media icons*/
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #06458e;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+}
+
+.fa-brands {
+    color: #ffffff;
+}
