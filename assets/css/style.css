@@ -33,13 +33,144 @@ h1, h2 {
 p {
     font-family: 'Quicksand' sans-serif;
     text-align: justify;
-}
-
-/*targets course intro text on home page and ensures the text does not stick to sides of page*/
-#intro-text {
+    /*targets text conained with a p on home page and ensures the text does not stick to sides of page*/
     padding-left: 5%;
     padding-right: 5%;
+    /* p is a block element so it creates by default, a space between the paragraph text and the button
+    in every section of the home page. Changing it's display to inline removes this space*/
+    display: inline;
 }
+
+
+#home-page-logo {
+    background-color: orange;
+}
+
+#course-title {
+    background-color: green;
+}
+
+
+#intro-text {
+    background-color: blueviolet;
+}
+
+
+#about-course-image {
+    background-color: orange;
+}
+
+
+#about-course-title {
+    background-color: green;
+}
+
+
+#about-course-text {
+    background-color: blueviolet;
+}
+
+
+#about-course-button {
+    background-color: darkmagenta;
+}
+
+#about-us-image {
+    background-color: orange;
+}
+
+
+#about-us-title {
+    background-color: green;
+}
+
+
+#about-us-text {
+    background-color: blueviolet;
+}
+
+
+#about-us-button {
+    background-color: darkmagenta;
+}
+
+
+#about-you-image {
+    background-color: orange;
+}
+
+
+#about-you-title {
+    background-color: green;
+}
+
+
+#about-you-text {
+    background-color: blueviolet;
+}
+
+
+#about-you-button {
+    background-color: darkmagenta;
+}
+        
+
+#apply-here-image {
+    background-color: orange;
+}
+
+
+#apply-here-title {
+    background-color: green;
+}
+
+
+#apply-here-text {
+    background-color: blueviolet;
+}
+
+
+#apply-here-button {
+    background-color: darkmagenta;
+}
+        
+#contact-us-image {
+    background-color: orange;
+}
+
+
+#contact-us-title {
+    background-color: green;
+}
+
+
+#contact-us-text {
+    background-color: blueviolet;
+}
+
+
+#contact-us-button {
+    background-color: darkmagenta;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 main {
@@ -60,18 +191,18 @@ is too small to show all the content*/
     background: url("../images/hero-image-optimised.jpg") no-repeat center center/cover;
 }
 
-
 /*Home page logo*/
-.home-page-logo {
-    height: 500px;
-    width: 50%;
-    /* these 3 center the logo on the page*/
-    display: block;
+#home-page-logo {
+   /* height: 500px;
+    width: 100%;
+   /* these 3 center the logo on the page*/
+   /* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     /*These 3 make the logo appear just under the hero image but it then means text won't go under the logo*/
     /*position: absolute;
     top: 503px; left: 450px;*/
+
 }
 
 /*navbar*/
