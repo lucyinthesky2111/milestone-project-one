@@ -24,10 +24,28 @@ when there is enough content that thhe user needs to scroll*/
     flex-direction: column;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+ /* h elements are block element so they creates by default, a space between the h text and
+  the next part of the section in every section of the home page. Changing it's 
+  display to inline removes this space*/
+    display: inline;
+    /*targets text conained with an h element on home page and ensures the text does not stick to sides of page
+    used dev tools to work out appropriate percenntages*/
+    padding-left: 30%;
+    padding-right: 20%;
+}
 
+h2 {
+    font-family: 'Poppins', sans-serif;
+ /* h elements are block element so they creates by default, a space between the h text and
+  the next part of the section in every section of the home page. Changing it's 
+  display to inline removes this space*/
+    display: inline;
+    /*targets text conained with an h element on home page and ensures the text does not stick to sides of page
+    used dev tools to work out appropriate percenntages*/
+    padding-left: 25%;
+    padding-right: 20%;
 }
 
 p {
@@ -37,22 +55,28 @@ p {
     padding-left: 5%;
     padding-right: 5%;
     /* p is a block element so it creates by default, a space between the paragraph text and the button
-    in every section of the home page. Changing it's display to inline removes this space*/
-    display: inline;
+    in every section of the home page. Changing it's display to inline removes this space but it stops the padding
+    and text align justify from working*/
+
+}
+
+/*makes the all text - the h1, h2 and p in this section white*/
+#home-page-logo h1, h2, p {
+    color: #ffffff;
 }
 
 
 #home-page-logo {
-    background-color: orange;
+    background-color: #043670;
 }
 
 #course-title {
-    background-color: green;
+    background-color: #043670;
 }
 
 
 #intro-text {
-    background-color: blueviolet;
+    background-color: #043670;
 }
 
 
@@ -210,6 +234,7 @@ is too small to show all the content*/
     background-color: var(--navbar-colour);
 }
 
+/* styles navabr logo only*/
 .logo {
     height: 50px;
     width: 50px;
