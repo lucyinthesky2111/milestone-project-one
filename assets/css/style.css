@@ -27,6 +27,19 @@ when there is enough content that thhe user needs to scroll */
     flex-direction: column;
 }
 
+button {
+    background-color: var(--crayola-orange);
+    color: black;
+    font-family: var(--heading-font);
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.container {
+    /* makes any images which are contained in a div with a class of container, centered on the page */
+    text-align: center; 
+}
+
 
 /* NAVBAR */
 #navbar {
@@ -90,12 +103,16 @@ main {
 } 
 
 #course-intro {
-    height: 388px;
+    /* height calculated with dev tools to make sure background colour of div 
+    titled course-intro covers all of the text contained within the div
+    i.e. the h1, h2 and p */
+    height: 450px;
     /* width 100% makes the div take up the full width of the screen - 
     therefore the applied background colour covers the whole screen with no gaps */
     width: 100%;
     background-color: var(--darkest-blue);
     color: var(--anti-flash-white);
+    font-family: var(--heading-font);
     text-align: center;
 }
 
@@ -103,9 +120,32 @@ main {
 /* Styles just the p element inside the div labelled with id of course-intro - 
 i.e. the paragraph of text that introduces the course */
 #course-intro p {
+    /* left and right padding stops the p text sticking to sides of the screen */
     padding-left: 5%;
     padding-right: 5%;
     text-align: justify;
+    font-family: var(--body-font);
+}
+
+/* ABOUT COURSE HOMEPAGE SECTION */
+
+#about-course {
+    background-color: var(--second-lighest-blue);
+    color: var(--anti-flash-white);
+    font-family: var(--heading-font);
+}
+
+#about-course-image {
+    height: 200px;
+    width: 50%;
+    border: 5px solid black;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 50%;
+}
+
+/* Styles just the p element inside the div labelled with id of about-course */
+#about-course p {
+    font-family:var(--anti-flash-white);
 }
 
 /* FOOTER */
@@ -205,10 +245,7 @@ p {
 
 
 
-.container {
-    /* makes any images which are contained in a div with a class of container, centered on the page */
-  /* text-align: center; */
-}
+
 
 
 
