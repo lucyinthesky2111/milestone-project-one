@@ -2,75 +2,277 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');/* Asterisk wildcard selector to override default styles added by the browser */
 
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
+/* CSS Variables */
 :root {
-    --navbar-colour: #71add1;
-    /*lightest blue*/
-}
+    --lightest-blue: #71add1; 
+    --second-lighest-blue: #007ab9;
+    --darkest-blue: #043670;
+    --second-darkest-blue: #06458E;
+    --anti-flash-white: #f1f1f2;
+    --rose-quartz-grey: A094a4;
+    --crayola-orange: #f36d32;
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Quicksand', sans-serif;
+    }
 
-/*General styles - code from Love Running - used to push footer to bottom of page*/
+/*General styles - 
+code from Love Running - used in conjunction with flex: 1 0 auto; stying on main element 
+to push footer to bottom of page*/
 body {
 /* min-height here allows the body elements to stretch larger than the height of the screen 
-when there is enough content that thhe user needs to scroll*/
+when there is enough content that thhe user needs to scroll */
     min-height: 100vh;
 /*flex column means the elements will still show underneath each other */
     display: flex;
     flex-direction: column;
 }
 
-h1 {
+
+/* NAVBAR */
+#navbar {
+    background-color: var(--lightest-blue);
+  
+}
+
+/* styles navbar logo only*/
+.logo {
+  height: 50px; 
+  width: 50px;   
+}
+
+/*styles the navbar link for the page that user is on e.g. if user is on homepage, only home will appear underlined*/
+.active {
+    text-decoration: underline;
+}
+
+
+/*styles the text for the links in the navbar*/
+.nav-link {
     font-family: 'Poppins', sans-serif;
- /* h elements are block element so they creates by default, a space between the h text and
-  the next part of the section in every section of the home page. Changing it's 
-  display to inline removes this space*/
-    display: inline;
-    /*targets text conained with an h element on home page and ensures the text does not stick to sides of page
-    used dev tools to work out appropriate percenntages*/
-    padding-left: 30%;
-    padding-right: 20%;
+    font-weight: 900;
+    font-weight: bold;
 }
 
-h2 {
+/*Styles the text for the college name in the navbar*/
+.college-name {
     font-family: 'Poppins', sans-serif;
- /* h elements are block element so they creates by default, a space between the h text and
-  the next part of the section in every section of the home page. Changing it's 
-  display to inline removes this space*/
-    display: inline;
-    /*targets text conained with an h element on home page and ensures the text does not stick to sides of page
-    used dev tools to work out appropriate percenntages*/
-    padding-left: 25%;
-    padding-right: 20%;
+    font-weight: bold;
+    font-weight: 900;
 }
 
-p {
-    font-family: 'Quicksand' sans-serif;
-    text-align: justify;
-    /*targets text conained with a p on home page and ensures the text does not stick to sides of page*/
-    padding-left: 5%;
-    padding-right: 5%;
-    /* p is a block element so it creates by default, a space between the paragraph text and the button
-    in every section of the home page. Changing it's display to inline removes this space but it stops the padding
-    and text align justify from working*/
-
-}
-
-/*makes the all text - the h1, h2 and p in this section white*/
-#home-page-logo h1, h2, p {
+/*Adds hover functionality to BS navbar links to change their colour 
+to white when hovered over*/
+.navbar .navbar-nav .nav-link:hover {
     color: #ffffff;
 }
 
 
-#home-page-logo {
-    background-color: #043670;
+main {
+    /*makes the main element take up any surplus space and not shrink when the screen
+    is too small to show all the content. This is used in conjunction with body styles
+     min-height: 100vh; display: flex; flex-direction: column; to ensure that the footer is
+     pushed all the way to the bottom of the page*/
+       flex: 1 0 auto; 
 }
 
+/*HERO SECTION*/
+
+/*Hero Image*/
+#hero-image {
+    /* won't be able to see the background image if you don't add a width and height to it */
+    height: 400px;
+    width: 100%; 
+    /*links our hero image. We are starting from our style.css file in the CSS folder so the ../
+    means go up a level to assets folder and then into images and then go to the image. The two 
+    centers mean the image is centered vertically and horizontally. Cover means the image 
+    automatically sizes itself to cover entire hero section with no distortion*/
+   background: url("../images/hero-image-optimised.jpg") no-repeat center center/cover;
+} 
+
+#course-intro {
+    height: 388px;
+    /* width 100% makes the div take up the full width of the screen - 
+    therefore the applied background colour covers the whole screen with no gaps */
+    width: 100%;
+    background-color: var(--darkest-blue);
+    color: var(--anti-flash-white);
+    text-align: center;
+}
+
+
+/* Styles just the p element inside the div labelled with id of course-intro - 
+i.e. the paragraph of text that introduces the course */
+#course-intro p {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+/* FOOTER */
+
+#social-links {
+/* Removes bullet points from social media icons*/
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #06458e;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    /* these 2 padding values add space above and below the icons */
+    padding: 10px 0;
+}
+
+
+/*targets the social media icons*/
+.fa-brands {
+    color: #ffffff;
+}
+
+
+/*targets the social media icons so their colours will change when they are hovered over. 
+To get this to work, had to target i element not a element as originally thought*/
+i:hover {
+    color: #f36f32;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IGNORE FOR NOW */
+
+
+
+
+
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+{
+    /* padding: 0; */
+    /* margin: 0; */
+    /* box-sizing: border-box; */
+ }
+
+
+
+h1 {
+    /* font-family: 'Poppins', sans-serif;
+ /* h elements are block element so they creates by default, a space between the h text and
+  the next part of the section in every section of the home page. Changing it's 
+  display to inline removes this space*/
+   /* display: inline; */
+    /*targets text conained with an h element on home page and ensures the text does not stick to sides of page
+    used dev tools to work out appropriate percenntages*/
+   /*  padding-left: 30%;
+    padding-right: 20%; */
+}
+
+h2 {
+   /* font-family: 'Poppins', sans-serif;
+ /* h elements are block element so they creates by default, a space between the h text and
+  the next part of the section in every section of the home page. Changing it's 
+  display to inline removes this space*/
+    /* display: inline; */
+    /*targets text conained with an h element on home page and ensures the text does not stick to sides of page
+    used dev tools to work out appropriate percentages*/
+   /* padding-left: 25%;
+    padding-right: 20%; */
+}
+
+p {
+    /* font-family: 'Quicksand' sans-serif;
+    text-align: justify;
+    /*targets text conained with a p on home page and ensures the text does not stick to sides of page*/
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* p is a block element so it creates by default, a space between the paragraph text and the button
+    in every section of the home page. Changing it's display to inline removes this space but it stops the padding
+    and text align justify from working*/
+}
+
+
+
+.container {
+    /* makes any images which are contained in a div with a class of container, centered on the page */
+  /* text-align: center; */
+}
+
+
+
+/*makes the all text - the h1, h2 and p in this section white*/
+#home-page-logo h1, h2, p {
+   /* color: #ffffff;*/
+}
+
+
+#home-page-logo {
+  /*  width: 200px;
+    height: 200px; */
+    /* border: 5px solid black; */
+     /*these 3 in combination with position and z index on the hero image make the logo 
+    appear on top of the hero image at the bottom of it but hides the text underneath it */
+   /*  position: relative;
+    z-index: 2;
+    top: 463px; */
+} 
+
+
+
 #course-title {
+
+}
+
+#intro-text {
+
+}
+
+
+
+/*Home page logo*/
+#home-page-logo {
+   /* height: 500px;
+    width: 100%;
+   /* these 3 center the logo on the page*/
+   /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* These 2 make the logo appear just under the hero image but it then means text won't go under the logo
+    position: absolute;
+    top: 503px; left: 450px; */
+
+}
+
+/*Hero Image*/
+#hero-image {
+    /* won't be able to see the background image if you don't add a width and height to it */
+   /* height: 600px;
+    width: 100%; */
+    /*links our hero image. We are starting from our style.css file in the CSS folder so the ../
+    means go up a level to assets folder and then into images and then go to the image. The two 
+    centers mean the image is centered vertically and horizontally. Cover means the image 
+    automatically sizes itself to cover entire hero section with no distortion*/
+
+  /* background: url("../images/hero-image-optimised.jpg") no-repeat center center/cover; */
+    /*these 2 in combination with position and z index on the home page logo make the logo 
+    appear on top of the hero image at the bottom of it but hides the text underneath it */
+   /* position: absolute;
+    z-index: 1; */
+
+
+/* #course-title {
     background-color: #043670;
 }
 
@@ -160,6 +362,9 @@ p {
         
 #contact-us-image {
     background-color: orange;
+    border: 1px solid black;
+    width: 150px;
+    height: 100px;
 }
 
 
@@ -175,123 +380,4 @@ p {
 
 #contact-us-button {
     background-color: darkmagenta;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-main {
-/*makes the main element take up any surplus space and not shrink when the screen
-is too small to show all the content*/
-    flex: 1 0 auto;
-}
-
-/*Hero Image*/
-#hero-image {
-    height: 600px;
-    width: 100%;
-    /*links our hero image. We are starting from our style.css file in the CSS folder so the ../
-    means go up a level to assets folder and then into images and then go to the image. The two 
-    centers mean the image is centered vertically and horizontally. Cover means the image 
-    automatically sizes itself to cover entire hero section with no distortion*/
-
-    background: url("../images/hero-image-optimised.jpg") no-repeat center center/cover;
-}
-
-/*Home page logo*/
-#home-page-logo {
-   /* height: 500px;
-    width: 100%;
-   /* these 3 center the logo on the page*/
-   /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
-    /*These 3 make the logo appear just under the hero image but it then means text won't go under the logo*/
-    /*position: absolute;
-    top: 503px; left: 450px;*/
-
-}
-
-/*navbar*/
-#navbar {
-    background-color: var(--navbar-colour);
-}
-
-/* styles navabr logo only*/
-.logo {
-    height: 50px;
-    width: 50px;
-}
-
-/*styles the navbar link for the page that user is on e.g. if user is on homepage, only home will appear underlined*/
-.active {
-    text-decoration: underline;
-}
-
-
-/*styles the text for the links in the navbar*/
-.nav-link {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-weight: bold;
-    /*color: #043670;*/
-    /*darkest blue*/
-}
-
-/*Styles the text for the college name in the navbar*/
-.college-name {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-weight: 900;
-    /* color: #043670;*/
-    /*darkest blue*/
-}
-
-.navbar-colour {
-    background-color: var(--navbar-colour);
-}
-
-/*Adds hover functionality to BS navbar links to change their colour 
-to white when hovered over*/
-.navbar .navbar-nav .nav-link:hover {
-    color: #ffffff;
-}
-
-/* footer */
-#social-links {
-/* Removes bullet points from social media icons*/
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #06458e;
-    font-family: 'Quicksand', sans-serif;
-    color: #ffffff;
-}
-
-/*targets the social media icons*/
-.fa-brands {
-    color: #ffffff;
-}
-
-/*targets the social media icons so their colours will change when they are hovered over. 
-To get this to work, had to target i element not a element as originally thought*/
-i:hover {
-    color: #f36f32;
-}
+} */
