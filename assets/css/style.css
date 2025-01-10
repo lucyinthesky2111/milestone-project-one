@@ -9,7 +9,7 @@
     --darkest-blue: #043670;
     --second-darkest-blue: #06458E;
     --anti-flash-white: #f1f1f2;
-    --rose-quartz-grey: A094a4;
+    --rose-quartz-grey: #A094a4;
     --crayola-orange: #f36d32;
     --heading-font: 'Poppins', sans-serif;
     --body-font: 'Quicksand', sans-serif;
@@ -146,6 +146,14 @@ i.e. the paragraph of text that introduces the course */
 /* Styles just the p element inside the div labelled with id of about-course */
 #about-course p {
     font-family:var(--anti-flash-white);
+}
+
+/* ABOUT US HOMEPAGE SECTION */
+
+#about-us {
+    background-color: var(--rose-quartz-grey);
+    color: black;
+    font-family: var(--heading-font);
 }
 
 /* FOOTER */
