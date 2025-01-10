@@ -181,9 +181,9 @@ i.e. the paragraph of text that introduces the course */
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: #06458e;
+    background-color: var(--lightest-blue);
     font-family: 'Quicksand', sans-serif;
-    color: #ffffff;
+    color: black;
     /* these 2 padding values add space above and below the icons */
     padding: 10px 0;
 }
@@ -191,14 +191,14 @@ i.e. the paragraph of text that introduces the course */
 
 /*targets the social media icons*/
 .fa-brands {
-    color: #ffffff;
+    color: black;
 }
 
 
 /*targets the social media icons so their colours will change when they are hovered over. 
 To get this to work, had to target i element not a element as originally thought*/
 i:hover {
-    color: #f36f32;
+    color: var(--anti-flash-white);
 }
 
 
