@@ -40,6 +40,14 @@ button {
     text-align: center; 
 }
 
+.about-course-image {
+    height: 200px;
+    width: 50%;
+    border: 5px solid black;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 50%;
+}
+
 
 /* NAVBAR */
 #navbar {
@@ -76,7 +84,7 @@ button {
 /*Adds hover functionality to BS navbar links to change their colour 
 to white when hovered over*/
 .navbar .navbar-nav .nav-link:hover {
-    color: #ffffff;
+    color: var(--anti-flash-white);
 }
 
 
@@ -110,7 +118,7 @@ main {
     /* width 100% makes the div take up the full width of the screen - 
     therefore the applied background colour covers the whole screen with no gaps */
     width: 100%;
-    background-color: var(--darkest-blue);
+    background-color: var(--second-darkest-blue);
     color: var(--anti-flash-white);
     font-family: var(--heading-font);
     text-align: center;
@@ -130,18 +138,12 @@ i.e. the paragraph of text that introduces the course */
 /* ABOUT COURSE HOMEPAGE SECTION */
 
 #about-course {
-    background-color: var(--second-lighest-blue);
+    background-color: var(--darkest-blue);
     color: var(--anti-flash-white);
     font-family: var(--heading-font);
 }
 
-#about-course-image {
-    height: 200px;
-    width: 50%;
-    border: 5px solid black;
-    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
-    border-radius: 50%;
-}
+
 
 /* Styles just the p element inside the div labelled with id of about-course */
 #about-course p {
@@ -151,7 +153,7 @@ i.e. the paragraph of text that introduces the course */
 /* ABOUT US HOMEPAGE SECTION */
 
 #about-us {
-    background-color: var(--rose-quartz-grey);
+    background-color: white;
     color: black;
     font-family: var(--heading-font);
 }
@@ -173,6 +175,20 @@ i.e. the paragraph of text that introduces the course */
 #about-you p {
     font-family:var(--body-font);
 }
+
+/* APPLY HERE HOMEPAGE SECTION */
+
+#apply-here {
+    background-color: var(--second-darkest-blue);
+    color: var(--anti-flash-white);
+    font-family: var(--heading-font);
+}
+
+/* Styles just the p element inside the div labelled with id of apply-here */
+#apply-here p {
+    font-family:var(--body-font);
+}
+
 
 /* FOOTER */
 
