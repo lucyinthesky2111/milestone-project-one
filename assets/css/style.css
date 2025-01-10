@@ -189,6 +189,18 @@ i.e. the paragraph of text that introduces the course */
     font-family:var(--body-font);
 }
 
+/* CONTACT US HOMEPAGE SECTION */
+
+#contact-us {
+    background-color: var(--darkest-blue);
+    color: var(--anti-flash-white);
+    font-family: var(--heading-font);
+}
+
+/* Styles just the p element inside the div labelled with id of contact-us*/
+#contact-us p {
+    font-family:var(--body-font);
+}
 
 /* FOOTER */
 
@@ -310,15 +322,6 @@ p {
 
 
 
-#course-title {
-
-}
-
-#intro-text {
-
-}
-
-
 
 /*Home page logo*/
 #home-page-logo {
@@ -349,114 +352,3 @@ p {
     appear on top of the hero image at the bottom of it but hides the text underneath it */
    /* position: absolute;
     z-index: 1; */
-
-
-/* #course-title {
-    background-color: #043670;
-}
-
-
-#intro-text {
-    background-color: #043670;
-}
-
-
-#about-course-image {
-    background-color: orange;
-}
-
-
-#about-course-title {
-    background-color: green;
-}
-
-
-#about-course-text {
-    background-color: blueviolet;
-}
-
-
-#about-course-button {
-    background-color: darkmagenta;
-}
-
-#about-us-image {
-    background-color: orange;
-}
-
-
-#about-us-title {
-    background-color: green;
-}
-
-
-#about-us-text {
-    background-color: blueviolet;
-}
-
-
-#about-us-button {
-    background-color: darkmagenta;
-}
-
-
-#about-you-image {
-    background-color: orange;
-}
-
-
-#about-you-title {
-    background-color: green;
-}
-
-
-#about-you-text {
-    background-color: blueviolet;
-}
-
-
-#about-you-button {
-    background-color: darkmagenta;
-}
-        
-
-#apply-here-image {
-    background-color: orange;
-}
-
-
-#apply-here-title {
-    background-color: green;
-}
-
-
-#apply-here-text {
-    background-color: blueviolet;
-}
-
-
-#apply-here-button {
-    background-color: darkmagenta;
-}
-        
-#contact-us-image {
-    background-color: orange;
-    border: 1px solid black;
-    width: 150px;
-    height: 100px;
-}
-
-
-#contact-us-title {
-    background-color: green;
-}
-
-
-#contact-us-text {
-    background-color: blueviolet;
-}
-
-
-#contact-us-button {
-    background-color: darkmagenta;
-} */
