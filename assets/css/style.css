@@ -145,7 +145,7 @@ i.e. the paragraph of text that introduces the course */
 
 /* Styles just the p element inside the div labelled with id of about-course */
 #about-course p {
-    font-family:var(--anti-flash-white);
+    font-family:var(--body-font);
 }
 
 /* ABOUT US HOMEPAGE SECTION */
@@ -154,6 +154,24 @@ i.e. the paragraph of text that introduces the course */
     background-color: var(--rose-quartz-grey);
     color: black;
     font-family: var(--heading-font);
+}
+
+/* Styles just the p element inside the div labelled with id of about-us */
+#about-us p {
+    font-family:var(--body-font);
+}
+
+/* ABOUT YOU HOMEPAGE SECTION */
+
+#about-you {
+    background-color: var(--darkest-blue);
+    color: var(--anti-flash-white);
+    font-family: var(--heading-font);
+}
+
+/* Styles just the p element inside the div labelled with id of about-you */
+#about-you p {
+    font-family:var(--body-font);
 }
 
 /* FOOTER */
