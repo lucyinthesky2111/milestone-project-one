@@ -205,10 +205,37 @@ i.e. the paragraph of text that introduces the course */
 
 /* COURSE OVERVIEW PAGE */
 
-/* COURSE OVERVIEW TEXT SECTION */
 
+/* styles the course overview section as whole */
+#course-overview {
+    background-color: var(--second-lighest-blue);
+    color: white;
+    font-family: var(--heading-font); 
+    text-align: center;  
+}
 
+.course-overview-text-section p {
+    font-family: var(--body-font);
+}
 
+/* COURSE SUMMARY SECTION */
+#course-summary-text-section h1, h2 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+#course-summary-text-section p {
+    font-family: var(--body-font);
+    color: black;
+    text-align: center;
+}
+
+/* COURSE SUMMARY TABLE */
+
+.table {
+    border: 1px solid black;
+    font-family: var(--body-font);
+}
 
 
 /* FOOTER */
