@@ -214,9 +214,6 @@ i.e. the paragraph of text that introduces the course */
     text-align: center;  
 }
 
-.course-overview-text-section p {
-    font-family: var(--body-font);
-}
 
 /* COURSE SUMMARY SECTION */
 #course-summary-text-section h1, h2 {
