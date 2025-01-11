@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');/* Asterisk wildcard selector to override default styles added by the browser */
 
+
 /* CSS Variables */
 :root {
     --lightest-blue: #71add1; 
@@ -107,7 +108,7 @@ main {
     means go up a level to assets folder and then into images and then go to the image. The two 
     centers mean the image is centered vertically and horizontally. Cover means the image 
     automatically sizes itself to cover entire hero section with no distortion*/
-   background: url("../images/hero-image-optimised.jpg") no-repeat center center/cover;
+    background: url("../images/hero-image-optimised.jpg") no-repeat center center/cover;
 } 
 
 #course-intro {
@@ -142,7 +143,6 @@ i.e. the paragraph of text that introduces the course */
     color: var(--anti-flash-white);
     font-family: var(--heading-font);
 }
-
 
 
 /* Styles just the p element inside the div labelled with id of about-course */
@@ -202,6 +202,15 @@ i.e. the paragraph of text that introduces the course */
     font-family:var(--body-font);
 }
 
+
+/* COURSE OVERVIEW PAGE */
+
+/* COURSE OVERVIEW TEXT SECTION */
+
+
+
+
+
 /* FOOTER */
 
 #social-links {
@@ -254,7 +263,7 @@ i:hover {
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
-{
+*{
     /* padding: 0; */
     /* margin: 0; */
     /* box-sizing: border-box; */
