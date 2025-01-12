@@ -230,7 +230,6 @@ i.e. the paragraph of text that introduces the course */
 /* adds the background colour to the full about us section */
 #about-us-full-section {
     background-color: var(--azure-blue);
-
 }
 
 /* ABOUT US SECTION TITLES */
@@ -258,7 +257,28 @@ i.e. the paragraph of text that introduces the course */
 #meet-instructors {
     font-family: var(--heading-font);
     text-align: center;
+    background-color: var(--light-blue);
 }
+
+/* ABOUT YOU SECTION */
+
+/* adds the background colour to the full about you section */
+#about-you-full-section {
+    background-color: var(--azure-blue);
+}
+
+/* ABOUT YOU TEXT SECTION */
+#about-you-text h2 {
+    font-family: var(--heading-font);
+}
+
+#about-you-text p {
+    font-family: var(--body-font);
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 
 /* MEET INSTRUCTORS PAGE */
 
@@ -285,6 +305,7 @@ i.e. the paragraph of text that introduces the course */
     margin-bottom: 5%;
     background-color: var(--light-blue);
 }
+    
 
 /* FOOTER */
 
