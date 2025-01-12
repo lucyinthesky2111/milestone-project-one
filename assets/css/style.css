@@ -5,15 +5,11 @@
 
 /* CSS Variables */
 :root {
-    --lightest-blue: #71add1; 
-    --second-lighest-blue: #007ab9;
-    --darkest-blue: #043670;
-    --second-darkest-blue: #06458E;
-    --anti-flash-white: #f1f1f2; /* link hover colour*/
-    --rose-quartz-grey: #A094a4;
-    --crayola-orange: #f36d32;
+    --anti-flash-white: #f1f1f2; /* link hover colour for navbar and footer*/
     --light-blue: #a2d6f9;
     --azure-blue: #347deb;
+    --light-yellow: #fcf300;
+    --darker-yellow: #ffc600;
     --heading-font: 'Poppins', sans-serif;
     --body-font: 'Quicksand', sans-serif;
     }
@@ -31,7 +27,7 @@ when there is enough content that thhe user needs to scroll */
 }
 
 button {
-    background-color: var(--crayola-orange);
+    background-color: var(--darker-yellow);
     color: black;
     font-family: var(--heading-font);
     border: 1px solid black;
