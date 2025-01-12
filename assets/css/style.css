@@ -9,9 +9,11 @@
     --second-lighest-blue: #007ab9;
     --darkest-blue: #043670;
     --second-darkest-blue: #06458E;
-    --anti-flash-white: #f1f1f2;
+    --anti-flash-white: #f1f1f2; /* link hover colour*/
     --rose-quartz-grey: #A094a4;
     --crayola-orange: #f36d32;
+    --light-blue: #a2d6f9;
+    --azure-blue: #347deb;
     --heading-font: 'Poppins', sans-serif;
     --body-font: 'Quicksand', sans-serif;
     }
@@ -52,8 +54,8 @@ button {
 
 /* NAVBAR */
 #navbar {
-    background-color: var(--lightest-blue);
-  
+    background-color: var(--light-blue);
+
 }
 
 /* styles navbar logo only*/
@@ -119,8 +121,7 @@ main {
     /* width 100% makes the div take up the full width of the screen - 
     therefore the applied background colour covers the whole screen with no gaps */
     width: 100%;
-    background-color: var(--second-darkest-blue);
-    color: var(--anti-flash-white);
+    background-color: var(--light-blue);
     font-family: var(--heading-font);
     text-align: center;
 }
@@ -139,8 +140,7 @@ i.e. the paragraph of text that introduces the course */
 /* ABOUT COURSE HOMEPAGE SECTION */
 
 #about-course {
-    background-color: var(--darkest-blue);
-    color: var(--anti-flash-white);
+    background-color: var(--azure-blue);
     font-family: var(--heading-font);
 }
 
@@ -153,8 +153,7 @@ i.e. the paragraph of text that introduces the course */
 /* ABOUT US HOMEPAGE SECTION */
 
 #about-us {
-    background-color: white;
-    color: black;
+    background-color: var(--light-blue);
     font-family: var(--heading-font);
 }
 
@@ -166,8 +165,7 @@ i.e. the paragraph of text that introduces the course */
 /* ABOUT YOU HOMEPAGE SECTION */
 
 #about-you {
-    background-color: var(--darkest-blue);
-    color: var(--anti-flash-white);
+    background-color: var(--azure-blue);
     font-family: var(--heading-font);
 }
 
@@ -179,8 +177,7 @@ i.e. the paragraph of text that introduces the course */
 /* APPLY HERE HOMEPAGE SECTION */
 
 #apply-here {
-    background-color: var(--second-darkest-blue);
-    color: var(--anti-flash-white);
+    background-color: var(--light-blue);
     font-family: var(--heading-font);
 }
 
@@ -192,8 +189,7 @@ i.e. the paragraph of text that introduces the course */
 /* CONTACT US HOMEPAGE SECTION */
 
 #contact-us {
-    background-color: var(--darkest-blue);
-    color: var(--anti-flash-white);
+    background-color: var(--azure-blue);
     font-family: var(--heading-font);
 }
 
@@ -208,8 +204,7 @@ i.e. the paragraph of text that introduces the course */
 
 /* styles the course overview section as whole */
 #course-overview {
-    background-color: var(--second-lighest-blue);
-    color: white;
+    background-color: var(--azure-blue);
     font-family: var(--heading-font); 
     text-align: center;  
 }
@@ -242,7 +237,7 @@ i.e. the paragraph of text that introduces the course */
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--lightest-blue);
+    background-color: var(--light-blue);
     font-family: 'Quicksand', sans-serif;
     color: black;
     /* these 2 padding values add space above and below the icons */
