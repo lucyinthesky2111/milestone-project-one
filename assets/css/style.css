@@ -225,6 +225,33 @@ i.e. the paragraph of text that introduces the course */
     font-family: var(--body-font);
 }
 
+/* ABOUT US SECTION */
+
+/* adds the background colour to the full about us section */
+#about-us-full-section {
+    background-color: var(--azure-blue);
+
+}
+
+/* ABOUT US SECTION TITLES */
+
+#about-general-headings {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+/* ABOUT US TEXT SECTION */
+
+#about-us-text h2 {
+    font-family: var(--heading-font);
+}
+
+#about-us-text p {
+    font-family: var(--body-font);
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 /* FOOTER */
 
@@ -327,10 +354,6 @@ p {
 
 
 
-/*makes the all text - the h1, h2 and p in this section white*/
-#home-page-logo h1, h2, p {
-   /* color: #ffffff;*/
-}
 
 
 #home-page-logo {
