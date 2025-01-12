@@ -253,6 +253,13 @@ i.e. the paragraph of text that introduces the course */
     padding-right: 5%;
 }
 
+/* ABOUT US MEET OUR INSTRUCTORS SECTION */
+
+#meet-instructors {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
 /* FOOTER */
 
 #social-links {
