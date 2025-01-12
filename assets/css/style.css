@@ -253,11 +253,37 @@ i.e. the paragraph of text that introduces the course */
     padding-right: 5%;
 }
 
-/* ABOUT US MEET OUR INSTRUCTORS SECTION */
+/* ABOUT US MEET OUR INSTRUCTORS SECTION ON ABOUT PAGE */
 
 #meet-instructors {
     font-family: var(--heading-font);
     text-align: center;
+}
+
+/* MEET INSTRUCTORS PAGE */
+
+/* MEET INSTRUCTORS HERO SECTION */
+
+/*MEET INSTRUCTORS HERO IMAGE*/
+#meet-instructors-hero-image {
+    height: 400px;
+    width: 100%; 
+    background: url("../images/meet-instructors-images/hannah-working-on-4x4.jpg") no-repeat center center/cover;
+} 
+
+/*STYLES COURSE INSTRUCTORS TEXT */
+
+#course-instructors {
+    font-family: var(--heading-font);
+    text-align: center;
+    background-color: var(--light-blue);
+}
+
+/* MEET INSTRUCTORS SECTION ON MEET INSTRUCTORS PAGE */
+
+#instructor-profiles {
+    margin-bottom: 5%;
+    background-color: var(--light-blue);
 }
 
 /* FOOTER */
