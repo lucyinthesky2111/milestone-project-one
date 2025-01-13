@@ -307,6 +307,20 @@ i.e. the paragraph of text that introduces the course */
 }
     
 
+/* APPLY CONTACT PAGE */
+
+/* SUB NAVIGATION SECTION */
+
+#form-colour {
+    background-color: var(--light-blue);
+    display: flex;
+    display: row;
+    justify-content: space-evenly;
+}
+
+/* APPLICATAION FORM*/
+
+
 /* FOOTER */
 
 #social-links {
