@@ -70,19 +70,43 @@
     <main>
     <!--SUB NAVIGATION SECTION -->
         <section>
-         <div id="form-colour">
+         <div class="sub-nav-bar">
             <div><a href=#contact>Apply</a></div>
             <div><a href=#contact>Find us</a></div>
             <div><a href=#contact>Contact us</a></div>
         </section>
     </main>
 
-    <!-- APPLICATAION FORM -->
-     <section class="application-background">
-        <div class="application-background">
-        </div>
+    <!-- APPLICATION FORM -->
+        <section>
+            <h2>Apply here</h2>
+            <p>Please fill out this form with the requried information and our Admissions Team will review your application shortly.</p>
+            <form method="get" action="#successpage">
+                <fieldset>
+                    <!-- input element adds a box for user to input their answer into-->
+                    <label for="first-name">First Name: <input id="first-name" type="text"></label>
+                    <label for="last-name">Last Name: <input id="last-name" type="text"></label>
+                    <label for="date-of-birth">Date of Birth: <input id="date-of-birth" type="date"></label>
+                    <label for="email">Email: <input id="email" type="email"></label>
+                    <label for="phone-no">Telephone Number: <input id="phone-no" type="tel"></label>
+                <!--select element creates a dropdown menu -->
+                <label> Where did you hear about the course?</label>
+                <select> 
+                    <option value="">(select one)</option>
+                    <option value="1">Clutch Kings College website</option>
+                    <option value="2" >Facebook</option>
+                    <option value="3" >Instagram</option>
+                    <option value="4">X (formerly known as Twitter)</option>
+                    <option value="5" >Clutch Kings College staff</option>
+                    <option value="6">Clutch Kings College students</option>
+                    <option value="7" >Word of mouth</option>
+                    <option value="8" >Other</option>
+                </select>
+                </fieldset>
+            </form>
+        </section
 
-     </section>
+
 
     <!--footer-->
     <footer>

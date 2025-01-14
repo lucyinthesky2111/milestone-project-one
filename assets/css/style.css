@@ -311,15 +311,21 @@ i.e. the paragraph of text that introduces the course */
 
 /* SUB NAVIGATION SECTION */
 
-#form-colour {
+.sub-nav-bar {
     background-color: var(--light-blue);
     display: flex;
     display: row;
     justify-content: space-evenly;
 }
 
-/* APPLICATAION FORM*/
+/* APPLICATION FORM */
 
+/* Makes each line of the form appear on seperate lines rather than on one */
+label {
+    display: block;
+/ * adds spacing between the lines. Have to use margin rather than padding as each line is a separate element */
+    margin: 0.5rem 0;
+}
 
 /* FOOTER */
 
