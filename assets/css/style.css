@@ -327,6 +327,14 @@ label {
     margin: 0.5rem 0;
 }
 
+form {
+    /* colour is light blue from variables section with added transparency */
+    background-color: rgba(162 214 249 / 25%);
+    height: 60vh;
+    margin: 0;
+    font-family: var(--body-font);
+}
+
 /* FOOTER */
 
 #social-links {

@@ -84,14 +84,14 @@
             <form method="get" action="#successpage">
                 <fieldset>
                     <!-- input element adds a box for user to input their answer into-->
-                    <label for="first-name">First Name: <input id="first-name" type="text" name="first-name"></label>
-                    <label for="last-name">Last Name: <input id="last-name" type="text" name="last-name"></label>
-                    <label for="date-of-birth">Date of Birth: <input id="date-of-birth" type="date" name="date-of-birth"></label>
-                    <label for="email">Email: <input id="email" type="email" name="email"></label>
-                    <label for="phone-no">Telephone Number: <input id="phone-no" type="tel" name="phone-no"></label>
+                    <label for="first-name">First Name: <input id="first-name" type="text" name="first-name" required></label>
+                    <label for="last-name">Last Name: <input id="last-name" type="text" name="last-name"required ></label>
+                    <label for="date-of-birth">Date of Birth: <input id="date-of-birth" type="date" name="date-of-birth"required ></label>
+                    <label for="email">Email: <input id="email" type="email" name="email" required></label>
+                    <label for="phone-no">Telephone Number: <input id="phone-no" type="tel" name="phone-no" required></label>
                 <!--select element creates a dropdown menu -->
                 <label for="referrer"> Where did you hear about the course?</label>
-                <select id="referrer" name="referrer"> 
+                <select id="referrer" name="referrer" required> 
                     <option value="">(select one)</option>
                     <option value="1">Clutch Kings College website</option>
                     <option value="2" >Facebook</option>
@@ -104,8 +104,9 @@
                 </select>
                 <label for="reason"> Why do you want to complete this course?
                     <textarea id="reason" rows="5" cols="50" placeholder="Tell us your motivations for enrolling on this course
-                    and what you hope to acheive." name="reason"></textarea>
+                    and what you hope to acheive." name="reason" required></textarea>
                 </label>
+                <input type="submit" value="Submit">
                 </fieldset>
             </form>
         </section
