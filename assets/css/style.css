@@ -7,7 +7,7 @@
 :root {
     --anti-flash-white: #f1f1f2; /* link hover colour for navbar and footer*/
     --light-blue: #a2d6f9;
-    --azure-blue: #347deb;
+    --azure-blue: #347deb; /* footer colour */
     --light-yellow: #fcf300;
     --darker-yellow: #ffc600;
     --heading-font: 'Poppins', sans-serif;
@@ -342,7 +342,7 @@ label {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--light-blue);
+    background-color: var(--azure-blue);
     font-family: 'Quicksand', sans-serif;
     color: black;
     /* these 2 padding values add space above and below the icons */
