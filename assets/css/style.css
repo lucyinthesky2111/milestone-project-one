@@ -327,10 +327,10 @@ label {
     margin: 0.5rem 0;
 }
 
-form {
+#application-form {
     /* colour is light blue from variables section with added transparency */
     background-color: rgba(162 214 249 / 25%);
-    height: 60vh;
+    height: 90vh;
     margin: 0;
     font-family: var(--body-font);
 }
