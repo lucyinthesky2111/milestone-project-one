@@ -34,8 +34,8 @@ button {
     border-radius: 10%;
 }
 
-.container {
-    /* makes any images which are contained in a div with a class of container, centered on the page */
+.homepage-container {
+    /* makes images on the different sections of the homepage centered on the page */
     text-align: center; 
 }
 
