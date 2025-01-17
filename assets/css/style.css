@@ -162,8 +162,8 @@ to white when hovered over*/
 }
 
 .instructor-images {
-    height: 215px;
-    width: 285px;
+    max-height: 90%;
+    max-width: 90%;
     border: hidden;
     /* border-radius softens the edges of the image - the value of 50% makes it a circle */
     border-radius: 5%;
