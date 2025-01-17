@@ -6,10 +6,10 @@
 /* CSS Variables */
 :root {
     --anti-flash-white: #f1f1f2; /* link hover colour for navbar and footer*/
-    --light-blue: #a2d6f9;
+    --light-blue: #a2d6f9; /*header colour */
     --azure-blue: #347deb; /* footer colour */
-    --light-yellow: #fcf300;
-    --darker-yellow: #ffc600;
+    --light-yellow: #fcf300; /* button fill colour*/
+    --darker-yellow: #ffc600; /*button hover colour*/
     --heading-font: 'Poppins', sans-serif;
     --body-font: 'Quicksand', sans-serif;
     }
@@ -27,11 +27,16 @@ when there is enough content that thhe user needs to scroll */
 }
 
 button {
-    background-color: var(--darker-yellow);
+    background-color: var(--light-yellow);
     color: black;
     font-family: var(--heading-font);
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10%;
+}
+
+/* button hover */
+button:hover {
+    background-color: var(--darker-yellow);
 }
 
 .homepage-container {
