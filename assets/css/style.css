@@ -128,6 +128,7 @@ to white when hovered over*/
     /* border-radius softens the edges of the image - the value of 50% makes it a circle */
     border-radius: 5%;
     padding-top: 10%;
+    margin-bottom: 5%;
 }
 
 .homepage-logo {
@@ -138,7 +139,7 @@ to white when hovered over*/
     border-radius: 5%; 
     /* needed to added margin-top instead of padding-top as the visible border pushed the image closer to the top. 
     Padding on this skewed the logo so it was removed */
-    margin-top: 10%;
+    margin-top: 5%;
     /* the margin-bottom moves the menu title down so it is not sitting directly under the logo */
     margin-bottom: 5%;
 }
