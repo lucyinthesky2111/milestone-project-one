@@ -161,6 +161,16 @@ to white when hovered over*/
     padding-top: 10%;
 }
 
+.instructor-images {
+    height: 215px;
+    width: 285px;
+    border: hidden;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 5%;
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
 /* HOME PAGE STYLES */ 
 /*HERO SECTION - HOMEPAGE*/
 
