@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');/* Asterisk wildcard selector to override default styles added by the browser */
 
-
 /* CSS Variables */
 :root {
     --anti-flash-white: #f1f1f2; /* link hover colour for navbar and footer*/
@@ -119,6 +118,15 @@ to white when hovered over*/
     color: var(--anti-flash-white);
 }
 
+/* SUB NAVIGATION SECTION */
+
+.sub-nav-bar {
+    background-color: var(--light-blue);
+    display: flex;
+    display: row;
+    justify-content: space-evenly;
+}
+
 /* HOME PAGE STYLES */ 
 
 .homepage-menu-images {
@@ -178,21 +186,7 @@ to white when hovered over*/
     background-color: var(--light-blue-transparent);
 }
 
-
-
-
-
-
-/* COURSE OVERVIEW PAGE STYLES */
-
-/* COURSE SUMMARY SECTION */
-
-#course-summary-text-section p {
-    font-family: var(--body-font);
-    color: black;
-    text-align: center;
-}
-
+/* COURSE OVERVIEW PAGE */
 /* COURSE SUMMARY TABLE */
 
 .table {
@@ -200,40 +194,7 @@ to white when hovered over*/
     font-family: var(--body-font);
 }
 
-
-
-/* ABOUT US PAGE STYLES */
-
-/* ABOUT US TEXT SECTION */
-
-
-
-/* ABOUT US MEET OUR INSTRUCTORS SECTION ON ABOUT PAGE */
-
-
-
-#meet-instructors p {
-    text-align: center;
-
-}
-
-#meet-instructors-button {
-    text-align: center;
-}
-
-/* ABOUT YOU SECTION */
-
-
-/* ABOUT YOU TEXT SECTION */
-
-#about-you-text p {
-    font-family: var(--body-font);
-    text-align: justify;
-}
-
-
 /* MEET INSTRUCTORS PAGE */
-
 /* MEET INSTRUCTORS HERO SECTION */
 
 /*MEET INSTRUCTORS HERO IMAGE*/
@@ -243,27 +204,7 @@ to white when hovered over*/
     background: url("../images/meet-instructors-images/hannah-working-on-4x4.jpg") no-repeat center center/cover;
 } 
 
-/*STYLES COURSE INSTRUCTORS TEXT */
-
-
-/* MEET INSTRUCTORS SECTION ON MEET INSTRUCTORS PAGE */
-
-#instructor-profiles {
-    margin-bottom: 5%;
-}
-    
-
 /* APPLY CONTACT PAGE */
-
-/* SUB NAVIGATION SECTION */
-
-.sub-nav-bar {
-    background-color: var(--light-blue);
-    display: flex;
-    display: row;
-    justify-content: space-evenly;
-}
-
 /* APPLICATION FORM */
 
 /* Makes each line of the form appear on seperate lines rather than on one */
@@ -294,12 +235,10 @@ label {
     padding: 10px 0;
 }
 
-
 /*targets the social media icons*/
 .fa-brands {
     color: black;
 }
-
 
 /*targets the social media icons so their colours will change when they are hovered over. 
 To get this to work, had to target i element not a element as originally thought*/
@@ -313,121 +252,3 @@ footer p {
     font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* IGNORE FOR NOW */
-
-
-
-
-
-
-/* Asterisk wildcard selector to override default styles added by the browser */
-*{
-    /* padding: 0; */
-    /* margin: 0; */
-    /* box-sizing: border-box; */
- }
-
-
-
-h1 {
-    /* font-family: 'Poppins', sans-serif;
- /* h elements are block element so they creates by default, a space between the h text and
-  the next part of the section in every section of the home page. Changing it's 
-  display to inline removes this space*/
-   /* display: inline; */
-    /*targets text conained with an h element on home page and ensures the text does not stick to sides of page
-    used dev tools to work out appropriate percenntages*/
-   /*  padding-left: 30%;
-    padding-right: 20%; */
-}
-
-h2 {
-   /* font-family: 'Poppins', sans-serif;
- /* h elements are block element so they creates by default, a space between the h text and
-  the next part of the section in every section of the home page. Changing it's 
-  display to inline removes this space*/
-    /* display: inline; */
-    /*targets text conained with an h element on home page and ensures the text does not stick to sides of page
-    used dev tools to work out appropriate percentages*/
-   /* padding-left: 25%;
-    padding-right: 20%; */
-}
-
-p {
-    /* font-family: 'Quicksand' sans-serif;
-    text-align: justify;
-    /*targets text conained with a p on home page and ensures the text does not stick to sides of page*/
-    /* padding-left: 5%;
-    padding-right: 5%; */
-    /* p is a block element so it creates by default, a space between the paragraph text and the button
-    in every section of the home page. Changing it's display to inline removes this space but it stops the padding
-    and text align justify from working*/
-}
-
-
-
-
-
-
-
-
-
-#home-page-logo {
-  /*  width: 200px;
-    height: 200px; */
-    /* border: 5px solid black; */
-     /*these 3 in combination with position and z index on the hero image make the logo 
-    appear on top of the hero image at the bottom of it but hides the text underneath it */
-   /*  position: relative;
-    z-index: 2;
-    top: 463px; */
-} 
-
-
-
-
-/*Home page logo*/
-#home-page-logo {
-   /* height: 500px;
-    width: 100%;
-   /* these 3 center the logo on the page*/
-   /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
-    /* These 2 make the logo appear just under the hero image but it then means text won't go under the logo
-    position: absolute;
-    top: 503px; left: 450px; */
-
-}
-
-/*Hero Image*/
-#hero-image {
-    /* won't be able to see the background image if you don't add a width and height to it */
-   /* height: 600px;
-    width: 100%; */
-    /*links our hero image. We are starting from our style.css file in the CSS folder so the ../
-    means go up a level to assets folder and then into images and then go to the image. The two 
-    centers mean the image is centered vertically and horizontally. Cover means the image 
-    automatically sizes itself to cover entire hero section with no distortion*/
-
-  /* background: url("../images/hero-image-optimised.jpg") no-repeat center center/cover; */
-    /*these 2 in combination with position and z index on the home page logo make the logo 
-    appear on top of the hero image at the bottom of it but hides the text underneath it */
-   /* position: absolute;
-    z-index: 1; */
