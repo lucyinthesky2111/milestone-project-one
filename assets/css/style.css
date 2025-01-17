@@ -10,6 +10,8 @@
     --azure-blue: #347deb; /* footer colour */
     --light-yellow: #fcf300; /* button fill colour*/
     --darker-yellow: #ffc600; /*button hover colour*/
+    --light-blue-transparent: rgba(162 214 249 / 50%); /* light blue background colour */
+    --azure-blue-transparent: rgb(52 125 235 / 75%); /* azure blue background colour*/
     --heading-font: 'Poppins', sans-serif;
     --body-font: 'Quicksand', sans-serif;
     }
@@ -17,6 +19,7 @@
 /*General styles - 
 code from Love Running - used in conjunction with flex: 1 0 auto; stying on main element 
 to push footer to bottom of page*/
+
 body {
 /* min-height here allows the body elements to stretch larger than the height of the screen 
 when there is enough content that thhe user needs to scroll */
@@ -24,6 +27,24 @@ when there is enough content that thhe user needs to scroll */
 /*flex column means the elements will still show underneath each other */
     display: flex;
     flex-direction: column;
+}
+
+main {
+    /*makes the main element take up any surplus space and not shrink when the screen
+    is too small to show all the content. This is used in conjunction with body styles
+     min-height: 100vh; display: flex; flex-direction: column; to ensure that the footer is
+     pushed all the way to the bottom of the page*/
+    flex: 1 0 auto; 
+}
+
+
+h1, h2 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+p {
+    font-family: var(--body-font);
 }
 
 button {
@@ -39,18 +60,26 @@ button:hover {
     background-color: var(--darker-yellow);
 }
 
-.homepage-container {
-    /* makes images on the different sections of the homepage centered on the page */
+/* Changes the background colour of the corresponding sections of the homepage
+ and makes images on the those sections centered */
+
+.homepage-container-light-blue {
     text-align: center; 
+    background-color: var(--light-blue-transparent);
 }
 
-.about-course-image {
-    height: 200px;
-    width: 50%;
-    border: 5px solid black;
-    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
-    border-radius: 50%;
+.homepage-container-azure-blue {
+    text-align: center; 
+    background-color: var(--azure-blue-transparent);
 }
+
+.homepage-container-white {
+    text-align: center; 
+    background-color: white;
+}
+
+
+
 
 
 /* NAVBAR */
@@ -73,14 +102,14 @@ button:hover {
 
 /*styles the text for the links in the navbar*/
 .nav-link {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--heading-font);
     font-weight: 900;
     font-weight: bold;
 }
 
 /*Styles the text for the college name in the navbar*/
 .college-name {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--heading-font);
     font-weight: bold;
     font-weight: 900;
 }
@@ -92,12 +121,12 @@ to white when hovered over*/
 }
 
 
-main {
-    /*makes the main element take up any surplus space and not shrink when the screen
-    is too small to show all the content. This is used in conjunction with body styles
-     min-height: 100vh; display: flex; flex-direction: column; to ensure that the footer is
-     pushed all the way to the bottom of the page*/
-       flex: 1 0 auto; 
+.about-course-image {
+    height: 200px;
+    width: 50%;
+    border: 5px solid black;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 50%;
 }
 
 /*HERO SECTION*/
@@ -122,9 +151,7 @@ main {
     /* width 100% makes the div take up the full width of the screen - 
     therefore the applied background colour covers the whole screen with no gaps */
     width: 100%;
-    background-color: var(--light-blue);
-    font-family: var(--heading-font);
-    text-align: center;
+    background-color: var(--light-blue-transparent);
 }
 
 
@@ -138,65 +165,26 @@ i.e. the paragraph of text that introduces the course */
     font-family: var(--body-font);
 }
 
-/* ABOUT COURSE HOMEPAGE SECTION */
 
-#about-course {
-    background-color: var(--azure-blue);
-    font-family: var(--heading-font);
-}
-
-
-/* Styles just the p element inside the div labelled with id of about-course */
-#about-course p {
-    font-family:var(--body-font);
-}
-
-/* ABOUT US HOMEPAGE SECTION */
-
-#about-us {
-    background-color: var(--light-blue);
-    font-family: var(--heading-font);
-}
-
-/* Styles just the p element inside the div labelled with id of about-us */
-#about-us p {
-    font-family:var(--body-font);
-}
 
 /* ABOUT YOU HOMEPAGE SECTION */
 
 #about-you {
     background-color: var(--azure-blue);
-    font-family: var(--heading-font);
 }
 
-/* Styles just the p element inside the div labelled with id of about-you */
-#about-you p {
-    font-family:var(--body-font);
-}
 
 /* APPLY HERE HOMEPAGE SECTION */
 
 #apply-here {
     background-color: var(--light-blue);
-    font-family: var(--heading-font);
 }
 
-/* Styles just the p element inside the div labelled with id of apply-here */
-#apply-here p {
-    font-family:var(--body-font);
-}
 
 /* CONTACT US HOMEPAGE SECTION */
 
 #contact-us {
     background-color: var(--azure-blue);
-    font-family: var(--heading-font);
-}
-
-/* Styles just the p element inside the div labelled with id of contact-us*/
-#contact-us p {
-    font-family:var(--body-font);
 }
 
 
@@ -206,16 +194,12 @@ i.e. the paragraph of text that introduces the course */
 /* styles the course overview section as whole */
 #course-overview {
     background-color: var(--azure-blue);
-    font-family: var(--heading-font); 
-    text-align: center;  
+    text-align: center;
 }
 
 
 /* COURSE SUMMARY SECTION */
-#course-summary-text-section h1, h2 {
-    font-family: var(--heading-font);
-    text-align: center;
-}
+
 
 #course-summary-text-section p {
     font-family: var(--body-font);
@@ -237,18 +221,7 @@ i.e. the paragraph of text that introduces the course */
     background-color: var(--azure-blue);
 }
 
-/* ABOUT US SECTION TITLES */
-
-#about-general-headings {
-    font-family: var(--heading-font);
-    text-align: center;
-}
-
 /* ABOUT US TEXT SECTION */
-
-#about-us-text h2 {
-    font-family: var(--heading-font);
-}
 
 #about-us-text p {
     font-family: var(--body-font);
@@ -260,9 +233,16 @@ i.e. the paragraph of text that introduces the course */
 /* ABOUT US MEET OUR INSTRUCTORS SECTION ON ABOUT PAGE */
 
 #meet-instructors {
-    font-family: var(--heading-font);
-    text-align: center;
     background-color: var(--light-blue);
+}
+
+#meet-instructors p {
+    text-align: center;
+
+}
+
+#meet-instructors-button {
+    text-align: center;
 }
 
 /* ABOUT YOU SECTION */
@@ -273,9 +253,6 @@ i.e. the paragraph of text that introduces the course */
 }
 
 /* ABOUT YOU TEXT SECTION */
-#about-you-text h2 {
-    font-family: var(--heading-font);
-}
 
 #about-you-text p {
     font-family: var(--body-font);
@@ -299,8 +276,6 @@ i.e. the paragraph of text that introduces the course */
 /*STYLES COURSE INSTRUCTORS TEXT */
 
 #course-instructors {
-    font-family: var(--heading-font);
-    text-align: center;
     background-color: var(--light-blue);
 }
 
@@ -333,8 +308,7 @@ label {
 }
 
 #application-form {
-    /* colour is light blue from variables section with added transparency */
-    background-color: rgba(162 214 249 / 25%);
+    background-color: var(--light-blue-transparent);
     height: 90vh;
     margin: 0;
     font-family: var(--body-font);
@@ -348,7 +322,7 @@ label {
     display: flex;
     justify-content: space-evenly;
     background-color: var(--azure-blue);
-    font-family: 'Quicksand', sans-serif;
+    font-family: var(--body-font)
     color: black;
     /* these 2 padding values add space above and below the icons */
     padding: 10px 0;
