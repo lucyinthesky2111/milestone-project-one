@@ -37,7 +37,6 @@ main {
     flex: 1 0 auto; 
 }
 
-
 h1, h2 {
     font-family: var(--heading-font);
     text-align: center;
@@ -53,6 +52,7 @@ button {
     font-family: var(--heading-font);
     border: 3px solid black;
     border-radius: 10%;
+    margin-bottom: 5%;
 }
 
 /* button hover */
@@ -120,13 +120,15 @@ to white when hovered over*/
     color: var(--anti-flash-white);
 }
 
+/* HOME PAGE STYLES */ 
 
 .about-course-image {
-    height: 200px;
-    width: 50%;
-    border: 5px solid black;
+    height: 215px;
+    width: 285px;
+    border: hidden;
     /* border-radius softens the edges of the image - the value of 50% makes it a circle */
-    border-radius: 50%;
+    border-radius: 5%;
+    padding-top: 10%;
 }
 
 /*HERO SECTION*/
@@ -169,7 +171,7 @@ i.e. the paragraph of text that introduces the course */
 
 
 
-/* COURSE OVERVIEW PAGE */
+/* COURSE OVERVIEW PAGE STYLES */
 
 /* COURSE SUMMARY SECTION */
 
@@ -186,7 +188,9 @@ i.e. the paragraph of text that introduces the course */
     font-family: var(--body-font);
 }
 
-/* ABOUT US SECTION */
+
+
+/* ABOUT US PAGE STYLES */
 
 /* ABOUT US TEXT SECTION */
 
