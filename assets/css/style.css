@@ -127,7 +127,7 @@ to white when hovered over*/
     justify-content: space-evenly;
 }
 
-/* HOME PAGE STYLES */ 
+/* IMAGE STYLES - EXCLUDING HERO IMAGES */
 
 .homepage-menu-images {
     height: 215px;
@@ -152,15 +152,16 @@ to white when hovered over*/
     margin-bottom: 5%;
 }
 
-.about-course-image {
-    height: 215px;
-    width: 285px;
+.course-overview-about-you-images {
+    height: 248px;
+    width: 330px;
     border: hidden;
     /* border-radius softens the edges of the image - the value of 50% makes it a circle */
     border-radius: 5%;
     padding-top: 10%;
 }
 
+/* HOME PAGE STYLES */ 
 /*HERO SECTION - HOMEPAGE*/
 
 /*Hero Image*/
