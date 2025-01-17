@@ -44,6 +44,9 @@ h1, h2 {
 
 p {
     font-family: var(--body-font);
+    font-weight: 600;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 button {
@@ -78,10 +81,6 @@ button:hover {
     background-color: white;
 }
 
-
-
-
-
 /* NAVBAR */
 #navbar {
     background-color: var(--light-blue);
@@ -98,7 +97,6 @@ button:hover {
 .active {
     text-decoration: underline;
 }
-
 
 /*styles the text for the links in the navbar*/
 .nav-link {
@@ -121,6 +119,28 @@ to white when hovered over*/
 }
 
 /* HOME PAGE STYLES */ 
+
+.homepage-menu-images {
+    height: 215px;
+    width: 285px;
+    border: hidden;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 5%;
+    padding-top: 10%;
+}
+
+.homepage-logo {
+    height: 215px;
+    width: 285px;
+    border: 1px solid black;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 5%; 
+    /* needed to added margin-top instead of padding-top as the visible border pushed the image closer to the top. 
+    Padding on this skewed the logo so it was removed */
+    margin-top: 10%;
+    /* the margin-bottom moves the menu title down so it is not sitting directly under the logo */
+    margin-bottom: 5%;
+}
 
 .about-course-image {
     height: 215px;
@@ -157,16 +177,6 @@ to white when hovered over*/
 }
 
 
-/* Styles just the p element inside the div labelled with id of course-intro - 
-i.e. the paragraph of text that introduces the course */
-#course-intro p {
-    /* left and right padding stops the p text sticking to sides of the screen */
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: justify;
-    font-family: var(--body-font);
-}
-
 
 
 
@@ -194,12 +204,7 @@ i.e. the paragraph of text that introduces the course */
 
 /* ABOUT US TEXT SECTION */
 
-#about-us-text p {
-    font-family: var(--body-font);
-    text-align: justify;
-    padding-left: 5%;
-    padding-right: 5%;
-}
+
 
 /* ABOUT US MEET OUR INSTRUCTORS SECTION ON ABOUT PAGE */
 
@@ -222,8 +227,6 @@ i.e. the paragraph of text that introduces the course */
 #about-you-text p {
     font-family: var(--body-font);
     text-align: justify;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 
@@ -302,6 +305,11 @@ i:hover {
     color: var(--anti-flash-white);
 }
 
+/* Makes p text in footer thinner than the p text in the rest of the site so that
+it will fit on one line in the footer */
+footer p {
+    font-weight: 500;
+}
 
 
 
