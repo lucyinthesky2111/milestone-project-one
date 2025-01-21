@@ -158,6 +158,8 @@ to white when hovered over*/
     border: hidden;
     /* border-radius softens the edges of the image - the value of 50% makes it a circle */
     border-radius: 5%;
+    /* moves about you image slightly away from top of footer and moves course overview images slightly away from their corresponding text*/
+    padding-bottom: 2%;
 }
 
 .instructor-images {
