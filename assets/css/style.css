@@ -215,6 +215,12 @@ to white when hovered over*/
     background: url("../images/meet-instructors-images/hannah-working-on-4x4.jpg") no-repeat center center/cover;
 } 
 
+/* BUTTONS ON MEET INSTRUCTORS PAGE WHICH GO BACK TO HOME AND ABOUT */
+/*Centres the buttons on the page*/
+#buttons-meet-instructors-page {
+    padding-left: 10%;
+}
+
 /* APPLY CONTACT PAGE */
 /* APPLICATION FORM */
 
@@ -230,6 +236,13 @@ label {
     height: 90vh;
     margin: 0;
     font-family: var(--body-font);
+}
+
+/* CONTACT US SECTION */
+/* targets font awesome icons - makes them bigger and spaced away from the text */
+.fa-solid {
+    font-size: 160%;
+    padding-top: 5%;
 }
 
 /* FOOTER */
