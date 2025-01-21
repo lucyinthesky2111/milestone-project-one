@@ -257,9 +257,4 @@ i:hover {
     color: var(--anti-flash-white);
 }
 
-/* Makes p text in footer thinner than the p text in the rest of the site so that
-it will fit on one line in the footer */
-footer p {
-    font-weight: 500;
-}
 
