@@ -227,16 +227,23 @@ to white when hovered over*/
 
 /* Makes each line of the form appear on seperate lines rather than on one */
 label {
-    display: block;
+  display: flex;
+  flex-direction: column;
+
+  /*  display: block;
 / * adds spacing between the lines. Have to use margin rather than padding as each line is a separate element */
-    margin: 0.5rem 0;
+  /*  margin-block: 1em auto; */
 }
 
 #application-form {
     background-color: var(--light-blue-transparent);
-    height: 90vh;
+    height: 94vh;
     margin: 0;
     font-family: var(--body-font);
+}
+
+form {
+    text-align: center;
 }
 
 /* CONTACT US SECTION */
