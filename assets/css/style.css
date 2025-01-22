@@ -129,17 +129,17 @@ to white when hovered over*/
     font-family: var(--body-font);
 }
 
-a {
-    color: black;
+/* Colour of link when it has not been clicked on*/
+.sub-nav-bar a {
     font-family: var(--body-font);
     font-weight: bold;
+    color: black;
 }
 
+/* Colour of link when it is hovered over */
 a:hover {
     color: var(--anti-flash-white);
 }
-
-
 
 /* IMAGE STYLES - EXCLUDING HERO IMAGES */
 
