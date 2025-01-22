@@ -237,13 +237,17 @@ label {
 
 #application-form {
     background-color: var(--light-blue-transparent);
-    height: 94vh;
+    height: 96vh;
     margin: 0;
     font-family: var(--body-font);
 }
 
 form {
     text-align: center;
+}
+
+#submit-button {
+    margin-top: 2%;
 }
 
 /* CONTACT US SECTION */
