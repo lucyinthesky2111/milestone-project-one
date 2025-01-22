@@ -259,6 +259,12 @@ form {
     padding-top: 5%;
 }
 
+
+/* BACK TO TOP BUTTONS AT THE END OF EACH PAGE */
+.back-to-top-buttons {
+    padding-top: 5%;
+}
+
 /* FOOTER */
 
 #social-links {
