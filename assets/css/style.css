@@ -237,6 +237,7 @@ label {
 
 #application-form {
     background-color: var(--light-blue-transparent);
+    /* controls the space the application form takes up on the page and stops it spilling into the find us section below */
     height: 96vh;
     margin: 0;
     font-family: var(--body-font);
