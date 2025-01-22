@@ -126,6 +126,7 @@ to white when hovered over*/
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    font-family: var(--body-font);
 }
 
 /* IMAGE STYLES - EXCLUDING HERO IMAGES */
