@@ -199,7 +199,7 @@ a:hover {
     centers mean the image is centered vertically and horizontally. Cover means the image 
     automatically sizes itself to cover entire hero section with no distortion*/
     background: url("../images/hero-image-optimised.jpg") no-repeat center center/cover;
-} 
+}
 
 #course-intro {
     /* height calculated with dev tools to make sure background colour of div 
@@ -297,4 +297,22 @@ form {
 To get this to work, had to target i element not a element as originally thought*/
 i:hover {
     color: var(--anti-flash-white);
+}
+
+/* MEDIA QUERIES */
+/* Course intro section on homepage */
+@media (min-width: 576px) {
+    #course-intro {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+
+    #course-intro > div {
+        width: 75%;
+        /* aligns the div itself which contains the id of course-intro to the centre */
+        align-self: center;
+    }
+
 }
