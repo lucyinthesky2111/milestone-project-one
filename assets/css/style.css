@@ -289,5 +289,3 @@ To get this to work, had to target i element not a element as originally thought
 i:hover {
     color: var(--anti-flash-white);
 }
-
-
