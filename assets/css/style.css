@@ -334,4 +334,8 @@ i:hover {
         width: 500px;
     }
 
-
+    /* MEET INSTRUCTORS PAGE */
+    #align-bottom-buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
