@@ -328,16 +328,13 @@ i:hover {
         width: 500px;
     }
 
-
-
-
-
-
-    /* About course section on hompage */ 
-    /* The image is wrapped in a div - this css targets that div and makes the 
-    image inside push to the right on larger screens */
-     {
-        display: flex;
-        justify-content : flex-end;
+    /* COURSE INFORMATION PAGE */
+    .course-overview-about-you-images {
+        height: 400px;
+        width: 500px;
     }
-}
+
+
+
+
+
