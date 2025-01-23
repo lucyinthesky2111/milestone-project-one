@@ -302,6 +302,8 @@ i:hover {
 /* MEDIA QUERIES */
 /* HOMEPAGE */
 /* Course intro section on homepage */
+
+/* BS breakpoint small screens */
 @media (min-width: 576px) {
     #course-intro {
         display: flex;
@@ -338,4 +340,10 @@ i:hover {
     #align-bottom-buttons {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    /* BS breakpoint small screens */
+    .carousel-caption {
+        font-family: var(--heading-font);
+        color: black;
     }
