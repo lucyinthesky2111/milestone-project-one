@@ -341,3 +341,18 @@ i:hover {
         display: flex;
         justify-content: space-evenly;
     }
+
+    /* BS breakpoint large screens */
+    /* Enlarges the images on the card sections on the homepage */
+    @media (min-width: 992px) {
+    .homepage-menu-images {
+        height: 600px;
+        width: 700px;
+    }
+
+    /* Enlarges the logo on the card section on the homepage */
+    .homepage-logo {
+        height: 600px;
+        width: 700px;
+    }
+}
