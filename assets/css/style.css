@@ -300,6 +300,7 @@ i:hover {
 }
 
 /* MEDIA QUERIES */
+/* HOMEPAGE */
 /* Course intro section on homepage */
 @media (min-width: 576px) {
     #course-intro {
@@ -315,4 +316,28 @@ i:hover {
         align-self: center;
     }
 
+/* Enlarges the images on the card sections on the homepage */
+    .homepage-menu-images {
+        height: 400px;
+        width: 500px;
+    }
+
+    /* Enlarges the logo on the card section on the homepage */
+    .homepage-logo {
+        height: 400px;
+        width: 500px;
+    }
+
+
+
+
+
+
+    /* About course section on hompage */ 
+    /* The image is wrapped in a div - this css targets that div and makes the 
+    image inside push to the right on larger screens */
+     {
+        display: flex;
+        justify-content : flex-end;
+    }
 }
