@@ -248,7 +248,7 @@ label {
 #application-form {
     background-color: var(--light-blue-transparent);
     /* controls the space the application form takes up on the page and stops it spilling into the find us section below */
-    height: 96vh;
+    height: 100%;
     margin: 0;
     font-family: var(--body-font);
 }
@@ -340,10 +340,4 @@ i:hover {
     #align-bottom-buttons {
         display: flex;
         justify-content: space-evenly;
-    }
-
-    /* BS breakpoint small screens */
-    .carousel-caption {
-        font-family: var(--heading-font);
-        color: black;
     }
