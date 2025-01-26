@@ -38,7 +38,7 @@ main {
 
 h1, h2 {
     font-family: var(--heading-font);
-    text-align: center;
+    text-align: center; 
 }
 
 p {
@@ -355,4 +355,22 @@ i:hover {
         height: 600px;
         width: 700px;
     }
+}
+     /* BS breakpoint x-large screens */
+    /* Enlarges the images on the card sections on the homepage */
+    @media (min-width: 1200px) {
+        .homepage-menu-images {
+            height: 600px;
+            display: flex;
+            margin-left: 10%;
+        }
+
+        .homepage-logo {
+            height: 600px;
+            display: flex;
+            margin-left: 10%;
+        }
+
+   
+}
 }
