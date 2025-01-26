@@ -357,21 +357,19 @@ i:hover {
     }
 }
      /* BS breakpoint x-large screens */
-    /* Enlarges the images on the card sections on the homepage */
+     /* repositions text on larger screens */
     @media (min-width: 1200px) {
-        .homepage-menu-images {
-            height: 600px;
-            display: flex;
-            margin-left: 5%;
-        }
+    .about-course-homepage-text {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+    }
 
-        .homepage-logo {
-            height: 600px;
-            display: flex;
-            margin-left: 5%;
-        }
-
-    
+    .about-course-homepage-text {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+    }
    
 }
 }
