@@ -362,15 +362,16 @@ i:hover {
         .homepage-menu-images {
             height: 600px;
             display: flex;
-            margin-left: 10%;
+            margin-left: 5%;
         }
 
         .homepage-logo {
             height: 600px;
             display: flex;
-            margin-left: 10%;
+            margin-left: 5%;
         }
 
+    
    
 }
 }
