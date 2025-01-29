@@ -286,6 +286,7 @@ form {
     color: black;
     /* these 2 padding values add space above and below the icons */
     padding: 10px 0;
+    margin-bottom: 0;
 }
 
 /*targets the social media icons*/
