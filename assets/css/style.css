@@ -198,7 +198,7 @@ a:hover {
     means go up a level to assets folder and then into images and then go to the image. The two 
     centers mean the image is centered vertically and horizontally. Cover means the image 
     automatically sizes itself to cover entire hero section with no distortion*/
-    background: url("../images/home-hero.png") no-repeat center center/cover;
+    background: url("../images/index-images/home-hero.png") no-repeat center center/cover;
 }
 
 #course-intro {
