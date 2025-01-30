@@ -19,7 +19,8 @@
 2. [Live Project](#live-project)
 3. [Repository](#repository)
 4. [User Experience](#user-experience)
-    + [Strategy](#strategy)
+    * [Strategy](#strategy)
+         + [site-owner-goals](#site-owner-goals)
 
 
   * [User Stories](#user-stories)
