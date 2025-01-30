@@ -15,7 +15,13 @@
 
 ## Contents
 
-1 [User experience](#user-experience)
+1 [Introduction](#iintroduction)
+2 [Live Project](#live-project)
+3 [Repository](#repository)
+4 [User Experience](#user-experience)
+    + [Strategy](#strategy)
+
+
   * [User Stories](#user-stories)
     + [Prospective visitors](#prospective-visitors)
     + [Art Collectors](#art-collectors)
