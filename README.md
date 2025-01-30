@@ -15,7 +15,7 @@
 
 ## Contents
 
-- [User experience](#user-experience)
+1 [User experience](#user-experience)
   * [User Stories](#user-stories)
     + [Prospective visitors](#prospective-visitors)
     + [Art Collectors](#art-collectors)
