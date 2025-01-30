@@ -440,5 +440,14 @@ i:hover {
     
     }
 
+    /* MEET INSTRUCTORS PAGE */
+    .instructor-images {
+        height: auto;
+        width: 70%;
+        padding-left: 5%;
+
     }
+
+
+ }
 }
