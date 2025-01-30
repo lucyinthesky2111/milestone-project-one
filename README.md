@@ -15,6 +15,42 @@
 
 ## Contents
 
+- [User experience](#user-experience)
+  * [User Stories](#user-stories)
+    + [Prospective visitors](#prospective-visitors)
+    + [Art Collectors](#art-collectors)
+    + [Business Owners](#business-owners)
+- [Design](#design)
+  + [Colour Scheme](#colour-scheme)
+  + [Typography](#typography)
+  + [Imagery](#imagery)
+  + [Icons](#icons)
+- [Structure](#structure)
+  + [Information Architecture](#information-architecture)
+  + [Navigation Bar](#navigation-bar)
+  + [Back To Top Button](#back-to-top-button)
+  + [Buttons](#buttons)
+  + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
+  + [Footer](#footer)
+  + [404 Page](#404-page)
+- [Wireframes](#wireframes)
+- [Features](#features)
+  + [Current Features](#current-features)
+  + [Future Features](#future-features)
+- [Technologies used](#technologies-used)
+  + [Languages Used](#languages-used)
+  + [Frameworks Libraries and Programs](#frameworks-libraries-and-programs)
+- [Testing](#testing)
+- [Deployment](#deployment)
+  + [GitHub Pages](#github-pages)
+  + [Forking the GitHub Repository](#forking-the-github-repository)
+  + [Making a Local Clone](#making-a-local-clone)
+- [Credits](#credits)
+  + [Code](#code)
+  + [Media](#media)
+  + [Content](#content)
+  + [Acknowledgements](#acknowledgements)
+
 
 
 This project is for educational purposes only and was created for the Code Institute assessed project for the ‘user centric front-end development’ module.  
