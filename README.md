@@ -15,10 +15,10 @@
 
 ## Contents
 
-1 [Introduction](#iintroduction)
-2 [Live Project](#live-project)
-3 [Repository](#repository)
-4 [User Experience](#user-experience)
+1. [Introduction](#iintroduction)
+2. [Live Project](#live-project)
+3. [Repository](#repository)
+4. [User Experience](#user-experience)
     + [Strategy](#strategy)
 
 
