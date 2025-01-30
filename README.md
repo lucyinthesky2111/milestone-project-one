@@ -5,4 +5,5 @@
 
 * This is my first milestone project for the Code Institute Level 5 Diploma in Web Application Development
 
-* The live site can be viewed here 
+# Live site 
+[The live site can be viewed here] (https://lucyinthesky2111.github.io/milestone-project-one/)
