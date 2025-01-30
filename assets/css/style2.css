@@ -1,0 +1,398 @@
+/* GOOGLE FONTS LINK */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');/* Asterisk wildcard selector to override default styles added by the browser */
+
+/* CSS VARIABLES - root holds the variables (they have no where else to live) and means they apply to the whole document*/ 
+:root {
+    --anti-flash-white: #f1f1f2; /* link hover colour for navbar and footer*/
+    --light-blue: #a2d6f9; /*header colour */
+    --azure-blue: #347deb; /* footer colour */
+    --light-yellow: #fcf300; /* button fill colour*/
+    --darker-yellow: #ffc600; /*button hover colour*/
+    --light-blue-transparent: rgba(162 214 249 / 50%); /* light blue background colour */
+    --azure-blue-transparent: rgb(52 125 235 / 75%); /* azure blue background colour*/
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Quicksand', sans-serif;
+    }
+
+/* GENERAL STYLES - 
+code from Love Running - used in conjunction with flex: 1 0 auto; stying on main element 
+to push footer to bottom of page*/
+
+body {
+/* min-height here allows the body elements to stretch larger than the height of the screen 
+when there is enough content that thhe user needs to scroll */
+    min-height: 100vh;
+/*flex column means the elements will still show underneath each other */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    /*makes the main element take up any surplus space and not shrink when the screen
+    is too small to show all the content. This is used in conjunction with body styles
+     min-height: 100vh; display: flex; flex-direction: column; to ensure that the footer is
+     pushed all the way to the bottom of the page*/
+    flex: 1 0 auto; 
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    text-align: center; 
+}
+
+p {
+    font-family: var(--body-font);
+    font-weight: 600;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+button {
+    background-color: var(--light-yellow);
+    color: black;
+    font-family: var(--heading-font);
+    border: 3px solid black;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+
+/* button hover */
+button:hover {
+    background-color: var(--darker-yellow);
+}
+
+/* Changes the background colour of sections with this class and 
+ and makes images and text on those sections centered */
+
+.container-light-blue {
+    text-align: center; 
+    background-color: var(--light-blue-transparent);
+}
+
+.container-azure-blue {
+    text-align: center; 
+    background-color: var(--azure-blue-transparent);
+}
+
+.container-white {
+    text-align: center; 
+    background-color: white;
+}
+
+/* NAVBAR */
+#navbar {
+    background-color: var(--light-blue);
+
+}
+
+/* styles navbar logo only*/
+.logo {
+  height: 50px; 
+  width: 50px;   
+}
+
+/*styles the navbar link for the page that user is on e.g. if user is on homepage, only home will appear underlined*/
+.active {
+    text-decoration: underline;
+}
+
+/*styles the text for the links in the navbar*/
+.nav-link {
+    font-family: var(--heading-font);
+    font-weight: 900;
+    font-weight: bold;
+}
+
+/*Styles the text for the college name in the navbar*/
+.college-name {
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-weight: 900;
+}
+
+/*Adds hover functionality to BS navbar links to change their colour 
+to white when hovered over*/
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--anti-flash-white);
+}
+
+/* SUB NAVIGATION SECTION */
+
+.sub-nav-bar {
+    background-color: var(--light-blue);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: var(--body-font);
+}
+
+/* Colour of link when it has not been clicked on*/
+.sub-nav-bar a {
+    font-family: var(--body-font);
+    font-weight: bold;
+    color: black;
+}
+
+/* Colour of link when it is hovered over */
+a:hover {
+    color: var(--anti-flash-white);
+}
+
+/* IMAGE STYLES - EXCLUDING HERO IMAGES */
+
+.homepage-menu-images {
+    height: 215px;
+    width: 285px;
+    border: hidden;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 5%;
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+.homepage-logo {
+    height: 215px;
+    width: 285px;
+    border: 1px solid black;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 5%; 
+    /* needed to added margin-top instead of padding-top as the visible border pushed the image closer to the top. 
+    Padding on this skewed the logo so it was removed */
+    margin-top: 5%;
+    /* the margin-bottom moves the menu title down so it is not sitting directly under the logo */
+    margin-bottom: 5%;
+}
+
+.course-overview-about-you-images {
+    height: 248px;
+    width: 330px;
+    border: hidden;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 5%;
+    /* moves about you image slightly away from top of footer and moves course overview images slightly away from their corresponding text*/
+    padding-bottom: 5%;
+}
+
+.instructor-images {
+    max-height: 90%;
+    max-width: 90%;
+    border: hidden;
+    /* border-radius softens the edges of the image - the value of 50% makes it a circle */
+    border-radius: 5%;
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+/* HOME PAGE STYLES */ 
+/*HERO SECTION - HOMEPAGE*/
+
+/*Hero Image*/
+#homepage-hero-image {
+    /* won't be able to see the background image if you don't add a width and height to it */
+    height: 400px;
+    width: 100%; 
+    /*links our hero image. We are starting from our style.css file in the CSS folder so the ../
+    means go up a level to assets folder and then into images and then go to the image. The two 
+    centers mean the image is centered vertically and horizontally. Cover means the image 
+    automatically sizes itself to cover entire hero section with no distortion*/
+    background: url("../images/index-images/home-hero.png") no-repeat center center/cover;
+}
+
+#course-intro {
+    /* height calculated with dev tools to make sure background colour of div 
+    titled course-intro covers all of the text contained within the div
+    i.e. the h1, h2 and p */
+    height: 450px;
+    /* width 100% makes the div take up the full width of the screen - 
+    therefore the applied background colour covers the whole screen with no gaps */
+    width: 100%;
+    background-color: var(--light-blue-transparent);
+}
+
+/* COURSE OVERVIEW PAGE */
+/* COURSE SUMMARY TABLE */
+
+.table {
+    border: 1px solid black;
+    font-family: var(--body-font);
+}
+
+/* MEET INSTRUCTORS PAGE */
+/* MEET INSTRUCTORS HERO SECTION */
+
+/*MEET INSTRUCTORS HERO IMAGE*/
+#meet-instructors-hero-image {
+    height: 400px;
+    width: 100%; 
+    background: url("../images/meet-instructors-images/meet-instructors-hero.png") no-repeat center center/cover ;
+} 
+
+/* BUTTONS ON MEET INSTRUCTORS PAGE WHICH GO BACK TO HOME AND ABOUT */
+/*Centres the buttons on the page*/
+#buttons-meet-instructors-page {
+    padding-left: 10%;
+}
+
+/* APPLY CONTACT PAGE */
+/* APPLICATION FORM */
+
+/* Makes each line of the form appear on seperate lines rather than on one */
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+#application-form {
+    background-color: var(--light-blue-transparent);
+    /* controls the space the application form takes up on the page and stops it spilling into the find us section below */
+    height: 100%;
+    margin: 0;
+    font-family: var(--body-font);
+}
+
+form {
+    text-align: center;
+}
+
+#submit-button {
+    margin-top: 2%;
+}
+
+/* CONTACT US SECTION */
+/* targets font awesome icons - makes them bigger and spaced away from the text */
+.fa-solid {
+    font-size: 160%;
+    padding-top: 5%;
+}
+
+
+/* BACK TO TOP BUTTONS AT THE END OF EACH PAGE */
+.back-to-top-buttons {
+    padding-top: 5%;
+}
+
+/* FOOTER */
+
+#social-links {
+/* Removes bullet points from social media icons*/
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--azure-blue);
+    font-family: var(--body-font)
+    color: black;
+    /* these 2 padding values add space above and below the icons */
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
+/*targets the social media icons*/
+.fa-brands {
+    color: black;
+}
+
+/*targets the social media icons so their colours will change when they are hovered over. 
+To get this to work, had to target i element not a element as originally thought*/
+i:hover {
+    color: var(--anti-flash-white);
+}
+
+/* MEDIA QUERIES */
+/* HOMEPAGE */
+/* Course intro section on homepage */
+
+/* BS breakpoint small screens */
+@media (min-width: 576px) {
+    #course-intro {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+
+    #course-intro > div {
+        width: 75%;
+        /* aligns the div itself which contains the id of course-intro to the centre */
+        align-self: center;
+    }
+
+/* Enlarges the images on the card sections on the homepage */
+    .homepage-menu-images {
+        height: 400px;
+        width: 500px;
+    }
+
+    /* Enlarges the logo on the card section on the homepage */
+    .homepage-logo {
+        height: 400px;
+        width: 500px;
+    }
+
+    /* COURSE INFORMATION PAGE */
+    .course-overview-about-you-images {
+        height: 400px;
+        width: 500px;
+    }
+
+    /* MEET INSTRUCTORS PAGE */
+    #align-bottom-buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* BS breakpoint large screens */
+    /* Enlarges the images on the card sections on the homepage */
+    @media (min-width: 992px) {
+    .homepage-menu-images {
+        /* height: 600px; */
+        /* width: 700px; */
+        height: auto;
+        width: 70%;
+    }
+
+    /* Enlarges the logo on the card section on the homepage */
+    .homepage-logo {
+        /* height: 600px; */
+        /* width: 700px; */
+        height: auto;
+        width: 70%;
+    }
+
+    .container-white {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .container-azure-blue {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .container-light-blue {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+    .about-course-homepage-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    }
+
+
+     /* BS breakpoint x-large screens */
+    @media (min-width: 1200px) 
+
+    }
+}
