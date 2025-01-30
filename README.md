@@ -20,7 +20,16 @@
 3. [Repository](#repository)
 4. [User Experience](#user-experience)
     * [Strategy](#strategy)
-         + [site-owner-goals](#site-owner-goals)
+         + [Site Owner Goals](#site-owner-goals)
+         + [User Goals](#user-goals)
+         + [Site Manager Goals](#site-manager-goals)
+         + [User Expectations and Requirements](#user-expectations-requirements)
+         + [User Stories](#user-stories)
+    * [Scope](#scope)
+        + [Initial Stage Features](#initial-stage-features)
+        + [Futture Additions](#future-additions)
+    * [Structure](#structure)  
+
 
 
   * [User Stories](#user-stories)
