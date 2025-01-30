@@ -220,6 +220,12 @@ a:hover {
     font-family: var(--body-font);
 }
 
+/* ABOUT PAGE*/
+
+.centered-text {
+        background-color: var(--light-blue-transparent)
+    }
+
 /* MEET INSTRUCTORS PAGE */
 /* MEET INSTRUCTORS HERO SECTION */
 
@@ -376,8 +382,6 @@ i:hover {
         }
     
     .homepage-menu-images {
-        /* height: 600px; */
-        /* width: 700px; */
         height: auto;
         width: 70%;
         padding-left: 5%;
@@ -385,8 +389,6 @@ i:hover {
 
     /* Enlarges the logo on the card section on the homepage */
     .homepage-logo {
-        /* height: 600px; */
-        /* width: 700px; */
         height: auto;
         width: 70%;
         padding-left: 5%;
@@ -424,7 +426,19 @@ i:hover {
     padding-right: 5%;
     }
 
+    /* ABOUT PAGE */
 
+    .course-overview-about-you-images {
+        height: auto;
+        width: 70%;
+        padding-right: 2%;
+    }
+
+    .centered-text-large-screens  {
+        text-align: center;
+        background-color: var(--light-blue-transparent);
+    
+    }
 
     }
 }
