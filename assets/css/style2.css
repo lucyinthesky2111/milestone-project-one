@@ -394,6 +394,8 @@ i:hover {
         border: none;
     }
 
+    /* GENERAL CONTAINERS */
+
     .container-white {
         text-align: center;
         display: flex;
