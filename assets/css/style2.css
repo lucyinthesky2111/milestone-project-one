@@ -445,9 +445,17 @@ i:hover {
         height: auto;
         width: 70%;
         padding-left: 5%;
-
     }
 
+    #application-form {
+        background-color: var(--light-blue-transparent);
+        /* controls the space the application form takes up on the page and stops it spilling into the find us section below */
+        height: 100%;
+        margin: 0;
+        font-family: var(--body-font);
+        max-width: 80%;
+        margin-left: 10%;
+    }
 
- }
+}
 }
