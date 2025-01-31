@@ -218,7 +218,14 @@ a:hover {
 .table {
     border: 1px solid black;
     font-family: var(--body-font);
+    max-width: 80%;
+    margin-left: 10%;
 }
+
+#course-summary-table {
+    background-color: var(--azure-blue-transparent);
+}
+
 
 /* ABOUT PAGE*/
 
@@ -471,6 +478,15 @@ i:hover {
         margin-left: 10%;
     }
 
+    /* COURSE INFORMATION PAGE */
+    .table {
+        border: 1px solid black;
+        font-family: var(--body-font);
+        max-width: 80%;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    
     
 
 }
