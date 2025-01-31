@@ -251,6 +251,20 @@ label {
   flex-direction: column;
 }
 
+/* Selects all the labels that have a for attribute i.e. all the labels telling the user what info to enter into each box on the form*/
+label[for] {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Pseudo element selector targetting the placeholder text in the textarea box of application form */
+textarea::placeholder {
+    text-align: center;
+    color: #0000ff;
+
+}
+
 #application-form {
     background-color: var(--light-blue-transparent);
     /* controls the space the application form takes up on the page and stops it spilling into the find us section below */
@@ -456,6 +470,8 @@ i:hover {
         max-width: 80%;
         margin-left: 10%;
     }
+
+    
 
 }
 }
