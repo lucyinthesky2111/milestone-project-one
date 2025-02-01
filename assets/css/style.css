@@ -218,7 +218,20 @@ a:hover {
 .table {
     border: 1px solid black;
     font-family: var(--body-font);
+    max-width: 80%;
+    margin-left: 10%;
 }
+
+#course-summary-table {
+    background-color: var(--azure-blue-transparent);
+}
+
+
+/* ABOUT PAGE*/
+
+.centered-text {
+        background-color: var(--light-blue-transparent)
+    }
 
 /* MEET INSTRUCTORS PAGE */
 /* MEET INSTRUCTORS HERO SECTION */
@@ -245,12 +258,27 @@ label {
   flex-direction: column;
 }
 
+/* Selects all the labels that have a for attribute i.e. all the labels telling the user what info to enter into each box on the form*/
+label[for] {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Pseudo element selector targetting the placeholder text in the textarea box of application form */
+textarea::placeholder {
+    text-align: center;
+    color: #0000ff;
+
+}
+
 #application-form {
     background-color: var(--light-blue-transparent);
     /* controls the space the application form takes up on the page and stops it spilling into the find us section below */
     height: 100%;
     margin: 0;
     font-family: var(--body-font);
+    font-weight: bold;
 }
 
 form {
@@ -272,6 +300,11 @@ form {
 /* BACK TO TOP BUTTONS AT THE END OF EACH PAGE */
 .back-to-top-buttons {
     padding-top: 5%;
+}
+
+/* THANK YOU PAGE */
+.thank-you-button {
+    text-align: center;
 }
 
 /* FOOTER */
@@ -374,10 +407,8 @@ i:hover {
             margin-bottom: 5%;
             font-size: 20px;
         }
-    
+    /* HOMEPAGE */
     .homepage-menu-images {
-        /* height: 600px; */
-        /* width: 700px; */
         height: auto;
         width: 70%;
         padding-left: 5%;
@@ -385,14 +416,12 @@ i:hover {
 
     /* Enlarges the logo on the card section on the homepage */
     .homepage-logo {
-        /* height: 600px; */
-        /* width: 700px; */
         height: auto;
         width: 70%;
         padding-left: 5%;
         /* Border removed on larger screens otherwise border edge sticks to side of screen */
         border: none;
-    }
+    } 
 
     /* GENERAL CONTAINERS */
 
@@ -424,7 +453,95 @@ i:hover {
     padding-right: 5%;
     }
 
+    /* ABOUT PAGE */
 
-
+    .course-overview-about-you-images {
+        height: auto;
+        width: 70%;
+        padding-right: 2%;
     }
+
+    .centered-text-large-screens  {
+        text-align: center;
+        background-color: var(--light-blue-transparent);
+    
+    }
+
+    /* MEET INSTRUCTORS PAGE */
+    .instructor-images {
+        height: auto;
+        width: 70%;
+        padding-left: 5%;
+    }
+
+    #application-form {
+        background-color: var(--light-blue-transparent);
+        /* controls the space the application form takes up on the page and stops it spilling into the find us section below */
+        height: 100%;
+        margin: 0;
+        font-family: var(--body-font);
+        max-width: 80%;
+        margin-left: 10%;
+        font-weight: bold;
+    }
+
+    /* COURSE INFORMATION PAGE */
+    .table {
+        border: 1px solid black;
+        font-family: var(--body-font);
+        max-width: 80%;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+
+    .container-light-blue {
+        text-align: center; 
+        background-color: var(--light-blue-transparent);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /*On Course Overview section - selects the p text which is beneath the div with class card-text-right i.e. 
+    the captions underneath the card images and moves them to right of screen */
+    .card-text-right p {
+        position: sticky;
+        left: 10%;
+        margin-left: 10%;
+    }
+       
+    
+    /*On  Course Overview section - selects the img which is beneath the div with class card-img-left i.e. 
+    the card images themselves and moves them to the left of the page*/
+    .card-img-left img {
+        display: flex;
+        justify-content: left;
+    }
+
+
+    /* The padding stops the images on this section from sticking to sides of screen. Had to apply margin 0 to get padding to apply */
+    .course-overview-about-you-images {
+        height: auto;
+        width: 70%;
+        margin: 0;
+        padding-left: 10%;
+        
+    }
+
+    /* Affects about you section on homepage. Had to add additional div with new class of about-you and place it here in the 
+    stylesheet to override the styles applied to it by class of container-light-blue. Without this CSS, the img does not move
+    to right and text does not move to left */
+
+    .about-you {
+        display: flex;
+    }
+
+
+/* Affects the text and button on about you section on homepage. Had to add additional div with new class shown below and place it here in the 
+    stylesheet to override the styles applied to it by class of container-light-blue. Without this CSS, the text appears above the 
+    img at the top of the div instead of inline with the img */
+    .text-homepage-about-you {
+        padding-top: 54%;
+    }
+
+}
 }

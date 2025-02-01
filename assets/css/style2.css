@@ -41,6 +41,10 @@ h1, h2 {
     text-align: center; 
 }
 
+h4 { 
+    font-family: var(--heading-font);
+}
+
 p {
     font-family: var(--body-font);
     font-weight: 600;
@@ -212,9 +216,33 @@ a:hover {
     background-color: var(--light-blue-transparent);
 }
 
-/* COURSE OVERVIEW PAGE */
-/* COURSE SUMMARY TABLE */
+/* COURSE INFORMATION PAGE */
+/* COURSE OVERVIEW SECTION */
 
+#course-overview {
+    background-color: var(--light-blue-transparent);
+}
+
+.image-positon {
+    display: flex;
+    justify-content: center;
+}
+
+.course-overview-images {
+    max-height: 80%;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-overview-text {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* COURSE SUMMARY TABLE */
 .table {
     border: 1px solid black;
     font-family: var(--body-font);
@@ -486,6 +514,41 @@ i:hover {
     }
 
     /* COURSE INFORMATION PAGE */
+
+    /* COURSE INFORMATION PAGE */
+    /* COURSE OVERVIEW SECTION */
+
+
+.course-overview-images {
+        max-height: 80%;
+        max-width: 80%;
+    }   
+
+.image-positon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.course-overview-text {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-positon-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.course-overview-text-right {
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
     .table {
         border: 1px solid black;
         font-family: var(--body-font);
