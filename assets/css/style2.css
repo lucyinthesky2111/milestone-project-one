@@ -302,6 +302,11 @@ form {
     padding-top: 5%;
 }
 
+/* THANK YOU PAGE */
+.thank-you-button {
+    text-align: center;
+}
+
 /* FOOTER */
 
 #social-links {
