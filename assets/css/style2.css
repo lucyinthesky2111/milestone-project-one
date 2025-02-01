@@ -43,6 +43,7 @@ h1, h2 {
 
 h4 { 
     font-family: var(--heading-font);
+    text-align: center;
 }
 
 p {
@@ -218,6 +219,20 @@ a:hover {
 
 /* COURSE INFORMATION PAGE */
 /* COURSE OVERVIEW SECTION */
+
+/* Targets specific font awesome icons next to the text under the images in the course overview section and stops them sticking to the left 
+of the screen on small screens */
+.fa-oil-can {
+    padding-left: 5%;
+}
+
+.fa-car-battery {
+    padding-left: 5%;
+}
+
+.fa-triangle-exclamation {
+    padding-left: 5%;
+}
 
 #course-overview {
     background-color: var(--light-blue-transparent);
