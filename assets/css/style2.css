@@ -502,7 +502,11 @@ i:hover {
     .course-overview-about-you-images {
         height: auto;
         width: 70%;
-        padding-right: 2%;
+        margin: 0;
+        padding-left: 10%;
+        padding-right: 5%;
+        padding-top: 5%;
+        border-radius: 18%;
     }
 
     .centered-text-large-screens  {
