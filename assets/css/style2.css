@@ -504,8 +504,9 @@ i:hover {
     /*On Course Overview section - selects the p text which is beneath the div with class card-text-right i.e. 
     the captions underneath the card images and moves them to right of screen */
     .card-text-right p {
-        display: flex;
-        justify-content: right;
+        position: sticky;
+        left: 10%;
+        margin-left: 10%;
     }
        
     
