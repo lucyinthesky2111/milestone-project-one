@@ -234,6 +234,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5%;
 }
 
 .course-overview-text {
@@ -522,6 +523,7 @@ i:hover {
 .course-overview-images {
         max-height: 80%;
         max-width: 80%;
+        border-radius: 5%;
     }   
 
 .image-positon {
