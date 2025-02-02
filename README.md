@@ -59,14 +59,6 @@
   * [Developer Comments](#comments)
   * [Disclaimer](#disclaimer)
   
-       
-  
-
-
-
-
-
-
 # Introduction
 * Clutch Kings College is a fictional training provider for the automotive industry. This site focuses specifically on marketing and gathering sign-ups for their Basic Car Maintenance Course. 
 
@@ -78,10 +70,17 @@
 # Repository
 [The project repository can be viewed here](https://github.com/lucyinthesky2111/milestone-project-one)
 
+# User Experience
+  ## Strategy
+  ### Site Owner Goals
+  * To market their basic car maintenance course. 
+  * To attract a wider range of participants through having an online presence.
+  * To receive queries about the course from prospective students. 
 
 
 
-## Disclaimer
+
+# Disclaimer
 
 This project is for educational purposes only and was created for the Code Institute assessed project for the ‘user centric front-end development’ module.  
 
