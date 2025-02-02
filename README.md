@@ -1,20 +1,9 @@
 # Clutch Kings College - Basic Car Maintenance Course Website
-## Milestone Project 1 - User Centric Frontend Development
-
-* Clutch Kings College is a fictional training provider for the automotive industry. This site focuses specifically on marketing and gathering sign-ups for their Basic Car Maintenance Course. 
-
-* This is my first milestone project for the Code Institute Level 5 Diploma in Web Application Development
-
-## Live site 
-[The live site can be viewed here](https://lucyinthesky2111.github.io/milestone-project-one/)
-
-## Repository
-[The project repository can be viewed here](https://github.com/lucyinthesky2111/milestone-project-one)
+# Milestone Project 1 - User Centric Frontend Development
 
 # Table of Contents 
 
 ## Contents
-
 1. [Introduction](#iintroduction)
 2. [Live Project](#live-project)
 3. [Repository](#repository)
@@ -27,8 +16,23 @@
          + [User Stories](#user-stories)
     * [Scope](#scope)
         + [Initial Stage Features](#initial-stage-features)
-        + [Futture Additions](#future-additions)
+        + [Future Additions](#future-additions)
     * [Structure](#structure)  
+        + [Wireframes](#wireframes)
+
+# Introduction
+* Clutch Kings College is a fictional training provider for the automotive industry. This site focuses specifically on marketing and gathering sign-ups for their Basic Car Maintenance Course. 
+
+* This is my first milestone project for the Code Institute Level 5 Diploma in Web Application Development
+
+# Live site 
+[The live site can be viewed here](https://lucyinthesky2111.github.io/milestone-project-one/)
+
+# Repository
+[The project repository can be viewed here](https://github.com/lucyinthesky2111/milestone-project-one)
+
+
+
 
 
 
