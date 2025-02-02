@@ -211,12 +211,11 @@ a:hover {
 }
 
 #course-intro {
-    /* height calculated with dev tools to make sure background colour of div 
-    titled course-intro covers all of the text contained within the div
-    i.e. the h1, h2 and p */
-   /* height: 450px; */
     /* width 100% makes the div take up the full width of the screen - 
     therefore the applied background colour covers the whole screen with no gaps */
+    /* height of fit content means the background colour of div 
+    titled course-intro covers all of the text contained within the div
+    i.e. the h1, h2 and p. Also fixes the issue of text spilling out of the div on Samsung mobile internet */
     height: fit-content;
     width: 100%;
     background-color: var(--light-blue-transparent);

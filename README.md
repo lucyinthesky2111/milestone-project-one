@@ -12,7 +12,7 @@
          + [Site Owner Goals](#site-owner-goals)
          + [User Goals](#user-goals)
          + [Site Manager Goals](#site-manager-goals)
-         + [User Expectations and Requirements](#user-expectations-requirements)
+         + [User Expectations and Requirements](#user-expectations-and-requirements)
          + [User Stories](#user-stories)
     * [Scope](#scope)
         + [Initial Stage Features](#initial-stage-features)
@@ -20,15 +20,15 @@
     * [Structure](#structure)  
         + [Wireframes](#wireframes)
    * [Skeleton](#skeleton)  
-        + [Structure and Layout](#structure-layout)
-          + [Information Architecture](#info-architecture)
-            + [Navigation Bar](#nav-bar)
-            + [Sub-navigation Bar](#sub-nav-bar)
-            + [Navigation Buttons](#nav-buttons)
-            + [Call to Action Buttons](#cta-buttons)
+        + [Structure and Layout](#structure-and-layout)
+          + [Information Architecture](#infomation-architecture)
+            + [Navigation Bar](#navigation-bar)
+            + [Sub-navigation Bar](#sub-navigation-bar)
+            + [Navigation Buttons](#navigation-buttons)
+            + [Call to Action Buttons](#call-to-action-buttons)
             + [Footer](#footer)
             + [Thank You Page](#thank-you)
-            + [404 Error Page](#404-error)
+            + [404 Error Page](#404-error-page)
    * [Surface](#surface)
         + [Design](#design)
           + [Colour Scheme](#colour-scheme)
@@ -39,15 +39,12 @@
           + [Favicons](#favicons)
    * [Technologies Used](#technologies-used)
         + [Languages](#languages)
-        + [Frameworks Libraries and Programmes](#frameworks-programmes)
+        + [Frameworks Libraries and Programmes](#frameworks-libraries-and-programmes)
    * [Deployment](#deployment)
         + [GitHub Pages](#github-pages)
-        + [Forking the GitHub Repository](#forking)
-        + [Making a Local Clone](#Cloning)
-   * [Testing and Validation](#testing-validation)
-        + [HTML](#html)
-        + [CSS](#CSS)
-        + [Accessibility and Performance](#access-perform)
+        + [Forking the GitHub Repository](#forking-the-github-repository)
+        + [Making a Local Clone](#making-a-local-clone)
+   * [Testing and Validation](#testing-and-validation)
    * [Bugs](#bugs)
         + [Resolved](#resolved)
         + [Unresolved](#unresolved)
@@ -56,15 +53,16 @@
         + [Content](#content)
         + [Media](#media)
         + [Acknowledgments](#acknowledgments)
-  * [Developer Comments](#comments)
-  * [Disclaimer](#disclaimer)
+   * [Developer Comments](#developer-comments)
+   * [Disclaimer](#disclaimer)
+
   
 # Introduction
 * Clutch Kings College is a fictional training provider for the automotive industry. This site focuses specifically on marketing and gathering sign-ups for their Basic Car Maintenance Course. 
 
 * This is my first milestone project for the Code Institute Level 5 Diploma in Web Application Development.
 
-# Live site 
+# Live Site 
 [The live site can be viewed here](https://lucyinthesky2111.github.io/milestone-project-one/)
 
 # Repository
@@ -76,6 +74,13 @@
   * To market their basic car maintenance course. 
   * To attract a wider range of participants through having an online presence.
   * To receive queries about the course from prospective students. 
+
+
+
+# Testing and Validation
+Please refer to [this file](TESTING.md) for details of the testing and validation undertaken.
+
+
 
 
 
