@@ -363,7 +363,7 @@ form {
     display: flex;
     justify-content: space-evenly;
     background-color: var(--azure-blue);
-    font-family: var(--body-font)
+    font-family: var(--body-font);
     color: black;
     /* these 2 padding values add space above and below the icons */
     padding: 10px 0;

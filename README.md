@@ -1,6 +1,8 @@
 # Clutch Kings College - Basic Car Maintenance Course Website
 # Milestone Project 1 - User Centric Frontend Development
 
+<h2 align="center"><img src="assets/readme-images/ckc-techsini-mock-up.png"></h2>
+
 # Table of Contents 
 
 ## Contents
