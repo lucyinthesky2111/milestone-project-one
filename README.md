@@ -4,8 +4,8 @@
 # Table of Contents 
 
 ## Contents
-1. [Introduction](#iintroduction)
-2. [Live Project](#live-project)
+1. [Introduction](#introduction)
+2. [Live Site](#live-site)
 3. [Repository](#repository)
 4. [User Experience](#user-experience)
     * [Strategy](#strategy)
@@ -19,11 +19,58 @@
         + [Future Additions](#future-additions)
     * [Structure](#structure)  
         + [Wireframes](#wireframes)
+   * [Skeleton](#skeleton)  
+        + [Structure and Layout](#structure-layout)
+          + [Information Architecture](#info-architecture)
+            + [Navigation Bar](#nav-bar)
+            + [Sub-navigation Bar](#sub-nav-bar)
+            + [Navigation Buttons](#nav-buttons)
+            + [Call to Action Buttons](#cta-buttons)
+            + [Footer](#footer)
+            + [Thank You Page](#thank-you)
+            + [404 Error Page](#404-error)
+   * [Surface](#surface)
+        + [Design](#design)
+          + [Colour Scheme](#colour-scheme)
+          + [Typography](#typography)
+          + [Imagery](#imagery)
+          + [Icons](#icons)
+          + [Logo](#logo)
+          + [Favicons](#favicons)
+   * [Technologies Used](#technologies-used)
+        + [Languages](#languages)
+        + [Frameworks Libraries and Programmes](#frameworks-programmes)
+   * [Deployment](#deployment)
+        + [GitHub Pages](#github-pages)
+        + [Forking the GitHub Repository](#forking)
+        + [Making a Local Clone](#Cloning)
+   * [Testing and Validation](#testing-validation)
+        + [HTML](#html)
+        + [CSS](#CSS)
+        + [Accessibility and Performance](#access-perform)
+   * [Bugs](#bugs)
+        + [Resolved](#resolved)
+        + [Unresolved](#unresolved)
+   * [Credits](#credits)
+        + [Code](#code)
+        + [Content](#content)
+        + [Media](#media)
+        + [Acknowledgments](#acknowledgments)
+  * [Developer Comments](#comments)
+  * [Disclaimer](#disclaimer)
+  
+       
+  
+
+
+
+
+
 
 # Introduction
 * Clutch Kings College is a fictional training provider for the automotive industry. This site focuses specifically on marketing and gathering sign-ups for their Basic Car Maintenance Course. 
 
-* This is my first milestone project for the Code Institute Level 5 Diploma in Web Application Development
+* This is my first milestone project for the Code Institute Level 5 Diploma in Web Application Development.
 
 # Live site 
 [The live site can be viewed here](https://lucyinthesky2111.github.io/milestone-project-one/)
@@ -34,44 +81,7 @@
 
 
 
-
-
-  * [User Stories](#user-stories)
-    + [Prospective visitors](#prospective-visitors)
-    + [Art Collectors](#art-collectors)
-    + [Business Owners](#business-owners)
-- [Design](#design)
-  + [Colour Scheme](#colour-scheme)
-  + [Typography](#typography)
-  + [Imagery](#imagery)
-  + [Icons](#icons)
-- [Structure](#structure)
-  + [Information Architecture](#information-architecture)
-  + [Navigation Bar](#navigation-bar)
-  + [Back To Top Button](#back-to-top-button)
-  + [Buttons](#buttons)
-  + [Page Heading & Sub Navigations](#page-heading-and-sub-navigations)
-  + [Footer](#footer)
-  + [404 Page](#404-page)
-- [Wireframes](#wireframes)
-- [Features](#features)
-  + [Current Features](#current-features)
-  + [Future Features](#future-features)
-- [Technologies used](#technologies-used)
-  + [Languages Used](#languages-used)
-  + [Frameworks Libraries and Programs](#frameworks-libraries-and-programs)
-- [Testing](#testing)
-- [Deployment](#deployment)
-  + [GitHub Pages](#github-pages)
-  + [Forking the GitHub Repository](#forking-the-github-repository)
-  + [Making a Local Clone](#making-a-local-clone)
-- [Credits](#credits)
-  + [Code](#code)
-  + [Media](#media)
-  + [Content](#content)
-  + [Acknowledgements](#acknowledgements)
-
-
+## Disclaimer
 
 This project is for educational purposes only and was created for the Code Institute assessed project for the ‘user centric front-end development’ module.  
 
