@@ -148,8 +148,9 @@ to white when hovered over*/
 
 /* Colour of link when it is hovered over */
 a:hover {
-    color: var(--anti-flash-white);
+    color: #3b0075;
 }
+
 
 /* IMAGE STYLES - EXCLUDING HERO IMAGES */
 
@@ -351,7 +352,7 @@ form {
     padding-top: 5%;
 }
 
-/* THANK YOU PAGE */
+/* THANK YOU  and 404 PAGES */
 .thank-you-button {
     text-align: center;
 }
@@ -362,7 +363,9 @@ form {
     margin-bottom: 15px;
 }
 
-
+.thank-you-background { 
+    background-color: var(--light-blue-transparent);
+}
 
 /* FOOTER */
 
