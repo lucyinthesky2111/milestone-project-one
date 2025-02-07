@@ -356,6 +356,12 @@ form {
     text-align: center;
 }
 
+/* Adds space between paragraph text and button on 404 and thank you pages */ 
+
+.button-space {
+    margin-bottom: 15px;
+}
+
 
 
 /* FOOTER */
