@@ -77,6 +77,13 @@
   * To attract a wider range of participants through having an online presence.
   * To receive queries about the course from prospective students. 
 
+# Surface
+ ## Design
+ ### Colour Scheme
+  ### Typography
+   ### Imagery
+
+
 
 
 # Testing and Validation
