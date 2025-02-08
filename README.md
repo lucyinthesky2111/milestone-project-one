@@ -116,7 +116,18 @@
 * To find a footer at the bottom of every page. 
 * To receive a custom 404 error page which links back to the Homepage, when trying to access an incorrect URL within the site. 
 
+# Scope
+## Initial Stage Features
+* Interactive embedded map showing the college's location.
+* Instructor photos and profiles.
+* Validated application form.
+* Details about the course contents and the course provider.
 
+## Future Additions
+* Pages for other courses run by Clutch Kings College such as the Level 1 Diploma in Light Vehicle Maintenance which was mentioned in this site. 
+* Testimonials from current and former students. 
+* Facility to sign up for notifications when new course dates are added.  
+* A virtual tour of the workshop.  
 
 # Surface
  ## Design
