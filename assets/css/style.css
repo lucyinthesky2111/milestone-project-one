@@ -472,6 +472,14 @@ i:hover {
             margin-bottom: 5%;
             font-size: 20px;
         }
+
+    /* BACK TO TOP BUTTONS AT THE END OF EACH PAGE */
+    .back-to-top-buttons {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
     /* HOMEPAGE */
     .homepage-menu-images {
         height: auto;
