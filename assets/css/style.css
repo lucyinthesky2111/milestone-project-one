@@ -97,6 +97,10 @@ button:hover {
 
 }
 
+.navbar-brand {
+    margin-right: 2px;
+}
+
 /* styles navbar logo only*/
 .logo {
   height: 50px; 
@@ -266,10 +270,15 @@ of the screen on small screens */
 
 /* COURSE SUMMARY TABLE */
 .table {
-    border: 1px solid black;
+    border: none;
     font-family: var(--body-font);
-    max-width: 80%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
     margin-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 #course-summary-table {
@@ -340,7 +349,15 @@ form {
 
 #submit-button {
     margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: var(--light-yellow);
+    color: black;
+    font-family: var(--heading-font);
+    border: 3px solid black;
+    border-radius: 10%;
 }
+
+    
 
 /* CONTACT US SECTION */
 /* targets font awesome icons - makes them bigger and spaced away from the text */
@@ -396,6 +413,12 @@ form {
 To get this to work, had to target i element not a element as originally thought*/
 i:hover {
     color: var(--anti-flash-white);
+}
+
+.footer-text {
+    background-color: var(--azure-blue);
+    text-align: center;
+    margin-bottom: 0;
 }
 
 /* MEDIA QUERIES */
@@ -602,9 +625,9 @@ i:hover {
 }
 
     .table {
-        border: 1px solid black;
+        border: none;
         font-family: var(--body-font);
-        max-width: 80%;
+        max-width: 90%;
         margin-left: 10%;
         font-size: 20px;
     }
