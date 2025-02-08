@@ -299,7 +299,7 @@ of the screen on small screens */
 /* BUTTONS ON MEET INSTRUCTORS PAGE WHICH GO BACK TO HOME AND ABOUT */
 /*Centres the buttons on the page*/
 #buttons-meet-instructors-page {
-    padding-left: 10%;
+   text-align: center;
 }
 
 /* APPLY CONTACT PAGE */
@@ -353,6 +353,8 @@ form {
 /* BACK TO TOP BUTTONS AT THE END OF EACH PAGE */
 .back-to-top-buttons {
     padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* THANK YOU  and 404 PAGES */
