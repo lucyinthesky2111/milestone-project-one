@@ -188,7 +188,7 @@ A custom 404 error page displays if the user tries to access an incorrect URL. T
    3:2 - this aspect ratio was chosen as it suits images whic are in landscape orientation in their original state, because it makes the images wider than they are tall. 3:2 suits such images especially well as the result is images that are: 
    * visuallly pleasing;
    * wide enough to draw sufficient attention to the focal point without being too wide (such as 16:9 would be);
-   * not to square (such as 1:1 would be).
+   * not too square (such as 1:1 would be).
 
 ### Icons
 Icons used are from [Font Awesome](https://fontawesome.com/).
