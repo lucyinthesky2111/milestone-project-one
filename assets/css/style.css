@@ -285,10 +285,12 @@ of the screen on small screens */
 /*Makes scroll icons on the BS carousel visible*/
 .carousel-control-prev-icon {
     background-color: black;
+    color: white;
 }
 
 .carousel-control-next-icon {
     background-color: black;
+    color: white;
 
 }
 /* gives background colour to image indicator bar at bottom of carousel*/
