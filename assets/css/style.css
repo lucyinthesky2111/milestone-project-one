@@ -283,6 +283,15 @@ of the screen on small screens */
 .centered-text {
         background-color: var(--light-blue-transparent)
     }
+/*Makes scroll icons on the BS carousel visible*/
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+
+}
 
 /* MEET INSTRUCTORS PAGE */
 

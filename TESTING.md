@@ -26,7 +26,7 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 
 # Code Validation
 ## W3C HTML Validator
-* The Clutch Kings College Basic Car Maintenance Course webpage returned no errors when tested using the W3C HTML Validator tool. There was one warning given as shown in the screenshots, about sections not having a heading. This was not changed as the sections do not need headings and adding these is only a recommendation not a requirement.
+The Clutch Kings College Basic Car Maintenance Course webpage returned no errors when tested using the W3C HTML Validator tool. There was one warning given as shown in the screenshots, about sections not having a heading. This was not changed as the sections do not need headings and adding these is only a recommendation not a requirement.
 ### Homepage
 <h2 align="center"><img src="assets/readme-images/index-html-validation.png"></h2>
 
@@ -49,7 +49,7 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 <h2 align="center"><img src="assets/readme-images/404-error-html-validation.png"></h2>
 
 ## W3C CSS Validator
-* The Clutch Kings College Basic Car Maintenance Course webpage returned no errors or warnings when tested using the W3C CSS Validator tool.
+The Clutch Kings College Basic Car Maintenance Course webpage returned no errors or warnings when tested using the W3C CSS Validator tool.
 ### CSS Stylesheet
 <h2 align="center"><img src="assets/readme-images/css-validation.png"></h2>
 
@@ -100,7 +100,7 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 <h2 align="center"><img src="assets/readme-images/lighthouse-404-mobile.png"></h2>
 
 # Responsiveness
-* A combination of Bootstrap and CSS media queries were used to make this website responsive. When writing media queries, I used the same breakpoints as Bootstrap. Details of these breakpoints can be found [here](https://getbootstrap.com/docs/5.0/layout/breakpoints/). Responsivity at the Bootstrap breakpoints and on different device screen sizes was tested using Google Chrome Devtools. Device screen sizes tested include:
+A combination of Bootstrap and CSS media queries were used to make this website responsive. When writing media queries, I used the same breakpoints as Bootstrap. Details of these breakpoints can be found [here](https://getbootstrap.com/docs/5.0/layout/breakpoints/). Responsivity at the Bootstrap breakpoints and on different device screen sizes was tested using Google Chrome Devtools. Device screen sizes tested include:
 * iPhone SE
 * iPhone XR
 * iPhone 12 Pro
@@ -122,8 +122,31 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 
 * I personally tested the website on a Samsung Galaxy S22 (See [Resolved Bugs](#resolved)) for details and an Asus Tuf Gaming A15.
 
+# WAVE Web Accessibility Evaluation Tools Checker
+The Clutch Kings College Basic Car Maintenance Course webpage returned no errors or contrast errors when tested using the WAVE Web Accessibility Evaluation Tools Checker.
+## Homepage 
+<h2 align="center"><img src="assets/readme-images/wave-home.png"></h2>
 
+## Course Information Page 
+<h2 align="center"><img src="assets/readme-images/wave-course-info.png"></h2>
 
+## About Page 
+<h2 align="center"><img src="assets/readme-images/lighthouse-about-desktop.png"></h2>
+
+## Our Instructors Page 
+<h2 align="center"><img src="assets/readme-images/lighthouse-our-instructors-desktop.png"></h2>
+
+## Apply and Contact Page
+<h2 align="center"><img src="assets/readme-images/lighthouse-apply-contact-desktop.png"></h2>
+
+## Thank You Page 
+<h2 align="center"><img src="assets/readme-images/lighthouse-thank-you-desktop.png"></h2>
+
+## 404 Error Page  
+<h2 align="center"><img src="assets/readme-images/lighthouse-404-desktop.png"></h2>
+
+# Browser Compatibility
+The site was 
 
 
 
@@ -133,6 +156,8 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 ## Resolved
 * The Apply and Contact Page initially returned an error due to the inline styles applied to the iFrame element. This was resolved by removing the inline styles and adding the styles directly to the stylesheet instead.
 <h2 align="center"><img src="assets/readme-images/error-apply-html-validation.png"></h2>
+
+Contrast error on scroll controls on BS carousel on About page
 
 ## Unresolved
 * Best practice low score on apply page on desktop

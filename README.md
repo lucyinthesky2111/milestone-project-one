@@ -147,7 +147,7 @@
 * Apply and Contact* - divided into 3 sections – Apply Here, Find Us and Contact Us.  Apply Here provides a course application form for the user to complete, Find Us provides an embedded Google map showing the College’s location and Contact Us provides the address, email address and phone number for Clutch Kings College. *Apply and Contact share a page as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find each page. 
 
 ### Navigation Bar 
-* The
+The
 
 ### Sub-navigation Bar
 
