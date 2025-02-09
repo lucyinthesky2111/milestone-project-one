@@ -42,24 +42,21 @@
           + [Icons](#icons)
           + [Logo](#logo)
           + [Favicons](#favicons)
-   * [Technologies Used](#technologies-used)
+   5. [Technologies Used](#technologies-used)
         + [Languages](#languages)
         + [Frameworks Libraries and Programmes](#frameworks-libraries-and-programmes)
-   * [Testing and Validation](#testing-and-validation)
-   * [Bugs](#bugs)
-        + [Resolved](#resolved)
-        + [Unresolved](#unresolved)
-   * [Deployment](#deployment)
+   6. [Testing and Validation](#testing-and-validation)
+   7. [Deployment](#deployment)
         + [GitHub Pages](#github-pages)
         + [Forking the GitHub Repository](#forking-the-github-repository)
         + [Making a Local Clone](#making-a-local-clone)      
-   * [Credits](#credits)
+   8. [Credits](#credits)
         + [Code](#code)
         + [Content](#content)
         + [Media](#media)
         + [Acknowledgments](#acknowledgments)
-   * [Developer Comments](#developer-comments)
-   * [Disclaimer](#disclaimer)
+   9. [Developer Comments](#developer-comments)
+   10. [Disclaimer](#disclaimer)
 
   
 # Introduction
@@ -92,7 +89,7 @@
   ### Must Have
   * To find pertinent details about the course (i.e. when and where it is run, how much it costs and what the entry requirements are) to ascertain whether there are any barriers to attending the course (user story 2).
   * To find a breakdown of the course contents in order to assess whether it meets their needs and requirements. (user story 2).
-  * To find contact detailers for the course provider through a variety of different contact methods. (user story 3).
+  * To find contact details for the course provider through a variety of different contact methods. (user story 3).
   * To see the course provider’s location on an embedded map. (user story 4). 
   * To be able to apply for the course quickly and easily online. (user story 5). 
   * To receive acknowledgment that their online application has been received, to include feedback on when they can expect a response. (user story 5).
@@ -142,15 +139,15 @@
 # Skeleton
 ## Layout
 ### Information Architecure
-* The website consists of a Homepage and 3 further pages: - Course information, About, Our Instructors and Apply and Contact us.  
+* The website consists of a Homepage and 3 further pages: - Course Information, About, Our Instructors and Apply and Contact.  
 * Homepage – landing page with brief descriptions of, and links to, the other pages.  
-* Course information –  divided into 2 sections – course overview and course summary. Course overview consists of images and corresponding captions for the 8 maintenance tasks taught on the course. Course summary sets out crucial information about the course in an easy-to-read table.  
-* About –  divided into 2 sections – about us and about you. About us consists of text explaining the history of the college and about you describes the target participants for the course.  
-* Our instructors – provides a photo and profile of each of the 5 instructors.
-* Apply now and contact us* - divided into 3 sections – apply, location and contact us.  apply provides a course application form for the user to complete, location provides an embedded Google map showing the College’s location and contact us provides the address, email address and phone number for Clutch Kings College. *Apply now and contact us share a page as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find each page. 
+* Course Information –  divided into 2 sections – Course Overview and Course Summary. Course Overview consists of images and corresponding captions for the 8 maintenance tasks taught on the course. Course Summary sets out crucial information about the course in an easy-to-read table.  
+* About –  divided into 2 sections – About Us and About You. About Us consists of text explaining the history of the college and about you describes the target participants for the course.  
+* Our Instructors – provides a photo and profile of each of the 5 instructors.
+* Apply and Contact* - divided into 3 sections – Apply Here, Find Us and Contact Us.  Apply Here provides a course application form for the user to complete, Find Us provides an embedded Google map showing the College’s location and Contact Us provides the address, email address and phone number for Clutch Kings College. *Apply and Contact share a page as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find each page. 
 
 ### Navigation Bar 
-* The navigation bar was created with Bootstrap. 
+* The
 
 ### Sub-navigation Bar
 
