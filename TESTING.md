@@ -123,7 +123,7 @@ A combination of Bootstrap and CSS media queries were used to make this website 
 * I personally tested the website on a Samsung Galaxy S22 (See [Resolved Bugs](#resolved)) for details and an Asus Tuf Gaming A15.
 
 # WAVE Web Accessibility Evaluation Tools Checker
-When tested using the WAVE Web Accessibility Evaluation Tools Checker, the Clutch Kings College Basic Car Maintenance Course webpage returned 2 contrast errors on the About page. Unfortunately, the checker does not show where the contrast errors are located, they should be shown on screen in red but are not (see relevant screenshots below). Due to time constraints, I am not able to investigate this issue further. No errors or contrast errors were returned on any other pages of the site.
+The Clutch Kings College Basic Car Maintenance Course webpage returned no errors or contrast errors when tested using the WAVE Web Accessibility Evaluation Tools Checker. 
 ## Homepage 
 <h2 align="center"><img src="assets/readme-images/wave-home.png"></h2>
 
@@ -131,8 +131,7 @@ When tested using the WAVE Web Accessibility Evaluation Tools Checker, the Clutc
 <h2 align="center"><img src="assets/readme-images/wave-course-info.png"></h2>
 
 ## About Page 
-<h2 align="center"><img src="assets/readme-images/wave-about-contrast-error.png"></h2>
-<h2 align="center"><img src="assets/readme-images/wave-about-contrast error2.png"></h2>
+<h2 align="center"><img src="assets/readme-images/wave-about.png></h2>
 
 ## Our Instructors Page 
 <h2 align="center"><img src="assets/readme-images/wave-instructors.png"></h2>
@@ -173,8 +172,7 @@ When tested using the WAVE Web Accessibility Evaluation Tools Checker, the Clutc
 
 
 ## Unresolved
-* As discussed in the WAVE Web Accessibility Evaluation Tools Checker, the 2 contrast errors flagged on the About page remain unresolved due to my being unable to locate the origins of the errors. 
-
 * Lower Lighthouse performance scores on mobile. To improve performance, Lighthouse recommends saving images in next-gen formats and eliminating render-blocking resources. This was not implemented due to time constraints. 
 
 * Lower Lighthouse best practice score on Apply and Contact page on both desktop and mobile. To improve the best practice score, Lighthouse recommends not using third-party cookies. This is an issue I cannot resolve at the moment, third-party cookies is outside of my knowledge range at this stage in my learning journey and due to time pressures, I am unable to research this.
+ 
