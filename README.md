@@ -203,7 +203,10 @@ The favicon was generated using [Favicon.io](https://favicon.io/).
 ## Languages
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
 ## Frameworks Libraries and Programmes
+* Unsplash, FreePik and Pexels - for all the images used in the site.
+
 
 
 # Testing and Validation
