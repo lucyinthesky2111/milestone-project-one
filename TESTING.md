@@ -77,6 +77,28 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 ## 404 Error Page (Desktop) 
 <h2 align="center"><img src="assets/readme-images/lighthouse-404-desktop.png"></h2>
 
+* On mobile, results were not so good on many pages. Details can be found in [Unresolved Bugs](#unresolved).
+## Homepage (Mobile)
+<h2 align="center"><img src="assets/readme-images/lighthouse-index-mobile.png"></h2>
+
+## Course Information Page (Mobile)
+<h2 align="center"><img src="assets/readme-images/lighthouse-course-info-mobile.png"></h2>
+
+## About Page (Mobile)
+<h2 align="center"><img src="assets/readme-images/lighthouse-about-mobile.png"></h2>
+
+## Our Instructors Page (Mobile)
+<h2 align="center"><img src="assets/readme-images/lighthouse-our-instructors-mobile.png"></h2>
+
+## Apply and Contact Page (Mobile)
+<h2 align="center"><img src="assets/readme-images/lighthouse-apply-contact-mobile.png"></h2>
+
+## Thank You Page (Mobile)
+<h2 align="center"><img src="assets/readme-images/lighthouse-thank-you-mobile.png"></h2>
+
+## 404 Error Page (Mobile)
+<h2 align="center"><img src="assets/readme-images/lighthouse-404-mobile.png"></h2>
+
 # Responsiveness
 * A combination of Bootstrap and CSS media queries were used to make this website responsive. When writing media queries, I used the same breakpoints as Bootstrap. Details of these breakpoints can be found [here](https://getbootstrap.com/docs/5.0/layout/breakpoints/). Responsivity at the Bootstrap breakpoints and on different device screen sizes was tested using Google Chrome Devtools. Device screen sizes tested include:
 * iPhone SE
