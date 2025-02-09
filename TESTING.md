@@ -23,3 +23,7 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 
 
     Back to [README.md](/README.md#testing-and-validation)
+
+# Code Validation
+## W3C HTML Validator
+* Home Page
