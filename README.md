@@ -190,6 +190,14 @@ A custom 404 error page displays if the user tries to access an incorrect URL. T
    * wide enough to draw sufficient attention to the focal point without being too wide (such as 16:9 would be);
    * not to square (such as 1:1 would be).
 
+### Icons
+Icons used are from [Font Awesome](https://fontawesome.com/).
+
+### Logo
+The logo was created from a template on [Design.com](https://www.design.com/). The background of the logo was removed using [Canva](https://www.canva.com/). 
+
+### Favicons
+The favicon was generated using [Favicon.io](https://favicon.io/). 
 
 
 
