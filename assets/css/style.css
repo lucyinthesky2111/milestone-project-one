@@ -5,7 +5,7 @@
 /* CSS VARIABLES - root holds the variables (they have no where else to live) and means they apply to the whole document*/ 
 :root {
     --anti-flash-white: #f1f1f2; /* link hover colour for navbar and footer*/
-    --light-blue: #a2d6f9; /*header colour */
+    --light-blue: #a2d6f9; /*header and footer colour */
     --azure-blue: #347deb; /* footer colour */
     --light-yellow: #fcf300; /* button fill colour*/
     --darker-yellow: #ffc600; /*button hover colour*/
@@ -398,7 +398,7 @@ form {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--azure-blue);
+    background-color: var(--light-blue);
     font-family: var(--body-font);
     color: black;
     /* these 2 padding values add space above and below the icons */
@@ -418,7 +418,7 @@ i:hover {
 }
 
 .footer-text {
-    background-color: var(--azure-blue);
+    background-color: var(--light-blue);
     text-align: center;
     margin-bottom: 0;
 }
