@@ -139,6 +139,18 @@
 <h2 align="center"><img src="assets/readme-images/thank-you-wireframe.png">Thank You </h2>
 <h2 align="center"><img src="assets/readme-images/404-error-wireframe.png">404 Error </h2>
 
+# Skeleton
+## Layout
+### Information Architecure
+* The website consists of a Homepage and 3 further pages: - Course information, About, Our Instructors and Apply and Contact us.  
+* Homepage – landing page with brief descriptions of, and links to, the other pages.  
+* Course information –  divided into 2 sections – course overview and course summary. Course overview consists of images and corresponding captions for the 8 maintenance tasks taught on the course. Course summary sets out crucial information about the course in an easy-to-read table.  
+* About –  divided into 2 sections – about us and about you. About us consists of text explaining the history of the college and about you describes the target participants for the course.  
+* Our instructors – provides a photo and profile of each of the 5 instructors.
+* Apply now and contact us* - divided into 3 sections – apply, location and contact us.  apply provides a course application form for the user to complete, location provides an embedded Google map showing the College’s location and contact us provides the address, email address and phone number for Clutch Kings College. *Apply now and contact us share a page as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find each page. 
+
+### Navigation Bar 
+* The navigation bar was created with Bootstrap. 
 
 # Surface
  ## Design
