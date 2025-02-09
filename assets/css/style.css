@@ -293,6 +293,10 @@ of the screen on small screens */
     color: white;
 }
 
+.visually-hidden {
+    background-color: black;
+}
+
 /* MEET INSTRUCTORS PAGE */
 
 /*MEET INSTRUCTORS HERO IMAGE*/
