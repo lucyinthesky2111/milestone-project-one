@@ -147,7 +147,13 @@
 * Apply and Contact* - divided into 3 sections – Apply Here, Find Us and Contact Us.  Apply Here provides a course application form for the user to complete, Find Us provides an embedded Google map showing the College’s location and Contact Us provides the address, email address and phone number for Clutch Kings College. *Apply and Contact share a page as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find each page. 
 
 ### Navigation Bar 
-The
+* A responsive navigation bar is included on each page of the site, to allow the user to easily navigate between pages without having to go to back to the homepage or rely on the browser forward and back buttons. 
+* The nav bar is sticky so it is always visible at the top of the page when the user is scrolling the site.
+* The links on the nav bar are in black text which appear white when the user hovers over them.
+* The 'active' link i.e. the page the user is on, is underlined as a visual reminder.
+* The links on the nav bar appear as a horizontal list on larger screens and in a drop down menu on smaller screens.
+<h2 align="center"><img src="assets/readme-images/nav-bar-desktop.png">Nav bar on desktop </h2>
+<h2 align="center"><img src="assets/readme-images/nav-bar-mobile.png">Nav bar on mobile </h2>
 
 ### Sub-navigation Bar
 
@@ -184,8 +190,6 @@ The
 
 # Testing and Validation
 Please refer to [this file](TESTING.md) for details of the testing and validation undertaken.
-
-
 
 
 
