@@ -152,6 +152,18 @@
 ### Navigation Bar 
 * The navigation bar was created with Bootstrap. 
 
+### Sub-navigation Bar
+
+### Navigation Buttons
+
+### Call to Action Buttons
+
+### Footer 
+
+### Thank You Page
+
+### 404 Error Page
+
 # Surface
  ## Design
  ### Colour Scheme
