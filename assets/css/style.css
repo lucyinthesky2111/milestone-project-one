@@ -671,7 +671,7 @@ i:hover {
     stylesheet to override the styles applied to it by class of container-light-blue. Without this CSS, the text appears above the 
     img at the top of the div instead of inline with the img */
     .text-homepage-about-you {
-        padding-top: 54%;
+        padding-top: 88%;
     }
 
 

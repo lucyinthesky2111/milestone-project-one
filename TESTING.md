@@ -53,7 +53,39 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 ### CSS Stylesheet
 <h2 align="center"><img src="assets/readme-images/css-validation.png"></h2>
 
+# Lighthouse
+
+# Responsiveness
+* A combination of Bootstrap and CSS media queries were used to make this website responsive. When writing media queries, I used the same breakpoints as Bootstrap. Details of these breakpoints can be found [here](https://getbootstrap.com/docs/5.0/layout/breakpoints/). Responsivity at the Bootstrap breakpoints and on different device screen sizes was tested using Google Chrome Devtools. Device screen sizes tested include:
+* iPhone SE
+* iPhone XR
+* iPhone 12 Pro
+* iPhone 14 Pro Max
+* Pixel 7
+* Samsung Galaxy S8+
+* Samsung Galaxy S20 Ultra
+* iPad Mini
+* iPad Air
+* iPad Pro
+* Surface Pro 7
+* Surface Duo
+* Galaxy Z Fold 5
+* Asus Zenbook Fold
+* Samsung Galaxy A51/71
+* Nest Hub
+* Nest Hub Max
+* Galaxy Fold
+
+* I personally tested the website on a Samsung Galaxy S22 (see resolved bugs) for details and an Asus Tuf Gaming A15.
+
+
+
+
+
+
+
 
 # Bugs 
 ## Resolved
-* The Apply and Contact Page initially returned an error due to the inline styles 
+* The Apply and Contact Page initially returned an error due to the inline styles applied to the iFrame element. This was resolved by removing the inline styles and adding the styles directly to the stylesheet instead.
+<h2 align="center"><img src="assets/readme-images/error-apply-html-validation.png"></h2>
