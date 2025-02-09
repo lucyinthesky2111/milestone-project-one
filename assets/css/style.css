@@ -6,7 +6,6 @@
 :root {
     --anti-flash-white: #f1f1f2; /* link hover colour for navbar and footer*/
     --light-blue: #a2d6f9; /*header and footer colour */
-    --azure-blue: #347deb; /* footer colour */
     --light-yellow: #fcf300; /* button fill colour*/
     --darker-yellow: #ffc600; /*button hover colour*/
     --light-blue-transparent: rgba(162 214 249 / 50%); /* light blue background colour */
