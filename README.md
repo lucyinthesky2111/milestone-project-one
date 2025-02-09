@@ -166,6 +166,18 @@ The
  ### Colour Scheme
   ### Typography
    ### Imagery
+   Aspect ratios chosen for use in the site were: 
+   * 16:9 (hero images)
+   * 3:2 (other images)
+
+   16:9 - this aspect ratio was chosen for hero images as these images are designed to span the whole width of the page on all screen sizes and therefore, need to be wide. 16:9 is a very versatile aspect ratio used by lots of modern media formats and provides an immersive viewing experience.
+
+   3:2 - this aspect ratio was chosen as it suits images whic are in landscape orientation in their original state, because it makes the images wider than they are tall. 3:2 suits such images especially well as the result is images that are: 
+   * visuallly pleasing;
+   * wide enough to draw sufficient attention to the focal point without being too wide (such as 16:9 would be);
+   * not to square (such as 1:1 would be).
+
+
 
 
 
