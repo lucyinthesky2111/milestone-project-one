@@ -199,8 +199,11 @@ The logo was created from a template on [Design.com](https://www.design.com/). T
 ### Favicons
 The favicon was generated using [Favicon.io](https://favicon.io/). 
 
-
-
+# Technologies Used
+## Languages
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+## Frameworks Libraries and Programmes
 
 
 # Testing and Validation
