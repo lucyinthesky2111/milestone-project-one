@@ -129,6 +129,17 @@
 * Facility to sign up for notifications when new course dates are added.  
 * A virtual tour of the workshop.  
 
+# Structure 
+## Wireframes
+<h2 align="center"><img src="assets/readme-images/homepage-wireframe.png">Homepage (Index) </h2>
+<h2 align="center"><img src="assets/readme-images/course-info-wireframe.png">Course Information </h2>
+<h2 align="center"><img src="assets/readme-images/about-wireframe.png">About </h2>
+<h2 align="center"><img src="assets/readme-images/our-instructors-wireframe.png">Our Instructors </h2>
+<h2 align="center"><img src="assets/readme-images/apply-and-contact-wireframe.png">Apply and Contact </h2>
+<h2 align="center"><img src="assets/readme-images/thank-you-wireframe.png">Thank You </h2>
+<h2 align="center"><img src="assets/readme-images/404-error-wireframe.png">404 Error </h2>
+
+
 # Surface
  ## Design
  ### Colour Scheme
