@@ -282,6 +282,8 @@ of the screen on small screens */
 .centered-text {
         background-color: var(--light-blue-transparent)
     }
+
+/* CAROUSEL*/
 /*Makes scroll icons on the BS carousel visible*/
 .carousel-control-prev-icon {
     background-color: black;
@@ -292,7 +294,7 @@ of the screen on small screens */
     background-color: black;
     color: white;
 }
-
+/* creates colour contrast on the carousel*/
 .visually-hidden {
     background-color: black;
 }
