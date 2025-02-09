@@ -120,7 +120,7 @@ A combination of Bootstrap and CSS media queries were used to make this website 
 * Nest Hub Max
 * Galaxy Fold
 
-* I personally tested the website on a Samsung Galaxy S22 (See [Resolved Bugs](#resolved)) for details and an Asus Tuf Gaming A15.
+* I personally tested the website on a Samsung Galaxy S22 (See [Resolved Bugs](#resolved) for details) and an Asus Tuf Gaming A15 laptop.
 
 # WAVE Web Accessibility Evaluation Tools Checker
 The Clutch Kings College Basic Car Maintenance Course webpage returned no errors or contrast errors when tested using the WAVE Web Accessibility Evaluation Tools Checker. 
@@ -131,7 +131,7 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 <h2 align="center"><img src="assets/readme-images/wave-course-info.png"></h2>
 
 ## About Page 
-<h2 align="center"><img src="assets/readme-images/wave-about.png></h2>
+<h2 align="center"><img src="assets/readme-images/wave-about.png"></h2>
 
 ## Our Instructors Page 
 <h2 align="center"><img src="assets/readme-images/wave-instructors.png"></h2>
