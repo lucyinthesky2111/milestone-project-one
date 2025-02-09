@@ -164,6 +164,9 @@
 ### Footer 
 
 ### Thank You Page
+ The Thank You page is only accessible when the user successfully submits an application with all the required fields on the ‘Apply Here’ section of the Apply and Contact page. The page confirms to the user that their application has been submitted successfully and provides feedback as to when they can expect to receive a response. The page includes a handy link to the ‘Contact Us’ section that the user can use if they have any queries or amendments or additions to their application. For example, if they have made a mistake on their application, they can easily find the contact information they need to notify the college without having to scroll back through the site to find it. The page also has a button which links the user back to the homepage which they can use if they do not need to contact the college. 
+<h2 align="center"><img src="assets/readme-images/thank-you-desktop.png">Thank You Page on desktop </h2>
+<h2 align="center"><img src="assets/readme-images/thank-you-mobile.png">Thank You Page on mobile </h2>
 
 ### 404 Error Page
 
