@@ -153,7 +153,7 @@
 * The 'active' link i.e. the page the user is on, is underlined as a visual reminder.
 * The links on the nav bar appear as a horizontal list on larger screens and in a drop down menu on smaller screens.
 <h2 align="center"><img src="assets/readme-images/nav-bar-desktop.png">Nav bar on desktop </h2>
-<h2 align="center"><img src="assets/readme-images/nav-bar-mobile.png">Nav bar on mobile </h2>
+<h2 align="center"><img src="assets/readme-images/nav-bar-mobile.png">Nav bar on mobile and tablet </h2>
 
 ### Sub-navigation Bar
 
@@ -166,9 +166,12 @@
 ### Thank You Page
  The Thank You page is only accessible when the user successfully submits an application with all the required fields on the ‘Apply Here’ section of the Apply and Contact page. The page confirms to the user that their application has been submitted successfully and provides feedback as to when they can expect to receive a response. The page includes a handy link to the ‘Contact Us’ section that the user can use if they have any queries or amendments or additions to their application. For example, if they have made a mistake on their application, they can easily find the contact information they need to notify the college without having to scroll back through the site to find it. The page also has a button which links the user back to the homepage which they can use if they do not need to contact the college. 
 <h2 align="center"><img src="assets/readme-images/thank-you-desktop.png">Thank You Page on desktop </h2>
-<h2 align="center"><img src="assets/readme-images/thank-you-mobile.png">Thank You Page on mobile </h2>
+<h2 align="center"><img src="assets/readme-images/thank-you-mobile.png">Thank You Page on mobile and tablet </h2>
 
 ### 404 Error Page
+A custom 404 error page displays if the user tries to access an incorrect URL. The page features the site’s navbar and footer and a button which directs the user back to the homepage. I followed [this guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) from Github to create the page.  
+<h2 align="center"><img src="assets/readme-images/404-error-desktop.png">404 Error Page on desktop </h2>
+<h2 align="center"><img src="assets/readme-images/404-error-mobile.png">404 Error Page on mobile and tablet </h2>
 
 # Surface
  ## Design
