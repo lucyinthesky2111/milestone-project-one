@@ -292,6 +292,10 @@ of the screen on small screens */
 
 }
 
+.carousel-indicators { 
+    background-color: black;
+}
+
 /* MEET INSTRUCTORS PAGE */
 
 /*MEET INSTRUCTORS HERO IMAGE*/

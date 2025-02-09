@@ -131,19 +131,19 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 <h2 align="center"><img src="assets/readme-images/wave-course-info.png"></h2>
 
 ## About Page 
-<h2 align="center"><img src="assets/readme-images/lighthouse-about-desktop.png"></h2>
+<h2 align="center"><img src="assets/readme-images/"></h2>
 
 ## Our Instructors Page 
-<h2 align="center"><img src="assets/readme-images/lighthouse-our-instructors-desktop.png"></h2>
+<h2 align="center"><img src="assets/readme-images/wave-instructors.png"></h2>
 
 ## Apply and Contact Page
-<h2 align="center"><img src="assets/readme-images/lighthouse-apply-contact-desktop.png"></h2>
+<h2 align="center"><img src="assets/readme-images/wave-apply.png"></h2>
 
 ## Thank You Page 
-<h2 align="center"><img src="assets/readme-images/lighthouse-thank-you-desktop.png"></h2>
+<h2 align="center"><img src="assets/readme-images/wave-thank-you.png"></h2>
 
 ## 404 Error Page  
-<h2 align="center"><img src="assets/readme-images/lighthouse-404-desktop.png"></h2>
+<h2 align="center"><img src="assets/readme-images/wave-404.png"></h2>
 
 # Browser Compatibility
 The site was 
