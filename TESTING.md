@@ -55,7 +55,7 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 
 # Lighthouse
 * I ran Lighthouse reports in Google Devtools to test for :- Performance, Accessibility, Best Practices and SEO.
-* All pages performed reasonably well on desktop: 
+* All pages performed reasonably well on desktop (with some performing very well): 
 ## Homepage (Desktop)
 <h2 align="center"><img src="assets/readme-images/lighthouse-index-desktop.png"></h2>
 
@@ -175,4 +175,6 @@ When tested using the WAVE Web Accessibility Evaluation Tools Checker, the Clutc
 ## Unresolved
 * As discussed in the WAVE Web Accessibility Evaluation Tools Checker, the 2 contrast errors flagged on the About page remain unresolved due to my being unable to locate the origins of the errors. 
 
-* Best practice low score on apply page on desktop
+* Lower Lighthouse performance scores on mobile. To improve performance, Lighthouse recommends saving images in next-gen formats and eliminating render-blocking resources. This was not implemented due to time constraints. 
+
+* Lower Lighthouse best practice score on Apply and Contact page on both desktop and mobile. To improve the best practice score, Lighthouse recommends not using third-party cookies. This is an issue I cannot resolve at the moment, third-party cookies is outside of my knowledge range at this stage in my learning journey and due to time pressures, I am unable to research this.
