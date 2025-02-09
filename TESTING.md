@@ -153,6 +153,7 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 * All tasks are completed and all acceptance criteria are met for User Stories 1-7. Due to time constraints, no tasks have been attempted for User Stories 8-10.
 
 # Peer Review
+* Whilst still in progress, this project was submitted for peer review by Code Institute students and alumni on Slack. This resulted in me receiving
 
 
 # Bugs 

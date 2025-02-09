@@ -291,11 +291,6 @@ of the screen on small screens */
 .carousel-control-next-icon {
     background-color: black;
     color: white;
-
-}
-/* gives background colour to image indicator bar at bottom of carousel*/
-.carousel-indicators { 
-    background-color: black;
 }
 
 /* MEET INSTRUCTORS PAGE */
