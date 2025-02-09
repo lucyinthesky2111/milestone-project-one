@@ -54,6 +54,28 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 <h2 align="center"><img src="assets/readme-images/css-validation.png"></h2>
 
 # Lighthouse
+* I ran Lighthouse reports in Google Devtools to test for :- Performance, Accessibility, Best Practices and SEO.
+* All pages performed reasonably well on desktop: 
+## Homepage (Desktop)
+<h2 align="center"><img src="assets/readme-images/lighthouse-index-desktop.png"></h2>
+
+## Course Information Page (Desktop)
+<h2 align="center"><img src="assets/readme-images/lighthouse-course-info-desktop.png"></h2>
+
+## About Page (Desktop)
+<h2 align="center"><img src="assets/readme-images/lighthouse-about-desktop.png"></h2>
+
+## Our Instructors Page (Desktop)
+<h2 align="center"><img src="assets/readme-images/lighthouse-our-instructors-desktop.png"></h2>
+
+## Apply and Contact Page (Desktop)
+<h2 align="center"><img src="assets/readme-images/lighthouse-apply-contact-desktop.png"></h2>
+
+## Thank You Page (Desktop) 
+<h2 align="center"><img src="assets/readme-images/lighthouse-thank-you-desktop.png"></h2>
+
+## 404 Error Page (Desktop) 
+<h2 align="center"><img src="assets/readme-images/lighthouse-404-desktop.png"></h2>
 
 # Responsiveness
 * A combination of Bootstrap and CSS media queries were used to make this website responsive. When writing media queries, I used the same breakpoints as Bootstrap. Details of these breakpoints can be found [here](https://getbootstrap.com/docs/5.0/layout/breakpoints/). Responsivity at the Bootstrap breakpoints and on different device screen sizes was tested using Google Chrome Devtools. Device screen sizes tested include:
@@ -76,7 +98,7 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 * Nest Hub Max
 * Galaxy Fold
 
-* I personally tested the website on a Samsung Galaxy S22 (see resolved bugs) for details and an Asus Tuf Gaming A15.
+* I personally tested the website on a Samsung Galaxy S22 (See [Resolved Bugs](#resolved)) for details and an Asus Tuf Gaming A15.
 
 
 
@@ -89,3 +111,6 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 ## Resolved
 * The Apply and Contact Page initially returned an error due to the inline styles applied to the iFrame element. This was resolved by removing the inline styles and adding the styles directly to the stylesheet instead.
 <h2 align="center"><img src="assets/readme-images/error-apply-html-validation.png"></h2>
+
+## Unresolved
+* Best practice low score on apply page on desktop
