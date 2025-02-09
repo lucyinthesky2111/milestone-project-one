@@ -51,8 +51,8 @@
      + [Forking the GitHub Repository](#forking-the-github-repository)
      + [Making a Local Clone](#making-a-local-clone)      
 8. [Credits](#credits)
-     + [Code](#code)
      + [Content](#content)
+     + [Code](#code)
      + [Media](#media)
      + [Acknowledgments](#acknowledgments)
 9. [Developer Comments](#developer-comments)
@@ -207,13 +207,34 @@ The favicon was generated using [Favicon.io](https://favicon.io/).
 ## Frameworks Libraries and Programmes
 * Unsplash, FreePik and Pexels - for all the images used in the site.
 
-
-
 # Testing and Validation
 Please refer to [this file](TESTING.md) for details of the testing and validation undertaken.
 
+# Deployment
+## GitHub Pages
+## Forking the GitHub Repository
+## Making a Local Clone
 
+# Credits
+## Content
+All copy on the website was written by myself. I referred to:
+* [Bridgwater and Taunton College Car Maintenance Intermediate](https://www.btc.ac.uk/courses/adult-learning/automotive/car-maintenance-intermediate/) for inspiration for the course description (screenshots included as URL to site is no longer active).
+<h2 align="center"><img src="assets/readme-images/btc1.png"></h2>
+<h2 align="center"><img src="assets/readme-images/btc2.png"></h2>
 
+* [Autotech Training](https://autotechtraining.co.uk/about-us/) for inspiration for the instructor profiles.
+<h2 align="center"><img src="assets/readme-images/auto-tech-training-staff-profiles.2png.png"></h2>
+
+## Code
+## Media
+## Ackowledgments
+I would like to thank everyone who helped me in the creation of this project. In particular those who provided some much-needed encouragement when I felt like giving up, helped me with figuring out errors in my code and understanding complicated concepts. Without their help, this project would never have seen the light of day! Special thanks go to the following people :
+* My course tutor Ashley Oliver  
+* My friend and colleague Ben Tambling 
+* My friend James Newell 
+* My mentor Mitko Bachvarov
+
+# Developer Comments
 
 # Disclaimer
 
