@@ -177,6 +177,7 @@ A custom 404 error page displays if the user tries to access an incorrect URL. T
  ## Design
  ### Colour Scheme
   ### Typography
+  Poppins is used for headings and Quicksand is used for body text. These are rounded, soft fonts with a friendly, approachable appearance which fits with the tone of the website. They are clean and easy-to-read fonts. Sans serif is the fallback in case either font fails to load correctly. 
    ### Imagery
    Aspect ratios chosen for use in the site were: 
    * 16:9 (hero images)
