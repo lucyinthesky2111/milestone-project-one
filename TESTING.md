@@ -123,7 +123,7 @@ A combination of Bootstrap and CSS media queries were used to make this website 
 * I personally tested the website on a Samsung Galaxy S22 (See [Resolved Bugs](#resolved)) for details and an Asus Tuf Gaming A15.
 
 # WAVE Web Accessibility Evaluation Tools Checker
-The Clutch Kings College Basic Car Maintenance Course webpage returned no errors or contrast errors when tested using the WAVE Web Accessibility Evaluation Tools Checker.
+When tested using the WAVE Web Accessibility Evaluation Tools Checker, the Clutch Kings College Basic Car Maintenance Course webpage returned 2 contrast errors on the About page. Unfortunately, the checker does not show where the contrast errors are located, they should be shown on screen in red but are not (see relevant screenshots below). Due to time constraints, I am not able to investigate this issue further. No errors or contrast errors were returned on any other pages of the site.
 ## Homepage 
 <h2 align="center"><img src="assets/readme-images/wave-home.png"></h2>
 
@@ -131,7 +131,8 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 <h2 align="center"><img src="assets/readme-images/wave-course-info.png"></h2>
 
 ## About Page 
-<h2 align="center"><img src="assets/readme-images/"></h2>
+<h2 align="center"><img src="assets/readme-images/wave-about-contrast-error.png"></h2>
+<h2 align="center"><img src="assets/readme-images/wave-about-contrast error2.png"></h2>
 
 ## Our Instructors Page 
 <h2 align="center"><img src="assets/readme-images/wave-instructors.png"></h2>
@@ -147,13 +148,15 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 
 # Browser Compatibility
 * The site was tested and performed as expected on Google Chrome and Microsoft Edge.
-* The site was also tested on Samsung Internet, on which there were some issues (See [Resolved Bugs](#resolved) for details).
+* The site was also tested on Samsung Internet, on which there were some issues (see [Resolved Bugs](#resolved) for details).
 
 # Testing User Stories
 * All tasks are completed and all acceptance criteria are met for User Stories 1-7. Due to time constraints, no tasks have been attempted for User Stories 8-10.
 
 # Peer Review
-* Whilst still in progress, this project was submitted for peer review by Code Institute students and alumni on Slack. This resulted in me receiving
+* Whilst still in progress, this project was submitted for peer review by Code Institute students and alumni on Slack. This resulted in me receiving help with a spacing issue on the footer and with the responsiveness of the site (see [README.md Credits section](/README.md#credits) for details). I would have liked to have re-submitted the project for further feedback once it was finished but there was not enough time to do this.
+* The project was also reviewed by my mentor Mitko Bachvarov who suggested that I improve the site by styling the submit button on the application form on the Apply and Contact page to match the buttons on the rest of the site. It was also suggested that I improve the layout of the site by adding extra margins and padding where required. These changes were implemented. The navbar originally contained 2 links that went to the same page page (1 link labelled Apply and 1 labelled Contact both going to the Apply and Contact page). On my mentor's advice, the text on the links was amalgamated and one link was removed.
+* I asked a number of friends and family members to test the site for typos and to check all links worked correctly and that the external links to social media sites in the footer all opened in new tabs. No errors were reported.
 
 
 # Bugs 
@@ -161,7 +164,15 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 * The Apply and Contact Page initially returned an error due to the inline styles applied to the iFrame element. This was resolved by removing the inline styles and adding the styles directly to the stylesheet instead.
 <h2 align="center"><img src="assets/readme-images/error-apply-html-validation.png"></h2>
 
-Contrast error on scroll controls on BS carousel on About page
+* On first run of the the W3C HTML Validitor, the error shown below was flagged on several pages of the site. This was resolved by removing the button element and styling the a element as a button. All pages of the site subsequently passed validation.
+<h2 align="center"><img src="assets/readme-images/button-error.png"></h2>
+
+* I noticed that on mobile view on my personal device (Samsung Galaxy S22), the introductory text under the college and course name on the Homepage was spilling out of its containing div into the one beneath it. This issue was only occurring on this particular device, it did not happen in on mobile screen size views on Devtools. I inspected the page on Devtools and was able to ascertain that the issue was stemming from the manual height I had set on the containing div (#course-intro). Changing this value to ‘fit-content’ resolved this issue. 
+
+* I noticed that on mobile and tablet screens, there was a gap between the sections for Steve and Becky on the ‘Our Instructors’ page that was not there in large screen view. Upon inspecting the page in Dev tools, I saw that this issue was rectified by adding a margin-top value of –16px to the div with the id of Becky Ludlington. 
+
 
 ## Unresolved
+* As discussed in the WAVE Web Accessibility Evaluation Tools Checker, the 2 contrast errors flagged on the About page remain unresolved due to my being unable to locate the origins of the errors. 
+
 * Best practice low score on apply page on desktop
