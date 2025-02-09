@@ -3,7 +3,7 @@
 The Clutch Kings College Basic Car Maintenance Course website has been tested using the following methods:
 - [Code Validation](#code-validation)
     - [W3C HTML Validator](#w3c-html-validator) 
-        - [Home Page](#home-page)
+        - [Homepage](#homepage)
         - [Course Information Page](course-information-page)
         - [About Page](#about-page)
         - [Meet Instructors Page](#meet-instructors-page)
@@ -26,4 +26,15 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
 
 # Code Validation
 ## W3C HTML Validator
-* Home Page
+* The Clutch Kings College Basic Car Maintenance Course webpage returned no errors using when tested using the W3C Validator tool. There was one warning given as seen in the screenshots about sections not having a heading. This was not changed as the sections do not need headings and adding these is only a recommendation not an requirement.
+### Homepage
+<h2 align="center"><img src="assets/readme-images/index-html-validation.png"></h2>
+
+### Course Infomation Page
+<h2 align="center"><img src="assets/readme-images/course-info-html-validation.png"></h2>
+
+### About Page
+<h2 align="center"><img src="assets/readme-images/about-html-validation.png"></h2>
+
+### Our Instructors Page
+<h2 align="center"><img src="assets/readme-images/our-instructors-html-validation.png"></h2>
