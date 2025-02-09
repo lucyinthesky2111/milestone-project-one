@@ -155,7 +155,7 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 # Peer Review
 * Whilst still in progress, this project was submitted for peer review by Code Institute students and alumni on Slack. This resulted in me receiving help with a spacing issue on the footer and with the responsiveness of the site (see [README.md Credits section](/README.md#credits) for details). I would have liked to have re-submitted the project for further feedback once it was finished but there was not enough time to do this.
 * The project was also reviewed by my mentor Mitko Bachvarov who suggested that I improve the site by styling the submit button on the application form on the Apply and Contact page to match the buttons on the rest of the site. It was also suggested that I improve the layout of the site by adding extra margins and padding where required. These changes were implemented. The navbar originally contained 2 links that went to the same page page (1 link labelled Apply and 1 labelled Contact both going to the Apply and Contact page). On my mentor's advice, the text on the links was amalgamated and one link was removed.
-* I asked a number of friends and family members to test the site for typos and to check all links worked correctly and that the external links to social media sites in the footer all opened in new tabs. No errors were reported.
+* I asked a number of friends and family members to test the site for typos, to check the application form validates and directs to the thank you page, to check all links work correctly and that the external links to social media sites in the footer all open in new tabs. No errors were reported.
 
 
 # Bugs 
