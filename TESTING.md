@@ -146,7 +146,8 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 <h2 align="center"><img src="assets/readme-images/wave-404.png"></h2>
 
 # Browser Compatibility
-The site was 
+* The site was tested and performed as expected on Google Chrome and Microsoft Edge.
+* The site was also tested on Samsung Internet, on which there were some issues (See [Resolved Bugs](#resolved) for details).
 
 
 

@@ -291,7 +291,7 @@ of the screen on small screens */
     background-color: black;
 
 }
-
+/* gives background colour to image indicator bar at bottom of carousel*/
 .carousel-indicators { 
     background-color: black;
 }
