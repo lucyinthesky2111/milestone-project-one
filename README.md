@@ -196,6 +196,9 @@ A custom 404 error page displays if the user tries to access an incorrect URL. T
 # Surface
  ## Design
  ### Colour Scheme
+ The colour scheme was designed using [Coolors](https://coolors.co/). All colour combinations were tested for accessibility using [WevAim: Contrast Checker](https://webaim.org/resources/contrastchecker/). The main colours used on the site are light blue, azure blue and white, which are used in alternating patterns. the buttons on the site are yellow to ensure they stand out from the rest of the content. This simple, minimal colour scheme was chosesn to ensure the site contains enough colour to be visually interesting without being distracting. Black is used for the font colour.
+<h2 align="center"><img src="assets/readme-images/colours.png"></h2>
+
   ### Typography
   Poppins is used for headings and Quicksand is used for body text. These are rounded, soft fonts with a friendly, approachable appearance which fits with the tone of the website. They are clean and easy-to-read fonts. Sans serif is the fallback in case either font fails to load correctly. 
    ### Imagery
