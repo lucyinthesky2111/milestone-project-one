@@ -59,7 +59,7 @@
 
   
 # Introduction
-* Clutch Kings College is a fictional training provider for the automotive industry. This site focuses specifically on marketing and gathering sign-ups for their Basic Car Maintenance Course. 
+* Clutch Kings College is a fictional training provider for the automotive industry. This site focuses specifically on marketing, and gathering sign-ups for their Basic Car Maintenance Course. 
 
 * This is my first milestone project for the Code Institute Level 5 Diploma in Web Application Development.
 
@@ -78,8 +78,8 @@
   * To increase sign-ups for the course.  
 
   ### Site Manager Goals
-  * For the HTML and CSS code to be clear, logical and contain explanatory comments in order to ensure the site is easy to update and maintain. 
-  * For images to be downloaded to site manager's computer, not hosted by an external site to ensure images are always available for the user.  
+  * For the HTML and CSS code to be clear, logical, and contain explanatory comments in order to ensure the site is easy to update and maintain. 
+  * For images to be downloaded to site manager's computer, not hosted by an external site, to ensure images are always available for the user.  
 
   ### User Stories
   These can be found in my GitHub [project board](https://github.com/users/lucyinthesky2111/projects/7) for this repository.
@@ -87,14 +87,14 @@
   ### User Goals
   ### Must Have
   * To find pertinent details about the course (i.e. when and where it is run, how much it costs and what the entry requirements are) to ascertain whether there are any barriers to attending the course (user story 2).
-  * To find a breakdown of the course contents in order to assess whether it meets their needs and requirements. (user story 2).
-  * To find contact details for the course provider through a variety of different contact methods. (user story 3).
+  * To find a breakdown of the course contents, in order to assess whether it meets their needs and requirements. (user story 2).
+  * To find contact details for the course provider, through a variety of different contact methods. (user story 3).
   * To see the course provider’s location on an embedded map. (user story 4). 
   * To be able to apply for the course quickly and easily online. (user story 5). 
-  * To receive acknowledgment that their online application has been received, to include feedback on when they can expect a response. (user story 5).
+  * To receive acknowledgment that their online application has been received, which includes feedback on when they can expect a response. (user story 5).
 
   ### Should Have
-  * To find photos and profiles for the course instructors. (user story 6).
+  * To find photos and profiles of the course instructors. (user story 6).
   * To find information about the course provider. (user story 7).
 
   ### Could Have
@@ -120,7 +120,7 @@
 * Details about the course contents and the course provider.
 
 ## Future Additions
-* Pages for other courses run by Clutch Kings College such as the Level 1 Diploma in Light Vehicle Maintenance which was mentioned in this site. 
+* Pages for other courses run by Clutch Kings College, such as the Level 1 Diploma in Light Vehicle Maintenance, which was mentioned in this site. 
 * Testimonials from current and former students. 
 * Facility to sign up for notifications when new course dates are added.  
 * A virtual tour of the workshop.  
@@ -143,7 +143,7 @@
 * Course Information –  divided into 2 sections – Course Overview and Course Summary. Course Overview consists of images and corresponding captions for the 8 maintenance tasks taught on the course. Course Summary sets out crucial information about the course in an easy-to-read table.  
 * About –  divided into 2 sections – About Us and About You. About Us consists of text explaining the history of the college and about you describes the target participants for the course.  
 * Our Instructors – provides a photo and profile of each of the 5 instructors.
-* Apply and Contact* - divided into 3 sections – Apply Here, Find Us and Contact Us.  Apply Here provides a course application form for the user to complete, Find Us provides an embedded Google map showing the College’s location and Contact Us provides the address, email address and phone number for Clutch Kings College. *Apply and Contact share a page as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find each page. 
+* Apply and Contact* - divided into 3 sections – Apply Here, Find Us and Contact Us.  Apply Here provides a course application form for the user to complete, Find Us provides an embedded Google map showing the College’s location, and Contact Us provides the address, email address, and phone number for Clutch Kings College. *Apply and Contact share a page, as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find each page. 
 
 ### Navigation Bar 
 * A responsive navigation bar is included on each page of the site, to allow the user to easily navigate between pages without having to go to back to the homepage or rely on the browser forward and back buttons. 
