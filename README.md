@@ -210,6 +210,10 @@ A custom 404 error page displays if the user tries to access an incorrect URL. T
    * wide enough to draw sufficient attention to the focal point without being too wide (such as 16:9 would be);
    * not too square (such as 1:1 would be).
 
+   On the ‘About’ section of the homepage, on small and tablet screens, the Clutch Kings College logo appears with a border around it. This border is hidden on large screens as it becomes slightly distorted. The purpose of the border was also to make the logo appear in line with the other images on the page, when they are stacked on top of each other. I felt that this border was not needed on larger screens, where the images all move to the left of the page.
+   <h2 align="center"><img src="assets/readme-images/logo-mobile.png">Logo (Mobile)</h2>
+   <h2 align="center"><img src="assets/readme-images/logo-desktop.png">Logo (Desktop)</h2>
+
 ### Icons
 Icons used are from [Font Awesome](https://fontawesome.com/).
 
