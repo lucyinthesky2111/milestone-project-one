@@ -254,6 +254,8 @@ All copy on the website was written by myself. I referred to:
   * use of directional arrows on buttons
   * sub-navigation bar under main navigation bar on ‘shared’ pages and pages with a considerable amount of content.
 
+* [Isabella Mitchell Row Gallery](https://github.com/Isabella-Mitchell/milestone-project-one) and [Deeksha Varma Oh Nuts! Donuts](https://github.com/deeksha-varma/portfolio_project_1) - for inspiration for the structure and content of the README.md file.
+ 
 ## Code
 ## Media
 ## Acknowledgments
