@@ -29,8 +29,7 @@
           + [Information Architecture](#infomation-architecture)
             + [Navigation Bar](#navigation-bar)
             + [Sub-navigation Bar](#sub-navigation-bar)
-            + [Navigation Buttons](#navigation-buttons)
-            + [Call to Action Buttons](#call-to-action-buttons)
+            + [Buttons](#buttons)
             + [Footer](#footer)
             + [Thank You Page](#thank-you)
             + [404 Error Page](#404-error-page)
@@ -157,9 +156,15 @@
 
 ### Sub-navigation Bar
 
-### Navigation Buttons
-
-### Call to Action Buttons
+### Buttons
+* Buttons are used throughout the site.
+* The buttons are consistent in style and colour across the site. They are light yellow which changes to dark yellow when clicked. The text colour remains legible when the button is clicked.
+* Navigation buttons are used to link to other pages. These buttons feature a 'directional arrow' pointing to the right, to indicate to the user that clicking the button will direct them to another page.
+* 'Back to top' buttons are also included at the bottom of each page, to save the user having to manually scroll back to the top of the page, or rely on features built in to the browser. These buttons feature a 'directional arrow' pointing upwards as a visual cue for the user.
+* Several pages also feature a 'call to action' buttons, which links the user to the application form.
+<h2 align="center"><img src="assets/readme-images/navigation-button.png">Navigation Button</h2>
+<h2 align="center"><img src="assets/readme-images/back-to-top-button.png">Back to top Button</h2>
+<h2 align="center"><img src="assets/readme-images/call-to-action-button.png">Call to action Button</h2>
 
 ### Footer 
 
