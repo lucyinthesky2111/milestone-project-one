@@ -31,7 +31,7 @@
             + [Sub-navigation Bar](#sub-navigation-bar)
             + [Buttons](#buttons)
             + [Footer](#footer)
-            + [Thank You Page](#thank-you)
+            + [Thank You Page](#thank-you-page)
             + [404 Error Page](#404-error-page)
    * [Surface](#surface)
         + [Design](#design)
