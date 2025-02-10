@@ -155,6 +155,16 @@
 <h2 align="center"><img src="assets/readme-images/nav-bar-mobile.png">Nav bar on mobile and tablet </h2>
 
 ### Sub-navigation Bar
+* The Our Instructors, and Apply and Contact pages, both feature sub-navigation bars. 
+* The sub-navigation bars feature links to locations within the same page. The links use IDs to allow users to quickly navigate to a specific area on a page.
+* To stop pages becoming cluttered, sub-navigation bars have only been added to pages which either contain a considerable amount of content, or are divided into 3 or more sections.
+* There is no sub-navigation bar on the Homepage, as this is simply a landing page which provides a brief introduction to the course and then links out to other pages via clickable buttons.
+* Sub-navigation links have been added to the Apply and Contact page, as this page contains 3 sections (Apply Here, Find Us, and Contact us). The sub-navigation links allow the user to quickly jump from one section to another.
+* Sub-navigation links have been added to the Our Instructors page, as this page contains sections for 5 instructors, and features a considerable amount of content. The sub-navigation links allow the user to quickly jump from one instructor profile to another.
+* The sub-navigation links are underlined to indicate to the user that they are clickable links.
+* The subnavigation links are in black text and appear purple once visited.
+<h2 align="center"><img src="assets/readme-images/instructors-subnavbar-mobile.png">our Instructors sub-nav bar (Mobile)</h2>
+<h2 align="center"><img src="assets/readme-images/instructors-subnavbar-desktop.png">our Instructors sub-nav bar (Desktop)</h2>
 
 ### Buttons
 * Buttons are used throughout the site.
