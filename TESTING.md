@@ -152,8 +152,9 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 # Peer Review
 * Whilst still in progress, this project was submitted for peer review by Code Institute students and alumni on Slack. This resulted in me receiving help with a spacing issue on the footer and with the responsiveness of the site (see [README.md Credits section](/README.md#credits) for details). I would have liked to have re-submitted the project for further feedback once it was finished but there was not enough time to do this.
 * The project was also reviewed by my mentor Mitko Bachvarov who suggested that I improve the site by styling the submit button on the application form on the Apply and Contact page to match the buttons on the rest of the site. It was also suggested that I improve the layout of the site by adding extra margins and padding where required. These changes were implemented. The navbar originally contained 2 links that went to the same page (1 link labelled Apply and 1 labelled Contact both going to the Apply and Contact page). On my mentor's advice, the text on the links was amalgamated and one link was removed.
-* I asked a number of friends and family members to test the site for typos, to check the application form validates and directs to the thank you page, to check all links work correctly and that the external links to social media sites in the footer all open in new tabs. No errors were reported.
-
+* I asked a number of friends and family members to test the site for typos, to check the application form validates and directs to the thank you page, to check all links work correctly and that the external links to social media sites in the footer all open in new tabs. Some minor typos were reported and subsequently corrected. No errors with links or form validation were reported.
+* I also asked ChatGPT to proof-read each page of the site. It suggested a few minor re-writes to make the copy more concise, which were implemented. It also suggested adding a friendly line to the ‘Contact Us’ section on the Apply and Contact page, inviting users to contact the college. As a result, the text shown under 'Contact Us' was added:
+<h2 align="center"><img src="assets/readme-images/contact-us -text.png"></h2>
 
 # Bugs 
 ## Resolved
@@ -163,7 +164,7 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 * On first run of the the W3C HTML Validitor, the error shown below was flagged on all pages of the site. This was resolved by removing the button element and styling the a element as a button. All pages of the site subsequently passed validation.
 <h2 align="center"><img src="assets/readme-images/button-error.png"></h2>
 
-* I noticed that on mobile view on my personal device (Samsung Galaxy S22), the introductory text under the college and course name on the Homepage was spilling out of its containing div into the one beneath it. This issue was only occurring on this particular device, it did not happen in mobile screen size views on Devtools. I inspected the page on Devtools and was able to ascertain that the issue was stemming from the manual height I had set on the containing div (#course-intro). Changing this value to ‘fit-content’ resolved this issue. 
+* I noticed that on mobile view on my personal device (Samsung Galaxy S22), the introductory text under the college and course name on the Homepage was spilling out of its containing div into the one beneath it. This issue was only occurring on this particular device, it did not happen igit n mobile screen size views on Devtools. I inspected the page on Devtools and was able to ascertain that the issue was stemming from the manual height I had set on the containing div (#course-intro). Changing this value to ‘fit-content’ resolved this issue. 
 
 * I noticed that on mobile and tablet screens, there was a gap between the sections for Steve and Becky on the ‘Our Instructors’ page that was not there in large screen view. Upon inspecting the page in Dev tools, I saw that this issue was rectified by adding a margin-top value of –16px to the div with the id of Becky Ludlington. 
 
