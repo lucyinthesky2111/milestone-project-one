@@ -177,6 +177,11 @@
 <h2 align="center"><img src="assets/readme-images/call-to-action-button.png">Call to action Button</h2>
 
 ### Footer 
+* Each page features a footer which contains a copyright statement, and icons linking to social media pages.
+* All the social media links open in a new tab.
+* The footer is not sticky so it does not restrict the user's view of the bottom of the screen when scrolling. 
+<h2 align="center"><img src="assets/readme-images/footer-mobile.png">Footer (Mobile)</h2>
+<h2 align="center"><img src="assets/readme-images/footer-desktop.png">Footer (Desktop)</h2>
 
 ### Thank You Page
  The Thank You page is only accessible when the user successfully submits an application with all the required fields on the ‘Apply Here’ section of the Apply and Contact page. The page confirms to the user that their application has been submitted successfully and provides feedback as to when they can expect to receive a response. The page includes a handy link to the ‘Contact Us’ section that the user can use if they have any queries or amendments or additions to their application. For example, if they have made a mistake on their application, they can easily find the contact information they need to notify the college without having to scroll back through the site to find it. The page also has a button which links the user back to the homepage which they can use if they do not need to contact the college. 
