@@ -21,9 +21,6 @@ The Clutch Kings College Basic Car Maintenance Course website has been tested us
     - [Resolved](#resolved)
     - [Unresolved](#unresolved)
 
-
-    Back to [README.md](/README.md#testing-and-validation)
-
 # Code Validation
 ## W3C HTML Validator
 The Clutch Kings College Basic Car Maintenance Course webpage returned no errors when tested using the W3C HTML Validator tool. There was one warning given as shown in the screenshots, about sections not having a heading. This was not changed as the sections do not need headings and adding these is only a recommendation not a requirement.
@@ -175,4 +172,5 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 * Lower Lighthouse performance scores on mobile. To improve performance, Lighthouse recommends saving images in next-gen formats and eliminating render-blocking resources. This was not implemented due to time constraints. 
 
 * Lower Lighthouse best practice score on Apply and Contact page on both desktop and mobile. To improve the best practice score, Lighthouse recommends not using third-party cookies. This is an issue I cannot resolve at the moment, third-party cookies is outside of my knowledge range at this stage in my learning journey and due to time pressures, I am unable to research this.
- 
+
+Back to [README.md](/README.md#testing-and-validation)

@@ -249,13 +249,19 @@ All copy on the website was written by myself. I referred to:
 * [Autotech Training](https://autotechtraining.co.uk/about-us/) for inspiration for the instructor profiles.
 <h2 align="center"><img src="assets/readme-images/auto-tech-training-staff-profiles.2png.png"></h2>
 
+* [Isabella Mitchell Row Gallery website](https://isabella-mitchell.github.io/milestone-project-one/) – inspiration for the layout of the website. The main sources of inspiration from Row Gallery were the:
+  * homepage layout
+  * use of directional arrows on buttons
+  * sub-navigation bar under main navigation bar on ‘shared’ pages and pages with a considerable amount of content.
+
 ## Code
 ## Media
-## Ackowledgments
+## Acknowledgments
 I would like to thank everyone who helped me in the creation of this project. In particular those who provided some much-needed encouragement when I felt like giving up, helped me with figuring out errors in my code and understanding complicated concepts. Without their help, this project would never have seen the light of day! Special thanks go to the following people :
 * My course tutor Ashley Oliver  
 * My friend and colleague Ben Tambling 
 * My friend James Newell 
+* My sister Meg Kidner
 * My mentor Mitko Bachvarov
 
 # Developer Comments
