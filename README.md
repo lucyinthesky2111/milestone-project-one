@@ -296,24 +296,27 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 # Credits
 ## Content
 All copy on the website was written by myself. I referred to:
-* [Bridgwater and Taunton College Car Maintenance Intermediate](https://www.btc.ac.uk/courses/adult-learning/automotive/car-maintenance-intermediate/) for inspiration for the course description (screenshots included as URL to site is no longer active).
+* [Bridgwater and Taunton College Car Maintenance Intermediate](https://www.btc.ac.uk/courses/adult-learning/automotive/car-maintenance-intermediate/) - for inspiration for the course description, font choice and site colour scheme.
 <h2 align="center"><img src="assets/readme-images/btc1.png"></h2>
 <h2 align="center"><img src="assets/readme-images/btc2.png"></h2>
 
-* [Autotech Training](https://autotechtraining.co.uk/about-us/) for inspiration for the instructor profiles.
+ * [Weston College Level 1 Motor Vehicle, IMI Diploma](https://www.weston.ac.uk/what-can-i-study/courses-16-18-year-olds/automotive/motor-vehicle-imi-diploma-0) - for inspiration for the course description, font choice and site colour scheme.
+ <h2 align="center"><img src="assets/readme-images/weston-college.png"></h2>
+
+* [Autotech Training](https://autotechtraining.co.uk/about-us/) - for inspiration for the instructor profiles, font choice and site colour scheme.
 <h2 align="center"><img src="assets/readme-images/auto-tech-training-staff-profiles.2png.png"></h2>
 
 * [Isabella Mitchell Row Gallery website](https://isabella-mitchell.github.io/milestone-project-one/) – inspiration for the layout of the website. The main sources of inspiration from Row Gallery were the:
-  * homepage layout
-  * use of directional arrows on buttons
+  * homepage layout;
+  * use of directional arrows on buttons;
   * sub-navigation bar under main navigation bar on ‘shared’ pages and pages with a considerable amount of content.
 
-* [Isabella Mitchell Row Gallery](https://github.com/Isabella-Mitchell/milestone-project-one) and [Deeksha Varma Oh Nuts! Donuts](https://github.com/deeksha-varma/portfolio_project_1) - for inspiration for the structure and content of the README.md file.
+* [Isabella Mitchell Row Gallery](https://github.com/Isabella-Mitchell/milestone-project-one) and [Deeksha Varma Oh Nuts! Donuts](https://github.com/deeksha-varma/portfolio_project_1) - for inspiration for the structure and content of the README.md and TESTING.md files.
  
 ## Code
 
 ## Acknowledgments
-I would like to thank everyone who helped me in the creation of this project. In particular those who provided some much-needed encouragement when I felt like giving up, helped me with figuring out errors in my code and understanding complicated concepts. Without their help, this project would never have seen the light of day! Special thanks go to the following people :
+I would like to thank everyone who helped me in the creation of this project. In particular those who provided some much-needed encouragement when I felt like giving up, proof-read my site, helped me with figuring out errors in my code, and helped me understand complicated concepts. Without their help, this project would never have seen the light of day! Special thanks go to the following people :
 * My course tutor Ashley Oliver  
 * My friend and colleague Ben Tambling 
 * My friend James Newell 
