@@ -213,7 +213,11 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
 <h2 align="center"><img src="assets/readme-images/colours.png"></h2>
 
   ### Typography
-  Poppins is used for headings and Quicksand is used for body text. These are rounded, soft fonts with a friendly, approachable appearance which fits with the tone of the website. They are clean and easy-to-read fonts. Sans serif is the fallback in case either font fails to load correctly. 
+  * When researching automotive course websites, I noticed that rounded fonts were commonly used (see Credits Content section for details).
+  * Poppins is used for headings and Quicksand is used for body text as they are clean and easy-to-read fonts. 
+  * They are rounded, soft fonts with a friendly, approachable appearance which fits with the tone of the website.  
+  * Sans serif is the fallback in case either font fails to load correctly. 
+
    ### Imagery
    Aspect ratios chosen for use in the site were: 
    * 16:9 (hero images)
@@ -221,12 +225,12 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
 
    16:9 - this aspect ratio was chosen for hero images as these images are designed to span the whole width of the page on all screen sizes and therefore, need to be wide. 16:9 is a very versatile aspect ratio used by lots of modern media formats and provides an immersive viewing experience.
 
-   3:2 - this aspect ratio was chosen as it suits images whic are in landscape orientation in their original state, because it makes the images wider than they are tall. 3:2 suits such images especially well as the result is images that are: 
+   3:2 - this aspect ratio was chosen as it suits images which are in landscape orientation in their original state, because it makes the images wider than they are tall. 3:2 suits such images especially well as the result is images that are: 
    * visuallly pleasing;
    * wide enough to draw sufficient attention to the focal point without being too wide (such as 16:9 would be);
    * not too square (such as 1:1 would be).
 
-   On the ‘About’ section of the homepage, on small and tablet screens, the Clutch Kings College logo appears with a border around it. This border is hidden on large screens as it becomes slightly distorted. The purpose of the border was also to make the logo appear in line with the other images on the page, when they are stacked on top of each other. I felt that this border was not needed on larger screens, where the images all move to the left of the page.
+   On the ‘About’ section of the homepage, on small and tablet screens, the Clutch Kings College logo appears with a border around it. This border is hidden on large screens as it becomes slightly distorted. The purpose of the border was also to make the logo appear in line with the other images on the page, when they are centered in the middle of the screen and stacked on top of each other. I felt that this border was not needed on larger screens, where the images all move to the left of the page.
    <h2 align="center"><img src="assets/readme-images/logo-mobile.png">Logo (Mobile)</h2>
    <h2 align="center"><img src="assets/readme-images/logo-desktop.png">Logo (Desktop)</h2>
 
@@ -234,10 +238,12 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
 Icons used are from [Font Awesome](https://fontawesome.com/).
 
 ### Logo
-The logo was created from a template on [Design.com](https://www.design.com/). The background of the logo was removed using [Canva](https://www.canva.com/). 
+* The logo was created from a template on [Design.com](https://www.design.com/). The background of the logo was removed using [Canva](https://www.canva.com/). 
+* For convenience, clicking the logo on the navbar will always take the user back to the Homepage.
 
 ### Favicons
-The favicon was generated using [Favicon.io](https://favicon.io/). 
+* The favicon was generated using [Favicon.io](https://favicon.io/). 
+* The favicon is the Clutch Kings College logo.
 
 # Technologies Used
 ## Languages
@@ -245,7 +251,7 @@ The favicon was generated using [Favicon.io](https://favicon.io/).
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Frameworks Libraries and Programmes
-* Unsplash, FreePik and Pexels - for all the images used in the site.
+* U
 
 # Testing and Validation
 Please refer to [this file](TESTING.md) for details of the testing and validation undertaken.
@@ -273,7 +279,7 @@ All copy on the website was written by myself. I referred to:
 * [Isabella Mitchell Row Gallery](https://github.com/Isabella-Mitchell/milestone-project-one) and [Deeksha Varma Oh Nuts! Donuts](https://github.com/deeksha-varma/portfolio_project_1) - for inspiration for the structure and content of the README.md file.
  
 ## Code
-## Media
+
 ## Acknowledgments
 I would like to thank everyone who helped me in the creation of this project. In particular those who provided some much-needed encouragement when I felt like giving up, helped me with figuring out errors in my code and understanding complicated concepts. Without their help, this project would never have seen the light of day! Special thanks go to the following people :
 * My course tutor Ashley Oliver  
