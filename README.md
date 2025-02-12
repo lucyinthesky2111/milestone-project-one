@@ -128,6 +128,7 @@ This is because these features contain vital information the user needs in order
 I was able to successfully implement all of the initial stage features.
 
 ## Future Additions
+I decided that the following features would be nice to have but were not essential for a ‘minimum viable product’.  Therefore, these features have not been implemented at this stage.
 * Pages for other courses run by Clutch Kings College, such as the Level 1 Diploma in Light Vehicle Maintenance, which was mentioned in this site. 
 * Testimonials from current and former students. 
 * Facility to sign up for notifications when new course dates are added.  
@@ -146,7 +147,7 @@ I was able to successfully implement all of the initial stage features.
 # Skeleton
 ## Layout
 ### Information Architecure
-* The website consists of a Homepage and 3 further pages: - Course Information, About, Our Instructors and Apply and Contact.  
+* The website consists of a Homepage and 4 further pages: - Course Information, About, Our Instructors and Apply and Contact.  
 * Homepage – landing page with brief descriptions of, and links to, the other pages.  
 * Course Information –  divided into 2 sections – Course Overview and Course Summary. Course Overview consists of images and corresponding captions for the 8 maintenance tasks taught on the course. Course Summary sets out crucial information about the course in an easy-to-read table.  
 * About –  divided into 2 sections – About Us and About You. About Us consists of text explaining the history of the college and about you describes the target participants for the course.  
@@ -154,9 +155,9 @@ I was able to successfully implement all of the initial stage features.
 * Apply and Contact* - divided into 3 sections – Apply Here, Find Us and Contact Us.  Apply Here provides a course application form for the user to complete, Find Us provides an embedded Google map showing the College’s location, and Contact Us provides the address, email address, and phone number for Clutch Kings College. *Apply and Contact share a page, as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find each page. 
 
 ### Navigation Bar 
-* A responsive navigation bar is included on each page of the site, to allow the user to easily navigate between pages without having to go to back to the homepage or rely on the browser forward and back buttons. 
+* A responsive navigation bar is included on each page of the site, to allow the user to easily navigate between pages without having to go back to the homepage or rely on the browser forward and back buttons. 
 * The nav bar is sticky so it is always visible at the top of the page when the user is scrolling the site.
-* The links on the nav bar are in black text which appear white when the user hovers over them.
+* The links on the nav bar are in black text which appear white when the user hovers over them to maintain readability and accessibility.
 * The 'active' link i.e. the page the user is on, is underlined as a visual reminder.
 * The links on the nav bar appear as a horizontal list on larger screens and in a drop down menu on smaller screens.
 <h2 align="center"><img src="assets/readme-images/nav-bar-desktop.png">Nav bar on desktop </h2>
@@ -170,16 +171,16 @@ I was able to successfully implement all of the initial stage features.
 * Sub-navigation links have been added to the Apply and Contact page, as this page contains 3 sections (Apply Here, Find Us, and Contact us). The sub-navigation links allow the user to quickly jump from one section to another.
 * Sub-navigation links have been added to the Our Instructors page, as this page contains sections for 5 instructors, and features a considerable amount of content. The sub-navigation links allow the user to quickly jump from one instructor profile to another.
 * The sub-navigation links are underlined to indicate to the user that they are clickable links.
-* The subnavigation links are in black text and appear purple once visited.
-<h2 align="center"><img src="assets/readme-images/instructors-subnavbar-mobile.png">our Instructors sub-nav bar (Mobile)</h2>
-<h2 align="center"><img src="assets/readme-images/instructors-subnavbar-desktop.png">our Instructors sub-nav bar (Desktop)</h2>
+* The subnavigation links are in black text and appear purple once visited to maintain readability and accessibility.
+<h2 align="center"><img src="assets/readme-images/instructors-subnavbar-mobile.png">Our Instructors sub-nav bar (Mobile)</h2>
+<h2 align="center"><img src="assets/readme-images/instructors-subnavbar-desktop.png">Our Instructors sub-nav bar (Desktop)</h2>
 
 ### Buttons
 * Buttons are used throughout the site.
 * The buttons are consistent in style and colour across the site. They are light yellow which changes to dark yellow when clicked. The text colour remains legible when the button is clicked.
 * Navigation buttons are used to link to other pages. These buttons feature a 'directional arrow' pointing to the right, to indicate to the user that clicking the button will direct them to another page.
 * 'Back to top' buttons are also included at the bottom of each page, to save the user having to manually scroll back to the top of the page, or rely on features built in to the browser. These buttons feature a 'directional arrow' pointing upwards as a visual cue for the user.
-* Several pages also feature a 'call to action' buttons, which links the user to the application form.
+* Several pages also feature a 'call to action' button, which links the user to the application form to make it as quick and easy to apply for the course as possible.
 <h2 align="center"><img src="assets/readme-images/navigation-button.png">Navigation Button</h2>
 <h2 align="center"><img src="assets/readme-images/back-to-top-button.png">Back to top Button</h2>
 <h2 align="center"><img src="assets/readme-images/call-to-action-button.png">Call to action Button</h2>
@@ -188,16 +189,20 @@ I was able to successfully implement all of the initial stage features.
 * Each page features a footer which contains a copyright statement, and icons linking to social media pages.
 * All the social media links open in a new tab.
 * The footer is not sticky so it does not restrict the user's view of the bottom of the screen when scrolling. 
+* The icons and text are black with an appropriate hover colour of white to maintain readability and accessibility.
 <h2 align="center"><img src="assets/readme-images/footer-mobile.png">Footer (Mobile)</h2>
 <h2 align="center"><img src="assets/readme-images/footer-desktop.png">Footer (Desktop)</h2>
 
 ### Thank You Page
- The Thank You page is only accessible when the user successfully submits an application with all the required fields on the ‘Apply Here’ section of the Apply and Contact page. The page confirms to the user that their application has been submitted successfully and provides feedback as to when they can expect to receive a response. The page includes a handy link to the ‘Contact Us’ section that the user can use if they have any queries or amendments or additions to their application. For example, if they have made a mistake on their application, they can easily find the contact information they need to notify the college without having to scroll back through the site to find it. The page also has a button which links the user back to the homepage which they can use if they do not need to contact the college. 
+  * The Thank You page is only accessible when the user successfully submits an application with all the required fields on the ‘Apply Here’ section of the Apply and Contact page. 
+  * The page confirms to the user that their application has been submitted successfully and provides feedback as to when they can expect to receive a response.
+  * The page includes a handy link to the ‘Contact Us’ section that the user can use if they have any queries, or amendments or additions to their application. For example, if they have made a mistake on their application, they can easily find the contact information they need to notify the college without having to scroll back through the site to find it. 
+  * The page also has a button which links the user back to the homepage, which they can use if they do not need to contact the college. 
 <h2 align="center"><img src="assets/readme-images/thank-you-desktop.png">Thank You Page on desktop </h2>
 <h2 align="center"><img src="assets/readme-images/thank-you-mobile.png">Thank You Page on mobile and tablet </h2>
 
 ### 404 Error Page
-A custom 404 error page displays if the user tries to access an incorrect URL. The page features the site’s navbar and footer and a button which directs the user back to the homepage. I followed [this guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) from Github to create the page.  
+A custom 404 error page displays if the user tries to access an incorrect URL within the site. The page features the site’s navbar and footer and a button which directs the user back to the homepage. I followed [this guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) from Github to create the page.  
 <h2 align="center"><img src="assets/readme-images/404-error-desktop.png">404 Error Page on desktop </h2>
 <h2 align="center"><img src="assets/readme-images/404-error-mobile.png">404 Error Page on mobile and tablet </h2>
 
