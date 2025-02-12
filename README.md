@@ -287,6 +287,11 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 * You will now have a copy of the original repository in your GitHub account.
 
 ## Making a Local Clone
+* Log in to GitHub and navigate to the required repository.
+* Click on the ‘Code’ button at the top of the repository and copy the URL. 
+* Open Git Bash in your IDE of choice and change the working directory to the location where you want the cloned directory.
+* Type git clone, then paste the URL you copied earlier.
+* Press enter. Your local clone will be created.
 
 # Credits
 ## Content
