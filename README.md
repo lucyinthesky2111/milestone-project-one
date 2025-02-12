@@ -209,8 +209,18 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
 # Surface
  ## Design
  ### Colour Scheme
- The colour scheme was designed using [Coolors](https://coolors.co/). All colour combinations were tested for accessibility using [WevAim: Contrast Checker](https://webaim.org/resources/contrastchecker/). The main colours used on the site are light blue, azure blue and white, which are used in alternating patterns. the buttons on the site are yellow to ensure they stand out from the rest of the content. This simple, minimal colour scheme was chosesn to ensure the site contains enough colour to be visually interesting without being distracting. Black is used for the font colour.
-<h2 align="center"><img src="assets/readme-images/colours.png"></h2>
+ * The colour scheme was designed using [Coolors](https://coolors.co/).
+ * All colour combinations were tested for accessibility using [WevAim: Contrast Checker](https://webaim.org/resources/contrastchecker/). 
+ * The background colours used in the site are light blue (uranian blue), azure blue and white. 
+ * Blue and white were selected as the main colours for the site as these colours were commonly used in the automotive course websites I researched and took inspiration from (see Credits Content section for details).
+ * This simple, minimal colour scheme was chosen to ensure the site contains enough colour to be visually interesting without being distracting.
+ * Alpha values are applied to the blues when they are used as background colours for different sections of the site. 
+ * Light blue is used as the background colour for the nav bar and footer.
+ * The buttons on the site are yellow to ensure they stand out from the rest of the content. The buttons are light yellow when unclicked and become dark yellow when clicked. 
+ * Black is used as the font colour, except for the placeholder text in the application form which is blue to make it stand out. 
+ * The black font is contrasted with anti-flash white as the hover colour, and Persian indigo as the visited colour, to ensure readability and accessibility.
+<h2 align="center"><img src="assets/readme-images/colours.png">Background colour palette </h2>
+<h2 align="center"><img src="assets/readme-images/font-colours.png">Font colour palette </h2>
 
   ### Typography
   * When researching automotive course websites, I noticed that rounded fonts were commonly used (see Credits Content section for details).
