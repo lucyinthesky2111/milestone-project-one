@@ -231,6 +231,6 @@ All user expectations and requirements have been satisified (evidenced by lookin
 ## Unresolved
 * Lower Lighthouse performance scores on mobile. To improve performance, Lighthouse recommends saving images in next-gen formats and eliminating render-blocking resources. This was not implemented due to time constraints. 
 
-* Lower Lighthouse best practice score on Apply and Contact page on both desktop and mobile. To improve the best practice score, Lighthouse recommends not using third-party cookies. This is an issue I cannot resolve at the moment, third-party cookies is outside of my knowledge range at this stage in my learning journey, and due to time pressures, I was unable to research this before the project deadlinea.
+* Lower Lighthouse best practice score on Apply and Contact page on both desktop and mobile. To improve the best practice score, Lighthouse recommends not using third-party cookies. This is an issue I cannot resolve at the moment, third-party cookies is outside of my knowledge range at this stage in my learning journey, and due to time pressures, I was unable to research this before the project deadline.
 
 Back to [README.md](/README.md#testing-and-validation)
