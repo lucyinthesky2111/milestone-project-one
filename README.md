@@ -314,6 +314,29 @@ All copy on the website was written by myself. I referred to:
 * [Isabella Mitchell Row Gallery](https://github.com/Isabella-Mitchell/milestone-project-one) and [Deeksha Varma Oh Nuts! Donuts](https://github.com/deeksha-varma/portfolio_project_1) - for inspiration for the structure and content of the README.md and TESTING.md files.
  
 ## Code
+* [Code Institute Love Running walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3) :-
+  - for the code for the social media links in the footer. 
+  - for the code for the general styles used to push the footer to the bottom of the page. 
+  - for help writing media queries.
+
+  * [Coding Yaar YouTube Video ‘Bootstrap Navbar Hover Effect (color change)’](https://www.youtube.com/watch?v=JH8bWipPcHg) - for the code to add hover colour change functionality on the Bootstrap navbar.  
+
+  * [Code with Ania Kubow You/tube video ‘12HR+ YouTube Coding Bootcamp!’](https://www.youtube.com/watch?v=Xm4BObh4MhI) - for code to add and style buttons and help with understanding flexbox. 
+  
+  * [Freecodecamp –Learn HTML forms by building a registration form module](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-forms-by-building-a-registration-form) – for help creating an HTML form for the application form on the Apply and Contact page. 
+
+  * [OnlineITuts Tutorials YouTube video – How to embed Google Map in HTML using iFrame](https://www.youtube.com/watch?v=ZbBaOKyqlUA) – for help embedding the Google map to show the college’s location on the Apply and Contact page. 
+
+  * [Slaying The Dragon  YouTube Video– Master media queries and responsive CSS web design like a chameleon](https://www.youtube.com/watch?v=K24lUqcT0Ms) – for help writing the media queries. 
+  
+  * [Viola_Hackteam_Alumni (via Slack)](https://slack.com/intl/en-gb) - for the CSS code to remove a gap underneath the footer.
+  <h2 align="center"><img src="assets/readme-images/viola-slack.jpg"></h2>
+
+   * [ChrisU_alumni (via Slack)](https://slack.com/intl/en-gb) - for the CSS starter code to make the homepage responsive as per the wireframe design.
+  <h2 align="center"><img src="assets/readme-images/chris-u-slack.jpg"></h2>
+  <h2 align="center"><img src="assets/readme-images/chris-u-slack-2.png"></h2>
+  <h2 align="center"><img src="assets/readme-images/chris-u-slack-3.png"></h2>
+  <h2 align="center"><img src="assets/readme-images/chris-u-slack-4.png"></h2>
 
 ## Acknowledgments
 I would like to thank everyone who helped me in the creation of this project. In particular those who provided some much-needed encouragement when I felt like giving up, proof-read my site, helped me with figuring out errors in my code, and helped me understand complicated concepts. Without their help, this project would never have seen the light of day! Special thanks go to the following people :
