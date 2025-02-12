@@ -82,7 +82,7 @@
 
   ### Site Manager Goals
   * For the HTML and CSS code to be clear, logical, and contain explanatory comments in order to ensure the site is easy to update and maintain. 
-  * For images to be downloaded to site manager's computer, not hosted by an external site, to ensure images are always available for the user.  
+  * For images to be downloaded to the site manager's computer, not hosted by an external site, to ensure images are always available for the user.  
 
   ### User Stories
   These can be found in my GitHub [project board](https://github.com/users/lucyinthesky2111/projects/7) for this repository.
@@ -106,7 +106,7 @@
   * To sign-up to receive email notifications when new course dates are added. (user story 10).
 
 ### User Expectations and Requirements
-* (all user story 1) (must-have) 
+* All user story 1 (must-have) 
 * To find the website easy to access and navigate on any screen size. 
 * For the site to be fully accessible. 
 * For the site to be engaging and visually appealing, including high quality images with succinct but adequate descriptions. 
@@ -117,6 +117,7 @@
 
 # Scope
 ## Initial Stage Features
+I decided that the following features were all 'must-haves.
 * Interactive embedded map showing the college's location.
 * Instructor photos and profiles.
 * Validated application form.
@@ -273,6 +274,17 @@ I would like to thank everyone who helped me in the creation of this project. In
 * My mentor Mitko Bachvarov
 
 # Developer Comments
+In the creation of this project, I used a combination of Bootstrap code, and custom HTML and CSS. The reason for this was to allow me to deepen my understanding, ensuring I wasn’t overly reliant on any single tool.
+
+When I began this course, my knowledge of web development was minimal, and I had never attempted to create a website before. Along the way, I had to familiarise myself with various new concepts and processes  - such as wireframes, UX design, and markdown - which was both a time-consuming and enjoyable learning experience.
+
+Building this project presented a steep learning curve and required countless hours of effort. Nevertheless, the process has been incredibly valuable, not only in expanding my technical skills but also in refining my working practices and mindset. These lessons will undoubtedly benefit me in future projects.
+
+While the final project is not perfect, I’m proud of it as my first attempt. I’m confident that with everything I’ve learned, my speed and the quality of my work will continue to improve in subsequent projects.
+
+I am excited to further develop my skills and create higher-quality content moving forward.
+
+Overall, I found creating this project to be challenging but also, very enjoyable and rewarding.
 
 # Disclaimer
 
