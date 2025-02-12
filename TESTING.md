@@ -178,7 +178,10 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 
   * To be able to apply for the course quickly and easily online. (user story 5). 
      * The Apply and Contact Us page 'Apply Here' section contains a fully validated application form.
-     <h2 align="center"><img src="assets/readme-images/application-form.png"></h2>
+     * All fields in the form are required.
+     * When inputting their age, the form provides the user with a warning that the minimum age is 16. This is in accordance with the entry requirements set out in the table in the ‘Course Summary’ section of the Course Overview page.
+
+     <h2 align="center"><img src="assets/readme-images/form-age.png"></h2>
 
   * To receive acknowledgment that their online application has been received, which includes feedback on when they can expect a response. (user story 5).
     * Upon submitting an application with all required fields completed, the user is directed to a 'Thank You' page which explains that they can expect a response with 3-5 working days.

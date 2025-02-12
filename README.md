@@ -117,11 +117,15 @@
 
 # Scope
 ## Initial Stage Features
-I decided that the following features were all 'must-haves.
+I decided that the following features were all ‘must haves’ or ‘should haves’ (refer to the user stories for details) at the initial stage to ensure a ‘minimum viable product’. 
 * Interactive embedded map showing the college's location.
 * Instructor photos and profiles.
 * Validated application form.
 * Details about the course contents and the course provider.
+
+This is because these features contain vital information the user needs in order to: 1) Decide whether they wish to, and are able to, apply for the course. 2) Apply for the course and/or contact the college.
+      
+I was able to successfully implement all of the initial stage features.
 
 ## Future Additions
 * Pages for other courses run by Clutch Kings College, such as the Level 1 Diploma in Light Vehicle Maintenance, which was mentioned in this site. 
