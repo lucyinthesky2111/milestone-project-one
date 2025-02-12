@@ -277,9 +277,15 @@ This site was deployed to GitHub pages. The steps to deploy a site are as follow
 * Select ‘main’ and ‘root’ under branch and click save.
 * The page will automatically refresh and a link to the deployed site will appear under ‘Deployments’ on the right-hand side of the page.
 
-
-
 ## Forking the GitHub Repository
+* Log in to GitHub and navigate to the required repository.
+* Navigate to the right-hand side of the page and click ‘Fork’. This is located in-line with your repository name underneath the nav bar. 
+* Give the forked repository a name of your choosing.
+* Amend the repository description if required.
+* Tick ‘Copy the main branch only'.
+*	Click the ‘Create fork’ button.
+* You will now have a copy of the original repository in your GitHub account.
+
 ## Making a Local Clone
 
 # Credits
