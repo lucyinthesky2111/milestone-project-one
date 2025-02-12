@@ -268,6 +268,17 @@ Please refer to [this file](TESTING.md) for details of the testing and validatio
 
 # Deployment
 ## GitHub Pages
+This site was deployed to GitHub pages. The steps to deploy a site are as follows:
+
+* Log in to GitHub and navigate to the required repository.
+* Navigate to the ‘Settings’ tab on the navbar at the top of the page.
+* Navigate to ‘Pages’ on the menu on the left-hand side of the page.
+*	Navigate to ‘Build and deployment’ and select ‘Deploy from a branch’ from the dropdown menu under source.
+* Select ‘main’ and ‘root’ under branch and click save.
+* The page will automatically refresh and a link to the deployed site will appear under ‘Deployments’ on the right-hand side of the page.
+
+
+
 ## Forking the GitHub Repository
 ## Making a Local Clone
 
