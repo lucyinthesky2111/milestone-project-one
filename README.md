@@ -261,7 +261,36 @@ Icons used are from [Font Awesome](https://fontawesome.com/).
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Frameworks Libraries and Programmes
-* U
+ ### Creation
+  * [Bootstrap version 5.3.3](https://getbootstrap.com/) - was used to create the responsive nav bar that appears on all pages, and the image carousel which appears on the site’s About page. I also used the breakpoints defined by Bootstrap when writing CSS media queries. 
+  * [GitPod](https://www.gitpod.io/) – was the initial code editor used.
+  * [Visual Studio Code](https://code.visualstudio.com/) – was the code editor used for the remainder of the project. I changed code editors due to Code Institute’s migration from GitPod to VS Code. 
+  *	[Git](https://git-scm.com/) – was used for version control.
+  * [GitHub](https://github.com/) – was used to create and store the project repository and create the user stories project board.
+  *	[Google Fonts](https://fonts.google.com/) – was used to choose and import the fonts used in the site.
+  * [Font Awesome](https://fontawesome.com/) – was used to choose and import the icons used in the site. 
+  * [Canva](https://www.canva.com/) – was used to create the wireframes. 
+  * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) – was used while building the project to test responsiveness, and for debugging.
+
+  ### Testing
+  * [W3C HTML Validator](https://validator.w3.org/) – was used to validate the HTML.
+  *	[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) – was used to validate the CSS.
+  *	[WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) – was used to test the site for accessibility.
+  * [Google Chrome Developer Tools (Lighthouse feature)](https://developer.chrome.com/docs/lighthouse/overview) - was used to test the site for Performance, Accessibility, Best Practices and SEO.
+
+  ### Imagery
+  * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Freepik](https://www.freepik.com/) – were used to source all the images used in the site. 
+  * [Tinify](https://tinypng.com/) – was used to optimise all images.
+  * [Design](https://www.design.com/) – the Clutch Kings College was customised from a template on Design.
+  * [Canva](https://www.canva.com/) – was used to remove the background from the logo, and to crop all images to the desired aspect ratio.
+  * [Aspect ratio calculator](https://aspectratiocalculator.com/) – was used to pick appropriate aspect ratios for all images used in the site.
+  * [Favicon.io](https://favicon.io/) – was used to the site’s favicon.
+  * [Techsini](https://techsini.com/multi-mockup/) – was used to generate a mockup of the homepage on various screen sizes.
+  * [Coolors](https://coolors.co/) – was used to generate the site’s colour scheme.
+  *	[WebAIM contrast checker](https://webaim.org/resources/contrastchecker/) – was used to test all colour combinations for accessibility.
+
+ ### Miscellaneous 
+ * [ChatGPT](https://openai.com/index/chatgpt/) – was used to generate the college’s name and for proof-reading. 
 
 # Testing and Validation
 Please refer to [this file](TESTING.md) for details of the testing and validation undertaken.
@@ -328,6 +357,8 @@ All copy on the website was written by myself. I referred to:
   * [OnlineITuts Tutorials YouTube video – How to embed Google Map in HTML using iFrame](https://www.youtube.com/watch?v=ZbBaOKyqlUA) – for help embedding the Google map to show the college’s location on the Apply and Contact page. 
 
   * [Slaying The Dragon  YouTube Video– Master media queries and responsive CSS web design like a chameleon](https://www.youtube.com/watch?v=K24lUqcT0Ms) – for help writing the media queries. 
+
+  * [Flexbox Froggy](https://flexboxfroggy.com/) – was used for help understanding CSS Flexbox.
   
   * [Viola_Hackteam_Alumni (via Slack)](https://slack.com/intl/en-gb) - for the CSS code to remove a gap underneath the footer.
   <h2 align="center"><img src="assets/readme-images/viola-slack.jpg"></h2>
