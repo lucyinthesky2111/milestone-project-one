@@ -184,7 +184,7 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
      <h2 align="center"><img src="assets/readme-images/form-age.png"></h2>
 
   * To receive acknowledgment that their online application has been received, which includes feedback on when they can expect a response. (user story 5).
-    * Upon submitting an application with all required fields completed, the user is directed to a 'Thank You' page which explains that they can expect a response with 3-5 working days.
+    * Upon submitting an application with all required fields completed, the user is directed to a 'Thank You' page which explains that they can expect a response within 3-5 working days.
     <h2 align="center"><img src="assets/readme-images/thank-you-mobile.png"></h2>
 
  ### Should Have
