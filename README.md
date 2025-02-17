@@ -376,7 +376,7 @@ All copy on the website was written by myself. I referred to:
   <h2 align="center"><img src="assets/readme-images/chris-u-slack-4.png"></h2>
 
 ## Acknowledgments
-I would like to thank everyone who helped me in the creation of this project. In particular those who provided some much-needed encouragement when I felt like giving up, proof-read my site, helped me with figuring out errors in my code, and helped me understand complicated concepts. Without their help, this project would never have seen the light of day! Special thanks go to the following people :
+I would like to thank everyone who helped me in the creation of this project. In particular those who provided some much-needed encouragement when I felt like giving up, proof-read my site, helped me with figuring out errors in my code, and helped me understand complicated concepts. Without their help, this project would never have seen the light of day! Special thanks go to the following people:
 * My course tutor Ashley Oliver  
 * My friend and colleague Ben Tambling 
 * My friend James Newell 
