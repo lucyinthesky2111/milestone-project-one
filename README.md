@@ -117,7 +117,8 @@
 
 # Scope
 ## Initial Stage Features
-I decided that the following features were all ‘must haves’ or ‘should haves’ (refer to the user stories for details) at the initial stage to ensure a ‘minimum viable product’. 
+
+I decided that the following features were all ‘must haves’ or ‘should haves’ (refer to the [user stories](https://github.com/users/lucyinthesky2111/projects/7) for details) at the initial stage to ensure a ‘minimum viable product’. 
 * Interactive embedded map showing the college's location.
 * Instructor photos and profiles.
 * Validated application form.
@@ -131,7 +132,7 @@ I was able to successfully implement all of the initial stage features.
 I decided that the following features would be nice to have but were not essential for a ‘minimum viable product’.  Therefore, these features have not been implemented at this stage.
 * Pages for other courses run by Clutch Kings College, such as the Level 1 Diploma in Light Vehicle Maintenance, which was mentioned in this site. 
 * Testimonials from current and former students. 
-* Facility to sign up for notifications when new course dates are added.  
+* Facility to sign up for email notifications when new course dates are added.  
 * A virtual tour of the workshop.  
 
 # Structure 
@@ -146,13 +147,13 @@ I decided that the following features would be nice to have but were not essenti
 
 # Skeleton
 ## Layout
-### Information Architecure
+### Information Architecture
 * The website consists of a Homepage and 4 further pages: - Course Information, About, Our Instructors and Apply and Contact.  
 * Homepage – landing page with brief descriptions of, and links to, the other pages.  
-* Course Information –  divided into 2 sections – Course Overview and Course Summary. Course Overview consists of images and corresponding captions for the 8 maintenance tasks taught on the course. Course Summary sets out crucial information about the course in an easy-to-read table.  
-* About –  divided into 2 sections – About Us and About You. About Us consists of text explaining the history of the college and about you describes the target participants for the course.  
+* Course Information –  divided into 2 sections – Course Overview and Course Summary. Course Overview consists of images and corresponding captions for the 8 maintenance tasks taught on the course. Course Summary sets out crucial information about the course in an easy to read table.  
+* About –  divided into 2 sections – About Us and About You. About Us consists of text explaining the history of the college and About You describes the target participants for the course.  
 * Our Instructors – provides a photo and profile of each of the 5 instructors.
-* Apply and Contact* - divided into 3 sections – Apply Here, Find Us and Contact Us.  Apply Here provides a course application form for the user to complete, Find Us provides an embedded Google map showing the College’s location, and Contact Us provides the address, email address, and phone number for Clutch Kings College. *Apply and Contact share a page, as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find each page. 
+* Apply and Contact* - divided into 3 sections – Apply Here, Find Us and Contact Us.  Apply Here provides a course application form for the user to complete, Find Us provides an embedded Google map showing the College’s location, and Contact Us provides the address, email address, and phone number for Clutch Kings College. *Apply and Contact share a page, as I felt that there was not enough content here to justify splitting them into two pages. Having two pages would unnecessarily increase the amount of clicks the user would have to make to find the required information. 
 
 ### Navigation Bar 
 * A responsive navigation bar is included on each page of the site, to allow the user to easily navigate between pages without having to go back to the homepage or rely on the browser forward and back buttons. 
@@ -171,13 +172,14 @@ I decided that the following features would be nice to have but were not essenti
 * Sub-navigation links have been added to the Apply and Contact page, as this page contains 3 sections (Apply Here, Find Us, and Contact us). The sub-navigation links allow the user to quickly jump from one section to another.
 * Sub-navigation links have been added to the Our Instructors page, as this page contains sections for 5 instructors, and features a considerable amount of content. The sub-navigation links allow the user to quickly jump from one instructor profile to another.
 * The sub-navigation links are underlined to indicate to the user that they are clickable links.
-* The subnavigation links are in black text and appear purple once visited to maintain readability and accessibility.
+* The sub-navigation links are in black text and appear purple once hovered over, to maintain readability and accessibility.
 <h2 align="center"><img src="assets/readme-images/instructors-subnavbar-mobile.png">Our Instructors sub-nav bar (Mobile)</h2>
 <h2 align="center"><img src="assets/readme-images/instructors-subnavbar-desktop.png">Our Instructors sub-nav bar (Desktop)</h2>
 
 ### Buttons
 * Buttons are used throughout the site.
-* The buttons are consistent in style and colour across the site. They are light yellow which changes to dark yellow when clicked. The text colour remains legible when the button is clicked.
+* The buttons are consistent in style and colour across the site. They are light yellow which changes to dark yellow when clicked. 
+* The text colour changes from black to purple when the button is clicked. The text remains legible when the button is clicked.
 * Navigation buttons are used to link to other pages. These buttons feature a 'directional arrow' pointing to the right, to indicate to the user that clicking the button will direct them to another page.
 * 'Back to top' buttons are also included at the bottom of each page, to save the user having to manually scroll back to the top of the page, or rely on features built in to the browser. These buttons feature a 'directional arrow' pointing upwards as a visual cue for the user.
 * Several pages also feature a 'call to action' button, which links the user to the application form to make it as quick and easy to apply for the course as possible.
@@ -202,7 +204,7 @@ I decided that the following features would be nice to have but were not essenti
 <h2 align="center"><img src="assets/readme-images/thank-you-mobile.png">Thank You Page on mobile and tablet </h2>
 
 ### 404 Error Page
-A custom 404 error page displays if the user tries to access an incorrect URL within the site. The page features the site’s navbar and footer and a button which directs the user back to the homepage. I followed [this guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) from Github to create the page.  
+A custom 404 error page displays if the user tries to access an incorrect URL within the site. The page features the site’s navbar and footer, and a button which directs the user back to the homepage. I followed [this guidance](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site) from Github to create the page.  
 <h2 align="center"><img src="assets/readme-images/404-error-desktop.png">404 Error Page on desktop </h2>
 <h2 align="center"><img src="assets/readme-images/404-error-mobile.png">404 Error Page on mobile and tablet </h2>
 
@@ -210,20 +212,20 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
  ## Design
  ### Colour Scheme
  * The colour scheme was designed using [Coolors](https://coolors.co/).
- * All colour combinations were tested for accessibility using [WevAim: Contrast Checker](https://webaim.org/resources/contrastchecker/). 
+ * All colour combinations were tested for accessibility using [WebAim: Contrast Checker](https://webaim.org/resources/contrastchecker/). 
  * The background colours used in the site are light blue (uranian blue), azure blue and white. 
  * Blue and white were selected as the main colours for the site as these colours were commonly used in the automotive course websites I researched and took inspiration from (see Credits Content section for details).
  * This simple, minimal colour scheme was chosen to ensure the site contains enough colour to be visually interesting without being distracting.
  * Alpha values are applied to the blues when they are used as background colours for different sections of the site. 
  * Light blue is used as the background colour for the nav bar and footer.
  * The buttons on the site are yellow to ensure they stand out from the rest of the content. The buttons are light yellow when unclicked and become dark yellow when clicked. 
- * Black is used as the font colour, except for the placeholder text in the application form which is blue to make it stand out. 
- * The black font is contrasted with anti-flash white as the hover colour, and Persian indigo as the visited colour, to ensure readability and accessibility.
+ * Black is used as the font colour, except for the placeholder text on the application form which is blue to make it stand out. 
+ * The black font is contrasted with either anti-flash white (icons and navbar), or Persian indigo (buttons and sub-nav bar links) as the hover colour, to ensure readability and accessibility.
 <h2 align="center"><img src="assets/readme-images/colours.png">Background colour palette </h2>
 <h2 align="center"><img src="assets/readme-images/font-colours.png">Font colour palette </h2>
 
   ### Typography
-  * When researching automotive course websites, I noticed that rounded fonts were commonly used (see Credits Content section for details).
+  * When researching automotive course websites, I noticed that rounded fonts were commonly used (see [Credits Content section](#content) for details).
   * Poppins is used for headings and Quicksand is used for body text as they are clean and easy-to-read fonts. 
   * They are rounded, soft fonts with a friendly, approachable appearance which fits with the tone of the website.  
   * Sans serif is the fallback in case either font fails to load correctly. 
@@ -247,7 +249,9 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
    <h2 align="center"><img src="assets/readme-images/logo-desktop.png">Logo (Desktop)</h2>
 
 ### Icons
-Icons used are from [Font Awesome](https://fontawesome.com/).
+* Icons used are from [Font Awesome](https://fontawesome.com/).
+* Icons are used on the footer to indicate links to social media pages.
+* Icons are also used on the Course Overview section of the Course Information page, to complement images and text captions which describe each task taught on the course.
 
 ### Logo
 * The logo was created from a template on [Design.com](https://www.design.com/). The background of the logo was removed using [Canva](https://www.canva.com/). 
@@ -264,7 +268,7 @@ Icons used are from [Font Awesome](https://fontawesome.com/).
 
 ## Frameworks Libraries and Programmes
  ### Creation
-  * [Bootstrap version 5.3.3](https://getbootstrap.com/) - was used to create the responsive nav bar that appears on all pages, and the image carousel which appears on the site’s About page. I also used the breakpoints defined by Bootstrap when writing CSS media queries. 
+  * [Bootstrap version 5.3.3](https://getbootstrap.com/) - was used to create the responsive nav bar that appears on all pages, and the image carousel which appears on the site’s About page. I also used the [breakpoints defined by Bootstrap](https://getbootstrap.com/docs/5.0/layout/breakpoints/) when writing CSS media queries. 
   * [GitPod](https://www.gitpod.io/) – was the initial code editor used.
   * [Visual Studio Code](https://code.visualstudio.com/) – was the code editor used for the remainder of the project. I changed code editors due to Code Institute’s migration from GitPod to VS Code. 
   *	[Git](https://git-scm.com/) – was used for version control.
@@ -283,10 +287,10 @@ Icons used are from [Font Awesome](https://fontawesome.com/).
   ### Imagery
   * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Freepik](https://www.freepik.com/) – were used to source all the images used in the site. 
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
-  * [Design](https://www.design.com/) – the Clutch Kings College was customised from a template on Design.
+  * [Design](https://www.design.com/) – the Clutch Kings College logo was customised from a template on Design.
   * [Canva](https://www.canva.com/) – was used to remove the background from the logo, and to crop all images to the desired aspect ratio.
   * [Aspect ratio calculator](https://aspectratiocalculator.com/) – was used to pick appropriate aspect ratios for all images used in the site.
-  * [Favicon.io](https://favicon.io/) – was used to the site’s favicon.
+  * [Favicon.io](https://favicon.io/) – was used to generate the site’s favicon.
   * [Techsini](https://techsini.com/multi-mockup/) – was used to generate a mockup of the homepage on various screen sizes.
   * [Coolors](https://coolors.co/) – was used to generate the site’s colour scheme.
   *	[WebAIM contrast checker](https://webaim.org/resources/contrastchecker/) – was used to test all colour combinations for accessibility.
@@ -337,7 +341,7 @@ All copy on the website was written by myself. I referred to:
 * [Autotech Training](https://autotechtraining.co.uk/about-us/) - for inspiration for the instructor profiles, font choice and site colour scheme.
 <h2 align="center"><img src="assets/readme-images/auto-tech-training-staff-profiles.2png.png"></h2>
 
-* [Isabella Mitchell Row Gallery website](https://isabella-mitchell.github.io/milestone-project-one/) – inspiration for the layout of the website. The main sources of inspiration from Row Gallery were the:
+* [Isabella Mitchell Row Gallery website](https://isabella-mitchell.github.io/milestone-project-one/) – For inspiration for the layout of the website. The main sources of inspiration from Row Gallery were the:
   * homepage layout;
   * use of directional arrows on buttons;
   * sub-navigation bar under main navigation bar on ‘shared’ pages and pages with a considerable amount of content.
@@ -350,7 +354,7 @@ All copy on the website was written by myself. I referred to:
   - for the code for the general styles used to push the footer to the bottom of the page. 
   - for help writing media queries.
 
-  * [Coding Yaar YouTube Video ‘Bootstrap Navbar Hover Effect (color change)’](https://www.youtube.com/watch?v=JH8bWipPcHg) - for the code to add hover colour change functionality on the Bootstrap navbar.  
+  * [Coding Yaar YouTube Video ‘Bootstrap Navbar Hover Effect (color change)’](https://www.youtube.com/watch?v=JH8bWipPcHg) - for the code to add hover effect (colour change functionality) on the Bootstrap navbar.  
 
   * [Code with Ania Kubow You/tube video ‘12HR+ YouTube Coding Bootcamp!’](https://www.youtube.com/watch?v=Xm4BObh4MhI) - for code to add and style buttons and help with understanding flexbox. 
   
