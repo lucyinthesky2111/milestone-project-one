@@ -485,6 +485,7 @@ i:hover {
         display: flex;
         justify-content: space-evenly;
     }
+}
 
     /* BS breakpoint large screens and up */
     /* GENERAL STYLES ON LARGE SCREENS */
@@ -519,6 +520,17 @@ i:hover {
         }
 
     /* BACK TO TOP BUTTONS AT THE END OF EACH PAGE */
+
+    .center-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .back-to-top-single-button {
+        display: flex;
+        justify-content: center;  
+    }
+    
     .back-to-top-buttons {
     padding-top: 5%;
     display: flex;
@@ -528,15 +540,15 @@ i:hover {
     /* HOMEPAGE */
     .homepage-menu-images {
         height: auto;
-        width: 70%;
-        padding-left: 5%;
+        width: 40%;
+        padding-left: 15px;
     }
 
     /* Enlarges the logo on the card section on the homepage */
     .homepage-logo {
         height: auto;
-        width: 70%;
-        padding-left: 5%;
+        width: 40%;
+        padding-left: 15px;
         /* Border removed on larger screens otherwise border edge sticks to side of screen */
         border: none;
     } 
@@ -547,14 +559,12 @@ i:hover {
         text-align: center;
         display: flex;
         align-items: center;
-        justify-content: space-around;
     }
 
     .container-azure-blue {
         text-align: center;
         display: flex;
         align-items: center;
-        justify-content: space-around;
     }
 
     .container-light-blue {
@@ -667,9 +677,9 @@ i:hover {
  /* The padding stops the images on this section from sticking to sides of screen. Had to apply margin 0 to get padding to apply */
  .course-overview-about-you-images {
     height: auto;
-    width: 70%;
+    width: 40%;
     margin: 0;
-    padding-left: 10%;
+    padding-left: 15px;
     
 }
 
@@ -686,9 +696,18 @@ i:hover {
     stylesheet to override the styles applied to it by class of container-light-blue. Without this CSS, the text appears above the 
     img at the top of the div instead of inline with the img */
     .text-homepage-about-you {
-        padding-top: 88%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
     }
+}
 
-
+    @media (min-width: 1200px) {
+    .text-homepage-about-you {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;     
 }
 }

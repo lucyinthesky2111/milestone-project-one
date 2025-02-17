@@ -91,10 +91,10 @@
   ### Must Have
   * To find pertinent details about the course (i.e. when and where it is run, how much it costs and what the entry requirements are) to ascertain whether there are any barriers to attending the course (user story 2).
   * To find a breakdown of the course contents, in order to assess whether it meets their needs and requirements. (user story 2).
-  * To find contact details for the course provider, through a variety of different contact methods. (user story 3).
+  * To find ways to contact the course provider, through a variety of different methods. (user story 3).
   * To see the course provider’s location on an embedded map. (user story 4). 
   * To be able to apply for the course quickly and easily online. (user story 5). 
-  * To receive acknowledgment that their online application has been received, which includes feedback on when they can expect a response. (user story 5).
+  * To receive acknowledgment that their online application has been received, which includes feedback as to when they can expect a response. (user story 5).
 
   ### Should Have
   * To find photos and profiles of the course instructors. (user story 6).
@@ -229,6 +229,7 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
   * Sans serif is the fallback in case either font fails to load correctly. 
 
    ### Imagery
+   ### Aspect Ratios
    Aspect ratios chosen for use in the site were: 
    * 16:9 (hero images)
    * 3:2 (other images)
@@ -240,6 +241,7 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
    * wide enough to draw sufficient attention to the focal point without being too wide (such as 16:9 would be);
    * not too square (such as 1:1 would be).
 
+  ### Image Styling
    On the ‘About’ section of the homepage, on small and tablet screens, the Clutch Kings College logo appears with a border around it. This border is hidden on large screens as it becomes slightly distorted. The purpose of the border was also to make the logo appear in line with the other images on the page, when they are centered in the middle of the screen and stacked on top of each other. I felt that this border was not needed on larger screens, where the images all move to the left of the page.
    <h2 align="center"><img src="assets/readme-images/logo-mobile.png">Logo (Mobile)</h2>
    <h2 align="center"><img src="assets/readme-images/logo-desktop.png">Logo (Desktop)</h2>
