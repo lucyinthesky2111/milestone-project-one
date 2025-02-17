@@ -201,7 +201,7 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
     <h2 align="center"><img src="assets/readme-images/carousel-bio.png"></h2>
 
  ### Could Have
-  * Due to time constraitnts, none of the features relating to the 'could have' user goals have been implemented.
+  * Due to time constraints, none of the features relating to the 'could have' user goals have been implemented.
 
 # Testing User Expectations and Requirements
 All user expectations and requirements have been satisified (evidenced by looking at the deployed site as a whole).
