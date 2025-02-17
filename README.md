@@ -214,7 +214,7 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
  * The colour scheme was designed using [Coolors](https://coolors.co/).
  * All colour combinations were tested for accessibility using [WebAim: Contrast Checker](https://webaim.org/resources/contrastchecker/). 
  * The background colours used in the site are light blue (uranian blue), azure blue and white. 
- * Blue and white were selected as the main colours for the site as these colours were commonly used in the automotive course websites I researched and took inspiration from (see Credits Content section for details).
+ * Blue and white were selected as the main colours for the site as these colours were commonly used in the automotive course websites I researched and took inspiration from (see [Credits Content section](#content) for details).
  * This simple, minimal colour scheme was chosen to ensure the site contains enough colour to be visually interesting without being distracting.
  * Alpha values are applied to the blues when they are used as background colours for different sections of the site. 
  * Light blue is used as the background colour for the nav bar and footer.
