@@ -165,11 +165,10 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
     * As the tasks on this course are basic, I felt that the images and captions sufficiently described them for the user, without the need for any additional explanatory text. 
      <h2 align="center"><img src="assets/readme-images/course-contents.png"></h2>
 
-  * To find contact details for the course provider, through a variety of different contact methods. (user story 3).
+  * To find ways to contact the course provider, through a variety of different methods. (user story 3).
     * The Apply and Contact page contains a 'Contact Us' section which provides details needed to contact the college by post, telephone, or email.
     * The footer (which appears on all pages), also contains links to the college's social media accounts, through which the user could also contact them.
     <h2 align="center"><img src="assets/readme-images/contact-us-text.png"></h2>
-    <h2 align="center"><img src="assets/readme-images/footer-mobile.png"></h2>
     <h2 align="center"><img src="assets/readme-images/footer-mobile.png"></h2>
 
   * To see the course provider’s location on an embedded map. (user story 4). 
@@ -183,7 +182,7 @@ The Clutch Kings College Basic Car Maintenance Course webpage returned no errors
 
      <h2 align="center"><img src="assets/readme-images/form-age.png"></h2>
 
-  * To receive acknowledgment that their online application has been received, which includes feedback on when they can expect a response. (user story 5).
+  * To receive acknowledgment that their online application has been received, which includes feedback as to when they can expect a response. (user story 5).
     * Upon submitting an application with all required fields completed, the user is directed to a 'Thank You' page which explains that they can expect a response within 3-5 working days.
     <h2 align="center"><img src="assets/readme-images/thank-you-mobile.png"></h2>
 
