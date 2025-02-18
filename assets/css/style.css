@@ -375,6 +375,16 @@ iframe {
     font-size: 20px;
 }
 
+.buttons-homepage {
+    height: 50px;
+    width: 300px; 
+}
+
+.align-button {
+    display: flex;
+    justify-content: center;
+}
+
 .submit-button:hover {
     background-color: var(--darker-yellow);  
 }
