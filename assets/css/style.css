@@ -373,6 +373,9 @@ iframe {
     font-weight: bold;
     text-decoration: none;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttons-homepage {
@@ -389,6 +392,10 @@ iframe {
     background-color: var(--darker-yellow);  
 }
 
+.application-button {
+    display: flex;
+    justify-content: center;
+}
 
 /* CONTACT US SECTION */
 /* targets font awesome icons - makes them bigger and spaced away from the text */
