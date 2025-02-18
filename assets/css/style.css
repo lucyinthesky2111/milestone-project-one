@@ -691,9 +691,8 @@ i:hover {
  /* The padding stops the images on this section from sticking to sides of screen. Had to apply margin 0 to get padding to apply */
  .course-overview-about-you-images {
     height: auto;
-    width: 40%;
+    width: 50%;
     margin: 0;
     padding-left: 15px;
 }
-
 }
