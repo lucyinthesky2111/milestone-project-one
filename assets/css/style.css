@@ -401,6 +401,10 @@ iframe {
     text-align: center;
 }
 
+.error-thanks-buttons {
+    display: block;
+}
+
 /* Adds space between paragraph text and button on 404 and thank you pages */ 
 
 .button-space {
