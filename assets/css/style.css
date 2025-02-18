@@ -415,7 +415,8 @@ iframe {
 }
 
 .error-thanks-buttons {
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 /* Adds space between paragraph text and button on 404 and thank you pages */ 
