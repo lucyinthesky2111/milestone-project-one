@@ -367,18 +367,31 @@ iframe {
     color: black;
     font-family: var(--heading-font);
     border: 3px solid black;
-    border-radius: 10%;
+    border-radius: 10px;
     font-family: var(--heading-font);
     font-weight: 900;
     font-weight: bold;
     text-decoration: none;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+}
+
+.align-button {
+    display: flex;
+    justify-content: center;
 }
 
 .submit-button:hover {
     background-color: var(--darker-yellow);  
 }
 
+.application-button {
+    display: flex;
+    justify-content: center;
+}
 
 /* CONTACT US SECTION */
 /* targets font awesome icons - makes them bigger and spaced away from the text */
@@ -544,14 +557,14 @@ i:hover {
     /* HOMEPAGE */
     .homepage-menu-images {
         height: auto;
-        width: 40%;
+        width: 50%;
         padding-left: 15px;
     }
 
     /* Enlarges the logo on the card section on the homepage */
     .homepage-logo {
         height: auto;
-        width: 40%;
+        width: 50%;
         padding-left: 15px;
         /* Border removed on larger screens otherwise border edge sticks to side of screen */
         border: none;
@@ -563,6 +576,7 @@ i:hover {
         text-align: center;
         display: flex;
         align-items: center;
+        justify-content: space-around;
     }
 
     .container-azure-blue {
@@ -589,7 +603,7 @@ i:hover {
 
     .course-overview-about-you-images {
         height: auto;
-        width: 70%;
+        width: 50%;
         margin: 0;
         padding-left: 10%;
         padding-right: 5%;
@@ -606,7 +620,7 @@ i:hover {
     /* MEET INSTRUCTORS PAGE */
     .instructor-images {
         height: auto;
-        width: 70%;
+        width: 50%;
         padding-left: 5%;
         border-radius: 14%;
     }
@@ -629,9 +643,9 @@ i:hover {
 
 
 .course-overview-images {
-        max-height: 80%;
-        max-width: 80%;
-        border-radius: 12%;
+        max-height: 60%;
+        max-width: 60%;
+        border-radius: 16%;
         padding: 5%;
     }   
 
@@ -681,37 +695,8 @@ i:hover {
  /* The padding stops the images on this section from sticking to sides of screen. Had to apply margin 0 to get padding to apply */
  .course-overview-about-you-images {
     height: auto;
-    width: 40%;
+    width: 50%;
     margin: 0;
     padding-left: 15px;
-    
-}
-
-    /* Affects about you section on homepage. Had to add additional div with new class of about-you and place it here in the 
-    stylesheet to override the styles applied to it by class of container-light-blue. Without this CSS, the img does not move
-    to right and text does not move to left */
-
-    .about-you {
-        display: flex;
-    }
-
-
-/* Affects the text and button on about you section on homepage. Had to add additional div with new class shown below and place it here in the 
-    stylesheet to override the styles applied to it by class of container-light-blue. Without this CSS, the text appears above the 
-    img at the top of the div instead of inline with the img */
-    .text-homepage-about-you {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-    }
-}
-
-    @media (min-width: 1200px) {
-    .text-homepage-about-you {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;     
 }
 }

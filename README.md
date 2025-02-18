@@ -46,7 +46,7 @@
      + [Frameworks Libraries and Programmes](#frameworks-libraries-and-programmes)
        * [Creation](#creation)
        * [Testing](#testing)
-       * [Imagery](#imagery)
+       * [Images](#images)
        * [Miscellaneous](#miscellaneous)
 6. [Testing and Validation](#testing-and-validation)
 7. [Deployment](#deployment)
@@ -284,16 +284,16 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
   *	[WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) – was used to test the site for accessibility.
   * [Google Chrome Developer Tools (Lighthouse feature)](https://developer.chrome.com/docs/lighthouse/overview) - was used to test the site for Performance, Accessibility, Best Practices and SEO.
 
-  ### Imagery
+  ### Images
   * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Freepik](https://www.freepik.com/) – were used to source all the images used in the site. 
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
   * [Design](https://www.design.com/) – the Clutch Kings College logo was customised from a template on Design.
   * [Canva](https://www.canva.com/) – was used to remove the background from the logo, and to crop all images to the desired aspect ratio.
-  * [Aspect ratio calculator](https://aspectratiocalculator.com/) – was used to pick appropriate aspect ratios for all images used in the site.
+  * [Aspect Ratio Calculator](https://aspectratiocalculator.com/) – was used to pick appropriate aspect ratios for all images used in the site.
   * [Favicon.io](https://favicon.io/) – was used to generate the site’s favicon.
   * [Techsini](https://techsini.com/multi-mockup/) – was used to generate a mockup of the homepage on various screen sizes.
   * [Coolors](https://coolors.co/) – was used to generate the site’s colour scheme.
-  *	[WebAIM contrast checker](https://webaim.org/resources/contrastchecker/) – was used to test all colour combinations for accessibility.
+  *	[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) – was used to test all colour combinations for accessibility.
 
  ### Miscellaneous 
  * [ChatGPT](https://openai.com/index/chatgpt/) – was used to generate the college’s name and for proof-reading. 
