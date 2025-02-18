@@ -367,7 +367,7 @@ iframe {
     color: black;
     font-family: var(--heading-font);
     border: 3px solid black;
-    border-radius: 10%;
+    border-radius: 10px;
     font-family: var(--heading-font);
     font-weight: 900;
     font-weight: bold;
@@ -376,11 +376,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.buttons-homepage {
-    height: 50px;
-    width: 300px; 
+    padding: 10px 15px 10px 15px;
 }
 
 .align-button {
@@ -557,14 +553,14 @@ i:hover {
     /* HOMEPAGE */
     .homepage-menu-images {
         height: auto;
-        width: 40%;
+        width: 50%;
         padding-left: 15px;
     }
 
     /* Enlarges the logo on the card section on the homepage */
     .homepage-logo {
         height: auto;
-        width: 40%;
+        width: 50%;
         padding-left: 15px;
         /* Border removed on larger screens otherwise border edge sticks to side of screen */
         border: none;
