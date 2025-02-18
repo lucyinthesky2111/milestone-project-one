@@ -46,7 +46,7 @@
      + [Frameworks Libraries and Programmes](#frameworks-libraries-and-programmes)
        * [Creation](#creation)
        * [Testing](#testing)
-       * [Imagery](#imagery)
+       * [Images](#images)
        * [Miscellaneous](#miscellaneous)
 6. [Testing and Validation](#testing-and-validation)
 7. [Deployment](#deployment)
@@ -284,7 +284,7 @@ A custom 404 error page displays if the user tries to access an incorrect URL wi
   *	[WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) – was used to test the site for accessibility.
   * [Google Chrome Developer Tools (Lighthouse feature)](https://developer.chrome.com/docs/lighthouse/overview) - was used to test the site for Performance, Accessibility, Best Practices and SEO.
 
-  ### Imagery
+  ### Images
   * [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) and [Freepik](https://www.freepik.com/) – were used to source all the images used in the site. 
   * [Tinify](https://tinypng.com/) – was used to optimise all images.
   * [Design](https://www.design.com/) – the Clutch Kings College logo was customised from a template on Design.
