@@ -219,7 +219,7 @@ All user expectations and requirements have been satisfied (evidenced by looking
 * The Apply and Contact Page initially returned an error due to the inline styles applied to the iFrame element. This was resolved by removing the inline styles and adding the styles directly to the stylesheet instead.
 <h2 align="center"><img src="assets/readme-images/error-apply-html-validation.png"></h2>
 
-* On first run of the W3C HTML Validitor, the error shown below was flagged on all pages of the site. This was resolved by removing the button element and styling the a element as a button. All pages of the site subsequently passed validation.
+* On first run of the W3C HTML Validator, the error shown below was flagged on all pages of the site. This was resolved by removing the button element and styling the a element as a button. All pages of the site subsequently passed validation.
 <h2 align="center"><img src="assets/readme-images/button-error.png"></h2>
 
 * I noticed that on mobile view on my personal device (Samsung Galaxy S22), the introductory text under the college and course name on the Homepage, was spilling out of its containing div into the one beneath it. This issue was only occurring on this particular device, it did not happen in mobile screen size views on Devtools. I inspected the page on Devtools and was able to ascertain that the issue was stemming from the manual height I had set on the containing div (#course-intro). Changing this value to ‘fit-content’ resolved this issue. 
