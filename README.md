@@ -356,7 +356,7 @@ All copy on the website was written by myself. I referred to:
 
   * [Coding Yaar YouTube Video ‘Bootstrap Navbar Hover Effect (color change)’](https://www.youtube.com/watch?v=JH8bWipPcHg) - for the code to add hover effect (colour change functionality) on the Bootstrap navbar.  
 
-  * [Code with Ania Kubow You/tube video ‘12HR+ YouTube Coding Bootcamp!’](https://www.youtube.com/watch?v=Xm4BObh4MhI) - for code to add and style buttons and help with understanding flexbox. 
+  * [Code with Ania Kubow YouTube video ‘12HR+ YouTube Coding Bootcamp!’](https://www.youtube.com/watch?v=Xm4BObh4MhI) - for code to add and style buttons and help with understanding flexbox. 
   
   * [Freecodecamp –Learn HTML forms by building a registration form module](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-forms-by-building-a-registration-form) – for help creating an HTML form for the application form on the Apply and Contact page. 
 
